@@ -1,0 +1,776 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202001 will be lost/reset.
+# Last config file used to build this data file was /home1/thebioin/tmp/awstats/awstats.thebioinformaticsnetwork.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2705                
+POS_VISITOR 12716               
+POS_DAY 22426               
+POS_DOMAIN 3543                
+POS_LOGIN 4227                
+POS_ROBOT 4382                
+POS_WORMS 4876                
+POS_EMAILSENDER 5007                
+POS_EMAILRECEIVER 5150                
+POS_SESSION 23262               
+POS_SIDER 23470               
+POS_FILETYPES 5285                
+POS_DOWNLOADS 5498                
+POS_OS 5546                
+POS_BROWSER 5804                
+POS_SCREENSIZE 6862                
+POS_UNKNOWNREFERER 6936                
+POS_UNKNOWNREFERERBROWSER 7148                
+POS_ORIGIN 7368                
+POS_SEREFERRALS 7512                
+POS_PAGEREFS 7689                
+POS_SEARCHWORDS 7837                
+POS_KEYWORDS 7998                
+POS_MISC 2368                
+POS_ERRORS 8066                
+POS_CLUSTER 4083                
+POS_SIDER_404 8229                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200201010010 76 17497 8264976480490
+FirstTime 20200101013233
+LastTime 20200131232211
+LastUpdate 20200201052058 76 0 75 0 0
+TotalVisits 513                 
+TotalUnique 246                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 247                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 20 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 36 39 368254 107 109 606846
+1 28 28 113772 44 49 185397
+2 38 38 124604 143 156 777336
+3 34 34 108350 69 83 381484
+4 34 34 86674 53 63 118361
+5 42 47 439050 138 140 697471
+6 40 52 1099198 23 28 47519
+7 62 87 2194830 123 133 714130
+8 52 68 1461468 90 99 427942
+9 29 55 1186212 55 57 202353
+10 36 45 877224 59 71 309263
+11 37 46 855554 84 98 696269
+12 35 41 666088 89 93 416064
+13 26 32 601072 121 132 710324
+14 50 53 535128 111 114 398089
+15 24 24 65575 167 171 550265
+16 26 29 322612 38 46 150579
+17 34 34 141267 133 139 474463
+18 31 43 809894 61 72 227149
+19 48 51 395334 117 137 727935
+20 22 22 116496 90 92 473848
+21 203 565 11441853 571 781 7651435
+22 25 29 465133 74 78 321802
+23 11 14 281574 11 17 24921
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 34
+us 708 1209 22314364
+cn 78 80 751869
+de 33 33 261700
+fr 21 21 100223
+ua 16 16 86686
+th 14 14 113778
+it 14 14 86686
+gb 12 12 54172
+ru 12 12 86686
+ca 10 10 59594
+by 10 10 70432
+ma 8 8 65016
+al 6 6 48762
+in 6 6 48762
+br 6 6 48762
+nc 6 6 48762
+vn 4 4 32508
+eg 4 4 32508
+tw 4 4 32508
+au 3 3 16254
+mx 2 2 16254
+la 2 2 16254
+rs 2 2 16254
+ht 2 2 16254
+nl 2 2 5416
+cz 2 2 5416
+co 2 2 16254
+md 2 2 16254
+mu 2 6 218396
+ke 2 2 16254
+kr 2 2 16254
+id 2 2 16254
+bb 2 2 16254
+lv 2 2 5416
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+spider 342 6390466 20200131215034 0
+Googlebot/ 127 503251 20200131043911 68
+bot[\s_+:,\.\;\/\\-] 42 135412 20200131145304 0
+bingbot/ 26 70408 20200128185026 16
+unknown 12 97524 20200126131319 12
+(firefox/)([0-9]\.|[0-1][0]\.) 8 43340 20200122112617 0
+msnbot/ 4 90948 20200101025417 2
+bingpreview 2 193746 20200128115026 0
+Python\-urllib/ 2 2890 20200115024946 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+js 345 12213935 0 0
+xml 2 2090 0 0
+html 647 3711680 0 0
+svg 8 5032 0 0
+css 116 2144326 0 0
+Unknown 2 53102 0 0
+jpg 38 6420328 0 0
+php 352 206723 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+winunknown 2 2
+linux 207 118
+win10 134 111
+win8.1 10 10
+macosx11 2 2
+winxp 8 8
+ios_iphone 20 8
+macosx10 4 4
+linuxandroid 1 1
+macosx9 4 4
+win7 769 386
+macosx8 2 2
+Unknown 335 335
+winlong 12 12
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 49
+chrome46.0.2490.80 8 8
+chrome56.0.2925.37 2 2
+chrome74.0.3729.169 4 4
+chrome66.0.3359.181 60 60
+chrome36.0.1985.143 6 6
+chrome34.0.1847.116 2 2
+chrome73.0.3683.86 26 3
+chrome68.0.3440.106 149 60
+chrome63.0.3239.132 2 2
+chrome78.0.3904.97 7 7
+firefox 28 9
+chrome46.0.2754.75 4 4
+chrome15.0.874.120 2 2
+chrome74.0.3729.108 4 4
+netscape5.0 2 2
+firefox62.0 6 6
+chrome51.0.2704.103 4 4
+netscape 2 2
+chrome74.0.3729.157 4 4
+chrome73.0.3683.103 2 2
+firefox33.0 2 2
+chrome35.0.1916.47 2 2
+msie6.0 4 4
+Unknown 335 335
+chrome48.0.2564.109 6 6
+chrome73.0.3683.90 1 1
+firefox59.0 4 4
+chrome76.0.3809.132 8 8
+firefox47.0 2 2
+chrome26.0.1410.65 2 2
+chrome67.0.3396.99 2 2
+chrome58.0.1145.75 6 6
+safari8.0 20 8
+chrome53.0.2785.104 3 2
+chrome65.0.3325.181 4 4
+chrome71.0.3578.98 4 4
+chrome22.0.1207.1 2 2
+firefox60.0 176 176
+firefox72.0 3 3
+mozilla 40 40
+chrome50.0.2661.75 2 2
+chrome78.0.3904.108 4 4
+firefox63.0 10 10
+firefox38.0 2 2
+firefox43.0 3 2
+chrome5.0.375.99 2 2
+firefox71.0 2 2
+firefox64.0 18 18
+msie9.0 517 155
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+WordPress/5.3.2;_http://thebioinformaticsnetwork.com 20200131232212
+Go-http-client/1.1 20200130192222
+Mozilla 20200123142941
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Windows_Live_Writter 20200115175716
+WordPress/5.3.2;_http://thebioinformaticsnetwork.com 20200131232212
+Go-http-client/1.1 20200130192222
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 511 511
+From1 16 16
+From2 157 519
+From3 0 0
+From4 319 464
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+baidu 2 2
+www_google_com 155 517
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+badprp 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+badprp 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+301 503 0
+406 65 14690
+403 214 28542
+500 2 5672
+404 1289 9689948
+400 6 6
+409 294 24402
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 122
+/backup/ 2 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 2 http://www.google.com/
+/wp-content/plugins/background-image-cropper/image/ico/accesson.php 2 -
+/wp-content/plugins/mailcwp/mailcwp-upload.php 2 http://www.google.com/
+/assets/images/accesson.php 1 -
+/components/com_banners/models/banner.php 1 -
+/wp1/wp-admin/install.php 1 -
+/cli/deletefiles.php 1 -
+/portal/ 2 -
+/2018/wp-admin/install.php 1 -
+/stats.php 1 -
+/dev/ 2 -
+/cache/blackhat.php 2 -
+/temp/wp-admin/install.php 1 -
+/layouts/libraries/cms/html/bootstrap/starttabsetscript.php 2 -
+/wp-content/plugins/wp-time-capsule/treeView/common.js 2 thebioinformaticsnetwork.com
+/oldsite/wp-admin/install.php 2 -
+/assets/images/s_eval.php 1 -
+/includes/defines.php 1 -
+/cli/finder_indexer.php 1 -
+/phpMyAdmin/print.css 2 -
+/cli/garbagecron.php 1 -
+/ads.txt 2 -
+/jss.php 1 -
+/pas.php 1 -
+/.git/HEAD 10 -
+/connectors/resource/s_eval.php 1 -
+/meniacle/wp-blog-header.php 1 -
+/wordpress/wp-admin/install.php 3 -
+/includes/framework.php 1 -
+/ 1014 -
+/wp-includes/wp-includes.php 2 http://site.ru
+/th1s_1s_a_4o4.html 62 -
+/site/ 2 -
+/wp2/wp-admin/install.php 1 -
+/templates/protostar/error.php 1 -
+/wordpress/ 2 -
+/plugins/content/apismtp/josmtpapi.php 2 http://www.google.com/
+/wp-content/themes/pages.php 2 thebioinformaticsnetwork.com
+/main/ 2 -
+/site/wp-admin/install.php 1 -
+/assets/images/pas.php 1 -
+/adminer.php 12 -
+/v1/wp-admin/install.php 1 -
+/wp-content/plugins/Premium_Gallery_Manager/uploadify/uploadify.css 2 http://www.google.com/
+/fantversion.php 2 thebioinformaticsnetwork.com
+/layouts/libraries/cms/html/bootstrap/addtab.php 1 -
+/bin/keychain.php 1 -
+/bitrix/admin/accesson.php 1 -
+/wp/ 2 -
+/myadmin/print.css 2 -
+/home/wp-admin/install.php 1 -
+/web/wp-admin/install.php 1 -
+/phpmyadmin/print.css 2 -
+/cache/accesson1.php 1 -
+/htaccess.php 2 -
+/language/en-GB/en-GB.localise.php 1 -
+/wp-content/plugins/iwp-client/clipboard.min.js 10 -
+/wp-content/plugins/sfn.php 1 -
+/wp-content/plugins/background-image-cropper/accesson.php 1 -
+/sitemap.xml 2 -
+/blog/wp-admin/install.php 3 -
+/admin/ 2 http://www.thebioinformaticsnetwork.com/admin/
+/layouts/libraries/cms/html/bootstrap/endtab.php 1 -
+/templates/protostar/index.php 1 -
+/new/wp-admin/install.php 3 -
+/wp-content/plugins/easyrotator-for-wordpress/a.php 1 -
+/wp-content/plugins/page-flip-image-gallery/upload.php 2 http://www.google.com/
+/main/wp-admin/install.php 1 -
+/v2/wp-admin/install.php 1 -
+/web/ 2 -
+/pma/print.css 2 -
+/beck/cron.php 2 -
+/assets/images/search.php 1 -
+/bk/wp-admin/install.php 1 -
+/wp-content/plugins/wp-time-capsule/wptc-dialog.css 2 -
+/cache/accesson.php 1 -
+/portal/wp-admin/install.php 1 -
+/readme.php 2 -
+/wp-includes/SimplePie/Decode/HTML/feal.php 2 http://site.ru
+/11.php 2 -
+/wp-mini.php 2 http://site.ru
+/content-post.php 1 -
+/avtogear86_ru_cron.php 1 -
+/old/ 2 -
+/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.css 2 http://www.google.com/
+/database/print.css 2 -
+/tmp/wp-admin/install.php 1 -
+/wp-includes/ID3/ma.php 2 http://site.ru
+/.bitcoin/ 2 -
+/blackhat.php 1 -
+/cms/ 2 -
+/assets/wp-admin/install.php 1 -
+/blog/ 2 -
+/dev/wp-admin/install.php 1 -
+/.git/config 2 -
+/wp-content/themes/twentynineteen/styles.php 2 thebioinformaticsnetwork.com
+/cli/update_cron.php 1 -
+/wp-includes/Text/index.php 1 -
+/test/wp-admin/install.php 1 -
+/backup/wp-admin/install.php 1 -
+/assets/images/s_noeval.php 1 -
+/__media__/js/netsoltrademark.php 2 http://thebioinformaticsnetwork.com/__media__/js/netsoltrademark.php
+/wp-content/themes/twentynineteen/style.php 2 thebioinformaticsnetwork.com
+/tmp/ 2 -
+/wp/wp-admin/install.php 3 -
+/configuration.php 1 -
+/wp-content/plugins/myshe.php 1 -
+/layouts/joomla/toolbar/help.php 1 -
+/templates/protostar/html/modules.php 1 -
+/templates/protostar/html/pagination.php 1 -
+/logs/error.php 1 -
+/cms/wp-admin/install.php 1 -
+/avtogear63_ru_cron.php 1 -
+/wp-admin/css/colors/index.php 1 -
+/wp-content/plugins/wp-time-capsule/js/opentip-jquery.js 6 -
+/modx.php 1 -
+/wp-content/plugins/complete-gallery-manager/frames/upload-images.php 2 http://www.google.com/
+/demo/wp-admin/install.php 1 -
+/old/wp-admin/install.php 3 -
+/2019/wp-admin/install.php 1 -
+/temp/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 247
+162.241.252.17 297 297 0 20200131232212
+184.154.139.4 52 189 4058683 20200123214912
+184.154.139.50 40 118 2458422 20200129214831
+184.154.139.52 29 95 2021865 20200131215029
+184.154.139.51 20 64 1840357 20200130215133
+62.138.137.114 20 20 188550 20200122143104
+184.154.139.49 14 51 975840 20200128215000
+104.211.36.122 10 10 27080 20200129142816
+144.76.174.7 9 9 51480 20200113070812
+60.171.116.44 6 6 48762 20200115171600
+178.124.176.185 4 4 32508 20200127213147
+104.196.206.136 4 4 10832 20200111022933
+35.185.40.17 4 4 10832 20200131045834
+104.196.165.80 4 4 10832 20200127042732
+62.210.83.78 4 4 10832 20200125002952
+188.165.235.173 4 4 10832 20200130062332
+35.231.5.175 4 7 265320 20200131004945
+35.227.32.26 4 7 265320 20200104184603
+35.231.112.244 4 4 10832 20200107011751
+104.196.154.205 4 4 10832 20200123035937
+193.106.30.99 4 4 0 20200127165119
+35.231.29.186 4 4 10832 20200103004702
+158.69.241.223 4 4 10832 20200118102610
+35.196.216.150 4 4 10832 20200115025640
+34.221.250.4 4 4 10832 20200111080734
+34.66.119.89 2 2 16254 20200114175006
+34.216.22.150 2 2 5416 20200111193739
+123.148.208.12 2 2 16254 20200116013805
+54.189.43.22 2 5 259904 20200109084629
+104.168.75.221 2 7 261162 20200113180159
+222.223.174.216 2 2 16254 20200124051052
+95.216.149.140 2 2 5416 20200121101920
+111.38.46.183 2 2 16254 20200104134206
+139.59.29.219 2 2 16254 20200121062424
+34.214.115.240 2 5 259904 20200124084925
+54.201.242.147 2 5 259904 20200122124347
+154.16.89.59 2 6 218396 20200123182043
+54.218.91.148 2 2 5416 20200105102038
+183.89.215.61 2 2 16254 20200103215441
+54.190.228.39 2 5 259904 20200104074033
+61.153.215.122 2 2 16254 20200112033300
+34.219.75.217 2 2 5416 20200112110431
+52.187.108.194 3 3 5416 20200117021626
+188.92.72.129 2 2 5416 20200125061337
+52.24.90.119 2 5 259904 20200125103136
+46.105.99.163 2 2 16254 20200113181358
+113.140.48.156 2 2 16254 20200108125958
+198.27.81.94 2 2 16254 20200103101434
+187.189.225.82 2 2 16254 20200121052720
+74.129.111.231 2 2 16254 20200108201856
+34.222.179.101 2 5 259904 20200126232649
+162.243.126.96 1 1 8127 20200123055302
+37.187.72.67 1 1 8127 20200123163411
+77.236.223.93 2 2 5416 20200121061321
+198.98.56.155 3 26 834206 20200105094255
+5.189.171.119 2 2 16254 20200119201946
+64.246.165.210 2 2 5416 20200103114711
+113.21.112.6 2 2 16254 20200104054107
+159.203.2.74 2 2 16254 20200116085521
+34.219.87.25 2 2 5416 20200117065349
+185.131.55.187 2 2 5416 20200107112730
+54.245.135.70 2 2 5416 20200128064524
+52.89.12.135 2 2 5416 20200112060223
+34.222.83.4 2 5 259904 20200116121444
+194.6.231.247 2 2 16254 20200120011521
+52.33.30.224 2 2 5416 20200123144033
+177.135.101.93 2 2 16254 20200125173623
+14.161.46.114 2 2 16254 20200119053706
+218.22.187.66 2 2 16254 20200111122531
+51.158.161.141 2 2 5416 20200131005743
+54.187.214.209 2 2 5416 20200105051556
+103.40.132.19 2 2 16254 20200103051738
+172.245.253.184 2 7 261162 20200102070645
+79.106.4.201 2 2 16254 20200119122958
+54.201.132.117 2 5 259904 20200111080740
+52.43.249.85 2 5 259904 20200128064535
+54.202.24.179 2 2 5416 20200118102847
+165.227.189.234 2 2 16254 20200110120539
+178.46.167.168 2 2 16254 20200122092745
+34.222.190.73 2 5 259904 20200130082547
+117.211.78.11 2 2 16254 20200120021232
+176.31.105.112 2 2 16254 20200106073037
+209.124.66.19 2 2 16254 20200121134424
+187.115.123.74 2 2 16254 20200126074914
+34.220.93.246 2 2 5416 20200108131615
+125.32.1.146 2 2 16254 20200119192502
+104.244.76.245 1 1 0 20200119034808
+221.199.43.146 2 2 16254 20200111201359
+34.222.225.31 2 5 259904 20200112110435
+52.12.96.187 2 2 5416 20200117162339
+60.191.38.77 2 2 16254 20200127043102
+44.229.14.104 2 5 259904 20200101074950
+51.15.109.127 2 2 5416 20200104081041
+82.209.235.1 2 2 16254 20200120085635
+34.212.121.48 2 2 5416 20200104074030
+54.201.124.144 2 5 259904 20200118102848
+41.41.115.109 2 2 16254 20200102124435
+184.67.123.222 2 2 16254 20200117115617
+86.181.217.233 2 2 16254 20200126171732
+2.234.150.54 2 2 16254 20200118083128
+45.224.105.143 2 2 16254 20200101115209
+34.218.228.151 2 4 217138 20200102075349
+176.142.135.247 2 2 16254 20200115171629
+218.58.105.206 2 2 16254 20200127130814
+222.170.168.94 2 2 16254 20200126010120
+60.194.6.9 2 2 16254 20200129093712
+34.211.195.168 2 5 259904 20200117162342
+34.209.94.191 2 5 259904 20200117065352
+167.172.161.192 2 2 16254 20200119202133
+34.221.206.21 2 2 5416 20200125103131
+186.179.100.145 2 2 16254 20200101202851
+120.209.233.191 2 2 16254 20200125095747
+45.224.105.67 2 2 16254 20200112033257
+58.214.24.53 2 2 16254 20200128043821
+34.222.204.25 2 5 259904 20200114065627
+35.165.160.24 2 2 5416 20200122124342
+54.187.237.238 2 5 259904 20200108131618
+178.124.154.66 2 2 16254 20200102043158
+45.224.107.92 2 2 16254 20200111051250
+34.213.185.193 2 2 5416 20200114065623
+134.209.71.228 2 2 5416 20200111214432
+221.231.112.66 2 2 16254 20200123001532
+35.164.6.9 2 2 5416 20200131114025
+54.212.216.38 2 5 259904 20200129132013
+83.221.195.200 2 2 16254 20200110220320
+171.100.74.166 2 2 16254 20200106081715
+82.117.194.229 2 2 16254 20200127171410
+64.119.195.186 2 2 16254 20200120155456
+178.46.167.178 2 2 16254 20200123215332
+111.40.73.83 2 2 16254 20200117050821
+180.151.193.92 2 2 16254 20200110073546
+197.51.201.16 2 2 16254 20200129023215
+111.206.36.8 0 1 42766 
+203.147.80.221 2 2 16254 20200103133226
+51.254.199.12 2 2 0 20200109112212
+37.79.251.113 2 2 16254 20200115091742
+5.45.75.97 2 2 16254 20200114164318
+118.163.58.117 2 2 16254 20200116150655
+217.24.242.103 2 2 16254 20200127053908
+164.132.44.97 2 2 0 20200129033027
+27.189.251.86 2 2 16254 20200106163012
+34.222.70.245 2 2 5416 20200110142852
+34.208.135.68 2 5 259904 20200123144036
+54.202.154.53 2 2 5416 20200130082534
+110.77.148.62 2 2 16254 20200102124406
+61.91.187.162 2 2 16254 20200125024429
+220.164.193.238 2 2 16254 20200129093752
+185.11.224.67 2 2 16254 20200123142730
+138.68.20.102 3 3 5416 20200117042349
+60.8.213.170 2 2 16254 20200113174924
+202.137.155.129 2 2 16254 20200124194128
+176.123.10.97 2 2 16254 20200116021807
+125.77.127.97 2 2 16254 20200101032101
+185.89.156.172 2 2 16254 20200113100136
+199.244.88.124 2 2 5416 20200112090143
+222.182.58.19 2 2 5416 20200115011049
+35.231.151.51 4 7 265320 20200122192140
+54.191.130.69 2 2 5416 20200101043332
+51.15.109.255 2 2 5416 20200127073018
+14.142.64.3 2 2 16254 20200123142941
+34.217.94.42 2 5 259904 20200113072630
+58.96.152.78 1 1 0 20200109025109
+62.210.140.4 2 2 16254 20200105010603
+161.0.153.71 2 2 16254 20200107001059
+178.172.177.215 2 2 5416 20200107151255
+61.191.220.250 2 2 16254 20200106002401
+34.212.21.188 2 2 5416 20200126232645
+197.248.81.214 2 2 16254 20200114181536
+34.215.160.76 2 2 5416 20200124084919
+35.231.33.24 4 4 10832 20200119032808
+52.12.116.124 2 2 5416 20200119085401
+54.187.117.7 2 2 5416 20200103074055
+96.44.133.106 2 2 16254 20200121122827
+54.245.187.102 2 5 259904 20200121072901
+34.214.7.93 2 5 259904 20200110113913
+66.70.188.67 1 1 565 20200110155426
+218.90.180.110 2 2 16254 20200124122110
+34.208.182.129 2 2 5416 20200117191700
+218.75.36.70 2 2 16254 20200109101705
+54.149.227.75 2 2 5416 20200115192453
+54.200.10.62 2 2 5416 20200130192222
+44.227.242.38 2 2 5416 20200125193056
+54.188.129.36 2 2 5416 20200107062616
+210.217.32.25 2 2 16254 20200110145006
+210.86.173.254 2 2 16254 20200117050745
+120.209.164.118 2 2 16254 20200115015243
+188.165.214.104 2 2 5416 20200107171422
+54.190.41.3 2 2 5416 20200120192323
+54.190.0.1 2 2 5416 20200109084625
+45.224.105.74 2 2 16254 20200107074425
+198.27.80.123 2 2 16254 20200113082307
+222.218.17.187 2 2 16254 20200116221054
+93.61.141.84 2 2 16254 20200102210839
+185.11.224.57 2 2 16254 20200116001032
+34.219.133.149 2 5 259904 20200107062620
+177.19.165.26 2 2 16254 20200105155747
+54.149.255.1 2 2 5416 20200116121438
+34.222.223.35 2 5 259904 20200131114028
+18.237.204.121 2 2 5416 20200129195834
+178.137.82.147 2 2 16254 20200114070602
+113.21.119.75 2 2 16254 20200122165142
+54.202.181.166 2 2 5416 20200118052032
+52.33.5.97 2 2 5416 20200106075441
+81.169.173.162 2 2 5416 20200118124519
+218.201.101.172 2 2 16254 20200112105911
+34.221.119.92 2 2 5416 20200129132009
+101.89.239.230 2 3 113127 20200122225634
+51.159.18.103 2 2 5416 20200111043148
+220.179.250.175 2 2 16254 20200118223409
+34.210.87.231 2 2 5416 20200102075345
+111.206.36.17 2 2 5416 20200106085316
+171.100.121.242 2 2 16254 20200118014537
+112.26.7.149 2 2 16254 20200128112734
+59.126.66.75 2 2 16254 20200113022724
+198.98.56.71 1 1 0 20200108180027
+54.188.18.3 2 2 5416 20200121072857
+34.217.111.163 2 2 5416 20200101074946
+192.241.148.219 2 2 5416 20200106220230
+34.220.210.47 2 2 5416 20200122192154
+34.213.184.219 2 2 5416 20200114194128
+52.42.92.58 2 5 259904 20200103074058
+162.243.69.215 2 2 5416 20200120155456
+100.20.156.147 2 5 259904 20200105102042
+157.122.183.218 2 2 16254 20200128191605
+88.149.173.210 2 2 16254 20200122024249
+164.132.194.160 2 2 5416 20200116035858
+39.155.215.142 2 2 16254 20200121193506
+35.163.43.234 2 2 5416 20200125172250
+5.255.174.141 4 4 32508 20200131232211
+34.223.90.85 2 5 259904 20200106075448
+194.61.24.29 2 2 16254 20200114034157
+34.219.67.209 2 5 259904 20200120094640
+202.93.35.19 2 2 16254 20200123071726
+96.44.185.2 2 2 16254 20200109173835
+221.224.2.202 2 2 16254 20200110220236
+68.65.122.108 1 1 403 20200115175716
+218.64.77.62 2 2 16254 20200107223853
+107.180.120.49 1 1 403 20200110162501
+54.185.75.196 2 5 259904 20200119085406
+117.4.189.212 2 2 16254 20200109031825
+216.145.11.94 2 2 5416 20200126131322
+46.101.80.192 2 2 5416 20200105051134
+34.215.48.181 2 2 5416 20200120094638
+35.231.84.205 4 7 265320 20200114224920
+54.186.243.131 2 2 5416 20200113072623
+116.228.90.9 2 2 16254 20200110003328
+173.44.167.176 3 8 262973 20200123052028
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200101 36 52 738953 18
+20200102 26 49 1100120 13
+20200103 34 53 900590 17
+20200104 31 51 896770 14
+20200105 29 67 1512274 14
+20200106 34 49 733025 17
+20200107 36 52 822732 20
+20200108 24 38 638937 15
+20200109 24 43 740926 14
+20200110 37 54 852852 20
+20200111 34 47 650304 16
+20200112 33 50 722016 17
+20200113 40 61 964229 20
+20200114 34 54 943871 19
+20200115 35 49 507552 14
+20200116 32 49 678250 18
+20200117 40 58 979324 20
+20200118 30 45 699202 15
+20200119 32 45 650314 17
+20200120 32 47 699516 16
+20200121 32 48 733868 19
+20200122 54 74 1261981 20
+20200123 43 68 1178306 23
+20200124 19 34 587324 10
+20200125 33 45 780855 18
+20200126 23 33 754057 15
+20200127 32 42 471668 17
+20200128 25 38 586931 13
+20200129 42 49 563849 19
+20200130 17 22 491339 11
+20200131 30 44 915281 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 8
+0s-30s 456
+1h+ 4
+30s-2mn 3
+15mn-30mn 9
+2mn-5mn 1
+30mn-1h 32
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/ 576 3196352 271 235
+/wp-cron.php 297 0 231 231
+/about/ 54 438858 0 8
+/wp-login.php 41 189098 0 24
+/2019/06/16/demo-5-reasons-you-need-the-x-theme/ 4 21670 0 0
+/wp-load.php 4 0 2 2
+/wp-admin/admin-post.php 3 0 1 3
+/wp-includes/wlwmanifest.xml 2 2090 0 0
+/feed/ 2 16254 0 0
+/home/ 2 5416 0 0
+/author/williamabishop/ 2 16254 0 0
+/index.php 2 16254 2 2
+/wp-json/wp/v2/posts 2 53102 0 0
+/2015/07/20/new-copywriting-positions-available/ 2 5416 1 0
+/test/ 2 5416 0 0
+// 2 5416 0 2
+/xmlrpc.php 2 806 2 2
+/wp-content/themes/index.php 1 0 1 1
+//wp-admin/install.php 1 565 1 1
+/wp-content/plugins/index.php 1 0 1 1
+/wp-json/wp/v2/users/ 1 628 0 1
+END_SIDER

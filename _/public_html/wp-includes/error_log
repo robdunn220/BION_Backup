@@ -1,0 +1,3 @@
+[11-Apr-2020 19:56:08 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/thebioin/public_html/wp-includes/functions.php on line 8
+[11-Apr-2020 19:56:08 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/thebioin/public_html/wp-includes/functions.php on line 8
+[11-Apr-2020 19:56:08 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home1/thebioin/public_html/wp-includes/functions.php on line 8

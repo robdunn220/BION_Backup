@@ -1,0 +1,505 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201903 will be lost/reset.
+# Last config file used to build this data file was /home1/thebioin/tmp/awstats/ssl/awstats.thebioinformaticsnetwork.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2030                
+POS_TIME 2703                
+POS_VISITOR 10873               
+POS_DAY 13489               
+POS_DOMAIN 3397                
+POS_LOGIN 3706                
+POS_ROBOT 3861                
+POS_WORMS 4151                
+POS_EMAILSENDER 4282                
+POS_EMAILRECEIVER 4425                
+POS_SESSION 14196               
+POS_SIDER 14380               
+POS_FILETYPES 4560                
+POS_DOWNLOADS 4661                
+POS_OS 4709                
+POS_BROWSER 4860                
+POS_SCREENSIZE 5186                
+POS_UNKNOWNREFERER 5260                
+POS_UNKNOWNREFERERBROWSER 5651                
+POS_ORIGIN 6037                
+POS_SEREFERRALS 6175                
+POS_PAGEREFS 6319                
+POS_SEARCHWORDS 6467                
+POS_KEYWORDS 6619                
+POS_MISC 2366                
+POS_ERRORS 6678                
+POS_CLUSTER 3562                
+POS_SIDER_404 6842                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190401082206 1 0 21242554608399
+FirstTime 20190301035113
+LastTime 20190331182215
+LastUpdate 20190402062743 1 0 0 0 0
+TotalVisits 181                 
+TotalUnique 67                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 67                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 10 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 2699 7 9 3369
+1 15 15 21618 17 25 160974
+2 4 4 13508 60 125 449185
+3 14 14 20628 17 24 18900
+4 2 2 0 5 5 16220
+5 5 5 2699 5 11 110028
+6 7 7 8097 4 8 56357
+7 4 4 5398 6 8 16659
+8 26 26 56718 16 17 18928
+9 12 12 24291 4 7 13495
+10 29 29 59579 33 40 52533
+11 13 13 24492 35 39 41602
+12 8 8 10809 3 6 10809
+13 10 10 5398 18 19 33115
+14 14 14 28191 15 16 8123
+15 5 5 8110 1 1 0
+16 7 7 0 10 15 16864
+17 18 18 43424 40 50 140835
+18 10 10 10809 16 18 24974
+19 4 4 2699 7 9 48712
+20 4 4 13508 2 3 2700
+21 9 9 27029 13 13 9
+22 2 2 0 9 14 69865
+23 20 20 40550 28 35 32659
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 199 199 259432
+ca 12 12 38188
+cn 12 12 56770
+fr 10 10 35314
+jp 6 6 24330
+de 5 5 0
+ua 2 2 16220
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+Googlebot/ 54 507213 20190330064610 24
+bingbot/ 26 110337 20190329100645 14
+Uptimebot/ 19 2699 20190329110415 0
+bot[\s_+:,\.\;\/\\-] 8 64880 20190328222737 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 139 5570 0 0
+html 107 424684 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+Unknown 127 127
+macosx12 9 9
+win7 56 56
+macosx11 4 4
+linux 1 1
+win10 48 48
+win8.1 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 13
+chrome66.0.3359.181 29 29
+chrome40.0.2214.85 4 4
+chrome65.0.3325.146 1 1
+firefox47.0 4 4
+firefox36.0 3 3
+firefox60.0 1 1
+opera54.0.2952.64 1 1
+firefox64.0 42 42
+chrome68.0.3440.106 3 3
+Unknown 127 127
+chrome42.0.2311.152 1 1
+chrome61.0.3163.100 9 9
+chrome36.0.1985.143 21 21
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+WordPress/5.1.1;_http://thebioinformaticsnetwork.com 20190321235353
+WordPress/5.1;_https://thebioinformaticsnetwork.com 20190312193859
+Go-http-client/2.0 20190330084805
+WordPress/5.1;_http://thebioinformaticsnetwork.com 20190307143122
+WordPress/5.1.1;_https://thebioinformaticsnetwork.com 20190331182215
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+WordPress/5.1.1;_http://thebioinformaticsnetwork.com 20190321235353
+WordPress/5.1;_https://thebioinformaticsnetwork.com 20190312193859
+Go-http-client/2.0 20190330084805
+WordPress/5.1;_http://thebioinformaticsnetwork.com 20190307143122
+WordPress/5.1.1;_https://thebioinformaticsnetwork.com 20190331182215
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 122 122
+From1 0 0
+From2 0 0
+From3 0 0
+From4 124 124
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+406 21 4746
+400 97 526
+403 15 2010
+302 5 0
+404 174 650914
+301 79 0
+500 1 2926
+409 8 664
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 129
+/veggiedog.zip 1 -
+/header-cache.php 1 -
+/archive.zip 1 -
+/backup.tar.gz 1 -
+/wp-upload-class.php 1 -
+/newsleter.php.suspected 1 -
+/master.zip 1 -
+/db.sql 2 -
+/wp.tar.gz 1 -
+/wp-content/plugins/totaldonations/css/mg_progress-bar.css 1 -
+/header-cache.php.suspected 1 -
+/wp-content/plugins/vwclean/bump.php 1 https://thebioinformaticsnetwork.com/wp-content/plugins/vwclean/bump.php
+/wp-content/plugins/userpro/scripts/scripts.min.js 1 -
+/jm-ajax/upload_file/ 3 -
+/wordpress.zip 1 -
+/wp-content/plugins/barclaycart/uploadify/settings_auto.php 3 -
+/wp-content/plugins/category-page-icons/css/menu.css 3 -
+/license.php 1 -
+/master.gz 1 -
+/public_html.tar.gz 1 -
+/veggiedog.tar.gz 1 -
+/wp.zip 1 -
+/wp-content/plugins/easy-wp-smtp/js/script.js 4 -
+/content-post.php.suspected 1 -
+/wp-content/plugins/woo-confirmation-email/assets/js/woo-confirmation-email-admin.js 1 -
+/thamaulac.com.gz 1 -
+/archive.tar.gz 1 -
+/OMC_template.gz 1 -
+/rt18_archive.gz 1 -
+/website.sql 1 -
+/content-post.php 1 -
+/thebioinformaticsnetwork.sql 1 -
+/archive.gz 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/settings_auto.php 3 -
+/quick_install_archive.gz 1 -
+/master.tar.gz 1 -
+/wp-content/plugins/ubh/up.php 1 https://thebioinformaticsnetwork.com/wp-content/plugins/ubh/up.php
+/thamaulac.com.zip 1 -
+/.well-known.gz 1 -
+/quick_install_archive.zip 1 -
+/wp-upload-class.php.suspected 1 -
+/new_license.php 1 -
+/webconfig.txt.php 2 http://www.google.com.hk
+/database_backup.sql 1 -
+/installer.zip 1 -
+/wp.gz 1 -
+/searchreplacedb2.php 1 -
+/cgi-bin.gz 1 -
+/wp-content/plugins/woocommerce-abandoned-cart/assets/js/abandoncart_plugin_button.js 1 -
+/installer.tar.gz 1 -
+/.well-known.tar.gz 1 -
+/wp-content/plugins/viral-optins/api/uploader/file-uploader.php 3 -
+/installer.php 2 -
+/rt18_archive.tar.gz 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 6 -
+/installer-data.sql.tar.gz 1 -
+/wordpress.tar.gz 1 -
+/templates/system/css/system.css 3 -
+/wp-content/plugins/downloads-manager/img/unlock.gif 3 -
+/wp-admin.zip 1 -
+/cgi-bin.zip 1 -
+/wp-ajax-hook.php.suspected 1 -
+/theartstay.zip 1 -
+/dump.sql 1 -
+/backup.sql 1 -
+/sql/ 1 -
+/installer.gz 1 -
+/main.sql 1 -
+/pma/ 1 -
+/installer-data.sql.zip 1 -
+/wp-content.zip 1 -
+/wp-xml.php.suspected 1 -
+/installer-log.txt 1 -
+/sql.sql 1 -
+/wp-content.tar.gz 1 -
+/.well-known.zip 1 -
+/dup-installer/main.installer.php 1 -
+/wp-content/plugins/barclaycart/uploadify/uploadify.php 3 -
+/installer-data.sql.gz 1 -
+/InCreate-FullPackage.tar.gz 2 -
+/files.sql 1 -
+/license.php.suspected 1 -
+/wp-content/plugins/hd-webplayer/playlist.php 3 -
+/fullwebsite.sql 1 -
+/phpmyadmin/ 1 -
+/wp-404.php 2 -
+/wp-admin/formcheck.php 1 -
+/admin/images/cal_date_over.gif 3 -
+/cache_.php 1 -
+/wp-content.gz 1 -
+/installer-backup.php 2 -
+/wp-content/uploads/2019/03/settings_auto.php 3 -
+/InCreate-FullPackage.gz 2 -
+/wp-content/uploader.php 1 https://thebioinformaticsnetwork.com/wp-content/uploader.php
+/admin/login.php 3 -
+/wp-xml.php 1 -
+/mysqladmin/ 1 -
+/veggiedog.gz 1 -
+/new_license.php.suspected 1 -
+/database.sql 1 -
+/rt18_archive.zip 1 -
+/backup.gz 1 -
+/OMC_template.zip 2 -
+/public_html.zip 1 -
+/wp-admin.tar.gz 1 -
+/cgi-bin.tar.gz 1 -
+/thebioinformaticsnetwork.com.sql 1 -
+/theartstay.tar.gz 1 -
+/file.sql 1 -
+/site.sql 1 -
+/InCreate-FullPackage.zip 2 -
+/wp-ajax-hook.php 1 -
+/fullbackup.sql 1 -
+/quick_install_archive.tar.gz 1 -
+/backup.zip 1 -
+/mysql.sql 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 3 -
+/phpMyAdmin/ 1 -
+/wp-content/plugins/wp-mobile-detector/resize.php 3 -
+/backups.sql 1 -
+/newsleter.php 1 -
+/theartstay.gz 1 -
+/myadmin/ 1 -
+/wp-admin.gz 1 -
+/OMC_template.tar.gz 1 -
+/wordpress.gz 1 -
+/cache_.php.suspected 1 -
+/thamaulac.com.tar.gz 1 -
+/public_html.gz 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 67
+162.241.252.17 109 109 0 20190331182215
+13.57.233.99 9 9 24291 20190329013928
+50.19.193.54 8 8 24330 20190324145110
+140.143.195.86 8 8 24330 20190324231852
+138.197.202.34 8 8 24330 20190326175144
+192.99.15.139 6 6 19094 20190323110842
+104.131.9.59 6 6 24330 20190323211942
+94.23.255.34 6 6 19094 20190314173706
+38.67.228.5 6 6 20628 20190321033102
+192.99.15.55 6 6 19094 20190310103328
+153.126.194.159 6 6 24330 20190323085400
+60.191.38.77 4 4 32440 20190325205959
+84.246.231.100 4 4 16220 20190321235404
+138.246.253.5 4 4 0 20190327160816
+107.170.23.212 3 3 13508 20190314025119
+178.159.37.34 2 2 16220 20190317010852
+54.148.141.251 1 1 0 20190319085059
+54.186.46.247 1 1 0 20190313104915
+52.39.50.72 1 1 2699 20190301084826
+34.222.72.57 1 1 2699 20190302064010
+34.221.246.111 1 1 2699 20190312100154
+18.237.255.204 1 1 2699 20190330084805
+18.237.253.92 1 1 2699 20190320111559
+35.164.217.122 1 1 2699 20190304083113
+54.212.198.66 1 1 2699 20190324092020
+18.236.170.94 1 1 2699 20190315102944
+34.210.229.242 1 1 2699 20190305081538
+34.210.8.229 1 1 2699 20190330084801
+54.149.196.159 1 1 2699 20190316094721
+54.184.226.46 1 1 2699 20190311102759
+34.217.207.44 1 1 2699 20190329093035
+54.202.132.60 1 1 2699 20190302075010
+54.186.90.13 1 1 2699 20190321090933
+52.27.40.92 1 1 2699 20190308203016
+35.165.174.125 1 1 2699 20190310113939
+34.221.253.28 1 1 2699 20190310104245
+52.27.71.247 1 1 2699 20190319103350
+52.32.32.222 1 1 2699 20190316094827
+54.213.254.40 1 1 2699 20190318100451
+54.213.79.145 1 1 2699 20190322100739
+34.211.163.18 1 1 2699 20190313103828
+54.185.36.16 1 1 2699 20190331095749
+54.218.112.210 1 1 2699 20190311083527
+34.208.201.206 1 1 2699 20190322142106
+54.213.17.251 1 1 2699 20190308103943
+34.219.110.181 1 1 2699 20190307084634
+18.237.3.151 1 1 2699 20190306102624
+34.211.228.116 1 1 2699 20190323091038
+54.187.104.76 1 1 2699 20190305065855
+18.236.231.61 1 1 2699 20190306070025
+54.218.90.229 1 1 2699 20190326083021
+213.157.12.91 1 1 0 20190319120909
+54.212.230.54 1 1 2699 20190309084908
+34.211.187.195 1 1 2699 20190301084834
+52.32.21.243 1 1 2699 20190305203536
+35.161.92.72 1 1 2699 20190326085709
+54.189.29.56 1 1 2699 20190317101006
+52.88.108.57 1 1 2699 20190319102713
+54.191.109.43 1 1 2699 20190308104034
+69.12.72.169 1 1 1162 20190307143121
+52.88.135.220 1 1 2699 20190314100607
+34.215.209.44 1 1 2699 20190327092845
+34.73.236.160 1 1 2699 20190310215746
+35.162.16.194 1 1 2699 20190317133716
+54.188.31.126 1 1 2699 20190320101437
+52.40.172.27 1 1 2699 20190325095655
+54.200.253.25 1 1 2699 20190304063815
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20190301 3 3 5398 3
+20190302 5 5 5398 5
+20190303 6 6 2699 4
+20190304 5 5 5398 5
+20190305 4 4 8097 4
+20190306 12 12 8097 11
+20190307 3 3 3861 3
+20190308 9 9 16207 9
+20190309 3 3 5398 3
+20190310 14 14 27191 8
+20190311 9 9 13508 8
+20190312 6 6 5398 6
+20190313 5 5 2699 5
+20190314 14 14 35301 7
+20190315 3 3 10809 3
+20190316 8 8 8097 8
+20190317 6 6 13508 6
+20190318 5 5 10809 4
+20190319 10 10 8097 10
+20190320 4 4 5398 4
+20190321 20 20 39547 11
+20190322 5 5 8097 5
+20190323 22 22 70453 7
+20190324 22 22 51359 8
+20190325 6 6 13508 6
+20190326 12 12 29728 5
+20190327 7 7 2699 7
+20190328 4 4 0 4
+20190329 10 10 5398 8
+20190330 2 2 5398 2
+20190331 2 2 2699 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 168
+30mn-1h 6
+2mn-5mn 2
+30s-2mn 4
+1h+ 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/wp-cron.php 109 0 100 100
+/ 104 407887 76 78
+/wp-admin/admin-post.php 27 0 3 2
+/wp-login.php 3 5570 2 1
+/wp-json/wp/v2/posts/ 3 16797 0 0
+END_SIDER

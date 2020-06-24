@@ -1,0 +1,482 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201908 will be lost/reset.
+# Last config file used to build this data file was /home1/thebioin/tmp/awstats/ssl/awstats.thebioinformaticsnetwork.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2030                
+POS_TIME 2703                
+POS_VISITOR 10560               
+POS_DAY 13980               
+POS_DOMAIN 3444                
+POS_LOGIN 3851                
+POS_ROBOT 4006                
+POS_WORMS 4370                
+POS_EMAILSENDER 4501                
+POS_EMAILRECEIVER 4644                
+POS_SESSION 14710               
+POS_SIDER 14895               
+POS_FILETYPES 4779                
+POS_DOWNLOADS 4910                
+POS_OS 4958                
+POS_BROWSER 5119                
+POS_SCREENSIZE 5534                
+POS_UNKNOWNREFERER 5608                
+POS_UNKNOWNREFERERBROWSER 5980                
+POS_ORIGIN 6233                
+POS_SEREFERRALS 6369                
+POS_PAGEREFS 6513                
+POS_SEARCHWORDS 6692                
+POS_KEYWORDS 6844                
+POS_MISC 2366                
+POS_ERRORS 6903                
+POS_CLUSTER 3707                
+POS_SIDER_404 7078                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190901071512 1 0 12912097277865
+FirstTime 20190801092048
+LastTime 20190831124739
+LastUpdate 20190902063354 1 0 0 0 0
+TotalVisits 163                 
+TotalUnique 87                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 87                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 16 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 16266 5 11 49302
+1 3 3 5410 8 12 17818
+2 20 20 75884 81 89 340671
+3 9 11 96352 4 4 52
+4 8 8 16266 20 52 281202
+5 6 6 10820 5 5 5462
+6 21 23 139740 30 38 92406
+7 16 16 32460 5 5 17856
+8 8 8 27086 11 39 260308
+9 37 37 200566 255 261 783043
+10 5 5 10820 6 6 3076
+11 11 11 32496 9 18 34086
+12 26 26 81186 14 18 31802
+13 15 15 54172 6 10 50336
+14 17 17 92150 48 50 58488
+15 10 10 54208 63 63 37992
+16 14 14 32496 20 26 64246
+17 9 9 37942 45 78 280558
+18 3 3 5410 8 12 17768
+19 4 8 428854 13 24 134258
+20 13 15 101762 22 38 274932
+21 30 30 81186 11 39 245528
+22 11 11 59618 22 22 23782
+23 23 23 70474 32 43 167030
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+us 216 220 921632
+de 17 23 294466
+cl 16 16 43280
+se 16 16 130128
+jp 15 15 48798
+eu 10 10 81330
+fr 8 8 65064
+ua 6 6 48798
+es 6 6 48798
+ca 4 4 32532
+md 2 2 16266
+ru 2 2 16266
+za 2 2 16266
+au 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Googlebot/ 84 467586 20190826190459 38
+bingbot/ 46 124430 20190828200702 28
+bot[\s_+:,\.\;\/\\-] 16 130128 20190831021629 0
+Wget/ 2 16266 20190813145437 0
+bingpreview 2 193746 20190815201900 0
+no_user_agent 2 16266 20190814224213 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 228 1083584 0 0
+js 8 342128 0 0
+php 93 0 0 0
+jpg 2 337912 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+ios_iphone 4 4
+linux 32 26
+win10 68 68
+win7 70 70
+linuxandroid 10 10
+Unknown 141 141
+macosx 6 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 19
+Unknown 133 133
+safari10.0 4 4
+chrome59.0.3071.125 6 6
+firefox64.0 40 40
+chrome75.0.3770.142 6 2
+firefox58.0 2 2
+edge16 2 2
+chrome40.0.2214.85 4 4
+msie11.0 4 4
+android 4 4
+firefox50.0 12 6
+chrome62.0.3250.0 2 2
+chrome36.0.1985.143 18 18
+mozilla 8 8
+chrome64.0.3282.186 2 2
+firefox62.0 16 16
+chrome58.0.3029.110 2 2
+chrome66.0.3359.181 64 64
+chrome67.0.3396.87 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+WordPress/5.2.2;_http://thebioinformaticsnetwork.com 20190807061747
+WordPress/5.2.2;_https://thebioinformaticsnetwork.com 20190831035234
+Go-http-client/2.0 20190831035234
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20190827224346
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WordPress/5.2.2;_http://thebioinformaticsnetwork.com 20190807061747
+Go-http-client/2.0 20190831035234
+WordPress/5.2.2;_https://thebioinformaticsnetwork.com 20190831035234
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 232 238
+From1 0 0
+From2 0 0
+From3 8 8
+From4 81 85
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://162.241.252.17:443 8 8
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+500 232 173740
+409 10 830
+406 8 904
+400 75 1600
+421 28 11408
+403 30 4020
+404 282 2131078
+301 130 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 72
+/shop/errors/503.php 4 -
+/wp-content/plugins/hybrid-composer/style.css 8 -
+/staging/downloader/ 2 -
+/1 6 -
+/store/rss/catalog/review 2 -
+/wp-admin/admin-post.phpnd_booking_value_import_settings=home[nd_booking_option_value]https://jackielovedogs.com/pret 2 -
+/wp-content/plugins/bold-page-builder/css/front_end/content_elements.crush.css 10 -
+/old/errors/503.php 2 -
+/magento/errors/503.php 4 -
+/demo/admin/ 2 -
+/wp-content/plugins/blog-designer/js/designer.js 16 -
+/demo/rss/catalog/notifystock 2 -
+/staging/admin/ 2 -
+/wp-admin/admin-post.php 9 -
+/shop/downloader/ 4 -
+/wp-content/plugins/yuzo-related-post/assets/js/admin.js 8 -
+/wp-content/plugins/responsive-coming-soon/templates/template1/assets/css/style.css 8 -
+/wp-admin/admin-post.phpnd_stats_value_import_settings=home[nd_stats_option_value]https://jackielovedogs.com/pret 2 -
+/store/rss/catalog/notifystock 2 -
+/shop/rss/catalog/review 2 -
+/wp-content/plugins/wp-piwik/js/wp-piwik.js 6 -
+/demo/rss/catalog/review 2 -
+/dev/errors/503.php 2 -
+/wp-content/plugins/simple-membership/css/swpm.common.css 2 -
+/old/rss/catalog/review 2 -
+/wp-content/plugins/wp-shopify/dist/public.min.css 2 -
+/wp-admin/admin-ajax.php 9 -
+/store/admin/ 4 -
+/staging/rss/catalog/review 2 -
+/old/downloader/ 2 -
+/store/downloader/ 4 -
+/magento/rss/catalog/review 2 -
+/wp-content/plugins/yellow-pencil-visual-theme-customizer/js/yellow-pencil.js 10 -
+/staging/rss/catalog/notifystock 2 -
+/wp-content/plugins/nd-shortcodes/css/style.css 8 -
+/join 4 -
+/dev/admin/ 2 -
+/demo/downloader/ 2 -
+/test/admin/ 2 -
+/wp-admin/admin-post.phpnd_options_value_import_settings=home[nd_options_option_value]https://jackielovedogs.com/pret 2 -
+/magento/rss/catalog/notifystock 2 -
+/wp-admin/admin-post.phpnd_donations_value_import_settings=home[nd_donations_option_value]https://jackielovedogs.com/pret 2 -
+/wp-content/plugins/wp-live-chat-support/css/wplcstyle.css 8 -
+/wp-admin/admin-post.phpnd_travel_value_import_settings=home[nd_travel_option_value]https://jackielovedogs.com/pret 2 -
+/test/rss/catalog/notifystock 2 -
+/shop/rss/catalog/notifystock 2 -
+/wp-content/plugins/wp-private-content-plus/css/wppcp-front.css 4 -
+/wp-content/plugins/wpshopify/dist/public.min.css 2 -
+/wp-admin/admin-post.phpnd_learning_value_import_settings=home[nd_learning_option_value]https://jackielovedogs.com/pret 2 -
+/test/rss/catalog/review 2 -
+/wp-content/plugins/simple-301-redirects-addon-bulk-uploader/assets/css/notices.css 12 -
+/dev/downloader/ 2 -
+/magento/admin/ 4 -
+/wp-content/plugins/insert-php/admin/assets/js/tag-it.js 2 -
+/dev/rss/catalog/notifystock 2 -
+/magento/downloader/ 4 -
+/dev/rss/catalog/review 2 -
+/demo/errors/503.php 2 -
+/old/rss/catalog/notifystock 2 -
+/2 6 -
+/test/downloader/ 2 -
+/wp-content/plugins/fb-messenger/js/index.js 6 -
+/store/errors/503.php 4 -
+/test/errors/503.php 2 -
+/old/admin/ 2 -
+/wp-content/plugins/wp-live-chat-software-for-wordpress/plugin_files/css/livechat.css 6 -
+/3 6 -
+/staging/errors/503.php 2 -
+/shop/admin/ 4 -
+/wp-content/plugins/convertplug/modules/info_bar/assets/css/info_bar.min.css 6 -
+/wp-json/siteground-optimizer/v1/enable-option 2 -
+/wp-content/plugins/smart-google-code-inserter/screenshot1.jpg 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 87
+162.241.252.17 75 75 0 20190831035234
+46.246.123.30 16 16 130128 20190812095854
+153.126.194.159 15 15 48798 20190806235607
+159.203.85.93 15 15 48798 20190807061834
+69.4.87.74 6 6 48798 20190813145340
+84.246.231.100 6 6 48798 20190830024848
+195.114.211.98 6 6 48798 20190829090312
+69.4.89.106 6 6 48798 20190813151122
+137.226.113.34 6 12 272826 20190828060313
+93.119.227.19 6 6 48798 20190815224830
+93.119.227.91 4 4 32532 20190813145439
+137.226.113.27 4 4 10820 20190815205101
+198.27.69.176 4 4 32532 20190828045130
+137.226.113.26 4 4 10820 20190827224346
+176.36.21.189 4 4 32532 20190814135009
+138.246.253.5 3 3 0 20190828162616
+52.33.127.168 2 2 5410 20190825122250
+34.211.54.195 2 2 5410 20190820122822
+54.37.158.139 2 2 16266 20190830005849
+34.219.175.157 2 2 5410 20190807154223
+205.237.94.158 2 2 5410 20190806071030
+18.237.147.128 2 2 5410 20190819122903
+54.200.204.191 2 2 5410 20190815213953
+52.10.25.200 2 2 5410 20190806141949
+66.249.138.172 2 2 5410 20190805025125
+212.83.146.233 2 2 16266 20190814025231
+34.219.112.184 2 2 5410 20190818073443
+34.214.250.42 2 2 5410 20190811085945
+197.242.146.103 2 2 16266 20190829111429
+37.156.147.76 2 2 16266 20190826081147
+34.215.22.55 2 2 5410 20190810121120
+34.217.116.163 2 2 5410 20190826124356
+18.237.150.205 2 2 5410 20190808165939
+34.215.26.250 2 2 5410 20190802125607
+45.82.49.192 2 2 5410 20190808213003
+76.97.226.13 2 6 428854 20190805194928
+45.86.244.93 2 2 5410 20190813214500
+54.218.174.62 2 2 5410 20190814050034
+213.186.202.190 2 2 16266 20190829131545
+34.212.161.96 2 2 5410 20190821121703
+18.237.17.67 2 2 5410 20190817212529
+54.187.55.8 2 2 5410 20190816212356
+34.219.39.9 2 2 5410 20190817091339
+54.190.9.0 2 2 5410 20190830115618
+34.213.160.242 2 2 5410 20190812120328
+181.215.79.32 2 2 5410 20190807174702
+165.227.48.147 2 2 16266 20190803120741
+181.214.188.116 2 2 5410 20190810092823
+181.215.50.204 2 2 5410 20190810213254
+38.131.159.45 2 2 5410 20190809075219
+34.222.122.131 2 2 5410 20190828115012
+181.215.76.188 2 2 5410 20190813072418
+34.209.153.83 2 2 5410 20190803130854
+52.37.44.216 2 2 5410 20190815012121
+18.237.247.108 2 2 5410 20190829113623
+176.110.134.2 2 2 16266 20190813230529
+18.237.71.161 2 2 5410 20190831124739
+45.82.50.227 2 2 5410 20190814214208
+45.40.126.174 2 2 5410 20190806070909
+54.189.139.172 2 2 5410 20190804134243
+45.82.49.181 2 2 5410 20190812220924
+191.96.41.98 2 2 5410 20190814103603
+34.222.255.168 2 2 5410 20190816185851
+54.187.121.208 2 2 5410 20190831035234
+52.27.156.97 2 2 5410 20190818133443
+38.131.153.202 2 2 5410 20190811074652
+52.24.19.249 2 2 5410 20190817160950
+181.214.184.111 2 2 5410 20190811213346
+54.224.199.11 2 2 16266 20190827175026
+45.86.247.94 2 2 5410 20190808093504
+54.202.42.104 2 2 5410 20190823122211
+34.219.218.178 2 2 5410 20190819212616
+181.214.190.222 2 2 5410 20190809213900
+54.213.52.136 2 2 5410 20190809160959
+38.145.99.142 2 2 5410 20190807022929
+54.202.61.4 2 2 5410 20190827121647
+104.248.237.226 2 2 16266 20190803211631
+45.82.50.131 2 2 5410 20190812100429
+38.145.104.18 2 2 5410 20190807213502
+54.184.90.187 2 2 5410 20190828202055
+129.78.110.131 1 1 0 20190804031109
+191.96.241.246 2 2 5410 20190806214340
+34.214.192.239 2 2 5410 20190801092048
+54.202.23.138 2 2 5410 20190805131155
+35.162.69.16 2 2 5410 20190822145622
+54.202.100.154 2 2 5410 20190824124044
+67.227.97.34 2 2 5410 20190804054851
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20190801 3 3 5410 2
+20190802 4 4 5410 3
+20190803 7 7 37942 4
+20190804 8 8 10820 5
+20190805 8 12 439674 5
+20190806 27 27 70438 9
+20190807 30 30 86704 11
+20190808 12 14 107172 8
+20190809 9 9 16230 6
+20190810 9 9 21640 5
+20190811 9 9 16230 6
+20190812 23 23 146358 5
+20190813 26 26 157214 8
+20190814 12 12 48762 7
+20190815 17 17 65028 8
+20190816 7 7 10820 5
+20190817 8 8 16230 5
+20190818 9 11 101762 6
+20190819 9 9 10820 7
+20190820 4 4 5410 3
+20190821 6 6 10820 4
+20190822 3 3 5410 2
+20190823 2 2 5410 1
+20190824 3 3 5410 2
+20190825 2 2 5410 1
+20190826 9 9 37942 5
+20190827 9 9 27086 6
+20190828 14 16 118028 9
+20190829 15 15 86740 7
+20190830 11 11 70474 4
+20190831 6 6 10820 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 154
+5mn-15mn 1
+30mn-1h 3
+1h+ 1
+30s-2mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 212 953456 91 93
+/wp-cron.php 75 0 69 69
+/wp-admin/admin-post.php 18 0 2 0
+/2015/07/20/new-copywriting-positions-available/ 16 130128 1 1
+END_SIDER

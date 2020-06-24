@@ -1,0 +1,753 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201903 will be lost/reset.
+# Last config file used to build this data file was /home1/thebioin/tmp/awstats/awstats.thebioinformaticsnetwork.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2705                
+POS_VISITOR 13642               
+POS_DAY 23795               
+POS_DOMAIN 3503                
+POS_LOGIN 4120                
+POS_ROBOT 4275                
+POS_WORMS 4809                
+POS_EMAILSENDER 4940                
+POS_EMAILRECEIVER 5083                
+POS_SESSION 24629               
+POS_SIDER 24838               
+POS_FILETYPES 5218                
+POS_DOWNLOADS 5412                
+POS_OS 5460                
+POS_BROWSER 5778                
+POS_SCREENSIZE 6738                
+POS_UNKNOWNREFERER 6812                
+POS_UNKNOWNREFERERBROWSER 7242                
+POS_ORIGIN 7703                
+POS_SEREFERRALS 7847                
+POS_PAGEREFS 8029                
+POS_SEARCHWORDS 8316                
+POS_KEYWORDS 8468                
+POS_MISC 2369                
+POS_ERRORS 8527                
+POS_CLUSTER 3976                
+POS_SIDER_404 8699                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190401000715 58 14583 15239135419730
+FirstTime 20190301010517
+LastTime 20190331223948
+LastUpdate 20190401062154 58 0 57 0 0
+TotalVisits 569                 
+TotalUnique 262                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 263                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 1 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 17 21 445244 80 84 31230
+1 19 19 14964 112 123 98794
+2 14 14 7720 98 106 52183
+3 31 31 35212 108 117 49791
+4 16 16 17768 83 85 20599
+5 36 36 66412 105 109 31770
+6 16 16 16108 74 81 37161
+7 31 37 679698 102 117 93446
+8 53 71 1996680 98 106 63891
+9 50 78 2455342 64 70 37912
+10 54 80 2844353 68 75 44507
+11 25 29 453772 62 67 50993
+12 17 19 231908 40 40 25351
+13 34 36 246026 73 78 33172
+14 22 26 447211 40 42 30111
+15 29 31 267834 44 47 24912
+16 17 17 51325 74 79 24863
+17 24 24 40518 91 102 107392
+18 38 38 54244 58 65 94906
+19 15 19 437947 39 44 30023
+20 31 31 51740 28 30 16151
+21 221 360 6240615 355 483 3081156
+22 13 13 13223 30 30 13352
+23 21 21 15492 42 51 81699
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 32
+us 700 927 16097652
+ru 25 25 56188
+gb 16 16 43622
+ca 15 15 46926
+nl 13 23 514865
+ua 10 10 29733
+pl 9 9 27013
+gr 8 8 24312
+de 7 7 24715
+md 3 3 8103
+tr 3 3 1209
+cn 3 3 24312
+fr 3 3 5805
+il 3 5 175390
+sg 2 2 806
+ch 2 2 5402
+ao 2 2 5402
+vn 2 2 806
+br 2 2 5402
+in 2 2 3104
+kr 2 2 16208
+ro 2 2 3104
+ly 1 1 403
+vg 1 1 403
+ec 1 1 2701
+by 1 1 1159
+no 1 1 403
+it 1 1 0
+th 1 1 403
+se 1 1 2701
+id 1 1 2701
+cl 1 1 403
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+spider 251 2721675 20190331214551 0
+Googlebot/ 144 509427 20190331035949 92
+no_user_agent 19 7657 20190328060459 0
+bingbot/ 9 64470 20190317232304 6
+bot[\s_+:,\.\;\/\\-] 3 24312 20190318234550 0
+unknown 2 16208 20190322094405 2
+SafeDNSBot 2 5402 20190302111129 1
+DomainSONOCrawler/ 2 5402 20190322004953 0
+Python\-urllib/ 1 8104 20190330180116 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 8104 20190301112321 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+html 311 1385914 0 0
+js 78 5027187 0 0
+Unknown 1 283 0 0
+php 532 389069 0 0
+svg 2 2150 0 0
+css 111 2216865 0 0
+jpg 48 8109888 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+linuxubuntu 10 2
+Unknown 365 365
+macosx11 3 3
+winunknown 15 15
+winnt 2 2
+macosx8 1 1
+ios_iphone 21 7
+macosx10 3 3
+winxp 20 19
+win10 51 49
+macosx12 13 13
+linux 148 74
+macosx 6 4
+win98 1 1
+linuxandroid 2 2
+winlong 26 26
+win8 5 5
+win7 389 252
+macosx9 2 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 47
+chrome60.0.3112.101 2 2
+firefox27.0 1 1
+chrome65.0.3325.181 4 4
+chrome68.0.3440.106 87 29
+firefox62.0 10 10
+safari12.0.3 3 1
+firefox28.0 7 7
+msie9.0 303 166
+chrome34.0.1847.132 1 1
+firefox29.0 2 2
+safari8.0 21 7
+firefox52.9 1 1
+firefox36.0 5 5
+chrome46.0.2754.75 1 1
+firefox65.0 2 2
+chrome64.0.3282.186 1 1
+chrome34.0.1847.116 1 1
+firefox47.0 3 3
+Unknown 380 380
+chrome36.0.1985.143 21 21
+msie6.0 11 11
+mozilla 23 23
+edge16 1 1
+netscape5.0 1 1
+chrome72.0.3607.0 3 1
+firefox34.0 20 20
+chrome71.0.3578.80 3 3
+msie5.5 1 1
+chrome66.0.3359.181 29 29
+chrome74.0.3723.0 3 1
+safari6.1.3 1 1
+chrome61.0.3163.100 13 13
+firefox64.0 39 39
+chrome58.0.1145.75 2 2
+msie5.0 2 2
+chrome71.0.3578.98 3 3
+chrome72.0.3626.121 3 1
+chrome69.0.3497.81 10 2
+firefox25.0 2 0
+chrome34.0.1847.114 2 2
+firefox59.0 3 3
+firefox58.0 2 2
+chrome73.0.3679.0 18 6
+chrome72.0.3626.81 2 2
+firefox31.0 7 7
+safari11.0.3 1 1
+chrome41.0.2272.89 22 22
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+WordPress 20190331132613
+Go-http-client/1.1 20190330084801
+WordPress/5.1;_http://thebioinformaticsnetwork.com 20190312212240
+Poster 20190331223948
+Scrapy/1.6.0_(_https://scrapy.org) 20190331005914
+WordPress/5.1.1;_http://thebioinformaticsnetwork.com 20190331214538
+python-requests/2.18.4 20190320061348
+Python/3.6_aiohttp/3.4.4 20190318191214
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+Go-http-client/1.1 20190330084801
+WordPress 20190331132613
+Windows_Live_Writter 20190331191633
+Scrapy/1.6.0_(_https://scrapy.org) 20190331005914
+Poster 20190331223948
+WordPress/5.1;_http://thebioinformaticsnetwork.com 20190312212240
+python-requests/2.18.4 20190320061348
+Python/3.6_aiohttp/3.4.4 20190318191214
+WordPress/5.1.1;_http://thebioinformaticsnetwork.com 20190331214538
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 300 302
+From1 3 3
+From2 185 322
+From3 23 23
+From4 333 433
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 184 321
+google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://pizza-imperia.com 7 7
+http://pizza-tycoon.com 7 7
+http://burger-imperia.com 6 6
+http://hundejo.com 2 2
+https://www.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+400 89 215
+301 269 0
+302 1 0
+406 68 15368
+403 300 40200
+404 120 667211
+500 1 2926
+409 948 78684
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 77
+/thebioinformaticsnetwork.zip 1 http://thebioinformaticsnetwork.com/thebioinformaticsnetwork.zip
+/wp-craft-report.php 2 http://www.google.com
+/mambots/editors/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/admin/login.php 1 -
+/wp-content/plugins/file-manager/css/style.css 1 thebioinformaticsnetwork.com
+/wp-content/themes/sketch/wp-ajax24.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/super-socialat/super_socialat.php 1 http://www.google.com
+/site/wp-login.php 1 -
+/mambots/editors/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/th1s_1s_a_4o4.html 31 -
+/wp-content/plugins/barclaycart/uploadify/uploadify.php 1 -
+/seo_script.php 1 http://thebioinformaticsnetwork.com/seo_script.php
+/wp-content/plugins/sfn.php 1 http://thebioinformaticsnetwork.com/wp-content/plugins/sfn.php
+/index/wp-login.php 1 -
+/blog/wp-login.php 1 -
+/wordpress/wp-content/themes/AdvanceImage5/functions.php 2 -
+/wp-content/plugins/woo-confirmation-email/wpml-config.xml 1 http://www.google.com
+/wp-upload-class.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 2 -
+/wp/wp-admin/admin-ajax.php 1 thebioinformaticsnetwork.com
+/templates/system/css/system.css 1 -
+/wp-content/plugins/log.php 1 http://thebioinformaticsnetwork.com/wp-content/plugins/log.php
+/wp/wp-admin/setup-config.php 1 thebioinformaticsnetwork.com
+/assets/elFinder/php/connector.minimal.php 1 -
+/wp-content/plugins/category-page-icons/css/menu.css 1 -
+/wp-content/vuln.php 1 http://thebioinformaticsnetwork.com/wp-content/vuln.php
+/admin/elfinder/connector.minimal.php 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp/wp-content/themes/AdvanceImage5/functions.php 2 -
+/wp-content/plugins/apikey/apikey.php 1 thebioinformaticsnetwork.com
+/wp-content/uploads/sgqn82nf032.php 1 http://thebioinformaticsnetwork.com/wp-content/uploads/sgqn82nf032.php
+/thebioinformaticsnetwork.com.zip 1 http://thebioinformaticsnetwork.com/thebioinformaticsnetwork.com.zip
+/wp-content/uploads/2019/03/settings_auto.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/settings_auto.php 1 -
+/wp-cahce.php 1 http://thebioinformaticsnetwork.com/wp-cahce.php
+/wp-content/uploads/kc_extensions/background-image-cropper/accesson.php 1 http://thebioinformaticsnetwork.com/wp-content/uploads/kc_extensions/background-image-cropper/accesson.php
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-content/plugins/wp-mobile-detector/resize.php 1 -
+/wp/wp-login.php 2 -
+/wp-content/yt.php 1 http://thebioinformaticsnetwork.com/wp-content/yt.php
+/hook-filters.php 1 -
+/wp-content/plugins/temp.php 1 http://thebioinformaticsnetwork.com/wp-content/plugins/temp.php
+/wp-content/themes/prides/db.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/hd-webplayer/playlist.php 1 -
+/writebab.php 1 http://thebioinformaticsnetwork.com/writebab.php
+/wp/ 1 thebioinformaticsnetwork.com
+/wp-content/themes/prid/db.php 2 thebioinformaticsnetwork.com
+/admin/elfinder/php/connector.minimal.php 1 -
+/jm-ajax/upload_file/ 1 -
+/wp-content/themes/bizohex/db.php 1 thebioinformaticsnetwork.com
+/yt2.php 1 http://thebioinformaticsnetwork.com/yt2.php
+/yt.php 1 http://thebioinformaticsnetwork.com/yt.php
+/wp-content/plugins/wp-db-ajax-made/wp-ajax24.php 1 thebioinformaticsnetwork.com
+/wp-includes/pomo/jss.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/clode/worse.php 1 http://thebioinformaticsnetwork.com/wp-content/plugins/clode/worse.php
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/admin/images/cal_date_over.gif 1 -
+/wp-content/uploads/2019/03/tbl_status.php 2 thebioinformaticsnetwork.com
+/wp-content/themes/agncy/db.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/downloads-manager/img/unlock.gif 1 -
+/wp-content/themes/quna/db.php 1 thebioinformaticsnetwork.com
+/wp-content/themes/tourable/db.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/barclaycart/uploadify/settings_auto.php 1 -
+/store/wp-login.php 1 -
+/blogs/wp-login.php 1 -
+/news/wp-login.php 1 -
+/shop/wp-login.php 1 -
+/wp-content/plugins/easy-wp-smtp/js/script.js 3 http://www.google.com
+/wp-content/themes/trexo/db.php 1 thebioinformaticsnetwork.com
+/elfinder/php/connector.minimal.php 2 -
+/wp-content/plugins/viral-optins/api/uploader/file-uploader.php 1 -
+/wp-content/themes/benzer/db.php 1 thebioinformaticsnetwork.com
+/wordpress/wp-login.php 3 -
+/wordpress/wp-content/plugins/ubh/up.php 2 -
+/wp-content/plugins/wordfence/images/logo.png 1 -
+/wp-content/themes/pridmag/db.php 1 thebioinformaticsnetwork.com
+/ads.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 263
+162.241.252.17 304 304 1 20190331214538
+184.154.139.52 59 106 1935929 20190326214915
+184.154.139.51 33 61 1213680 20190330215209
+184.154.139.50 27 51 1066984 20190331214549
+184.154.139.4 25 46 901859 20190327215310
+184.154.139.49 22 39 874828 20190312214751
+52.53.201.78 13 13 35113 20190329231330
+93.90.206.23 8 8 24312 20190326134910
+91.225.188.34 8 8 24312 20190324164927
+178.128.223.82 8 8 24312 20190324183511
+97.74.238.3 6 6 24312 20190323055446
+109.230.253.84 6 6 24312 20190323132137
+54.148.141.251 6 6 24312 20190324053227
+192.99.35.63 6 6 19107 20190303071604
+167.99.65.188 6 6 24312 20190324034542
+192.185.218.210 6 6 6966 20190330035851
+192.99.38.186 6 6 24312 20190323170528
+52.165.166.139 5 5 13505 20190325045651
+35.227.32.119 4 6 222622 20190326080237
+91.206.14.10 3 3 5685 20190315063007
+52.165.150.117 3 3 8103 20190307210814
+35.227.63.144 3 7 431739 20190319074100
+130.161.3.249 3 13 479347 20190313090401
+60.191.38.77 3 3 24312 20190325202221
+193.106.30.98 2 2 2701 20190327171605
+34.218.234.29 1 3 214519 20190317101007
+34.221.133.182 1 3 214519 20190304083114
+207.174.214.206 1 1 403 20190320050536
+52.13.3.163 1 1 1161 20190330232021
+185.153.196.157 1 1 8104 20190331155633
+35.229.118.53 2 2 5402 20190320002850
+35.162.29.37 1 3 214519 20190307084635
+94.19.150.216 1 1 8104 20190309164921
+211.56.145.140 2 2 16208 20190313203847
+186.64.114.5 1 1 403 20190327032424
+18.220.23.85 2 2 2824 20190326200929
+24.42.226.137 1 3 214519 20190325084004
+107.180.109.33 1 1 403 20190327081911
+35.161.92.72 1 1 2701 20190326085708
+91.236.116.14 1 1 2701 20190331005914
+95.211.186.147 2 2 16208 20190325160255
+188.214.18.2 1 1 403 20190320184711
+171.22.26.70 1 1 403 20190328183251
+82.80.230.228 1 2 3330 20190314133422
+31.211.86.13 1 1 8104 20190304131445
+195.242.80.50 1 1 8104 20190314083454
+83.166.156.82 1 1 403 20190330223905
+198.71.230.13 1 1 403 20190326090258
+34.222.72.24 1 3 214519 20190321090934
+18.191.190.33 2 2 2849 20190329184645
+35.177.78.223 2 2 2824 20190331091703
+173.203.70.234 1 1 0 20190327035852
+35.227.44.81 2 4 217220 20190304142521
+5.79.86.16 1 1 2701 20190315132624
+34.214.165.223 1 1 2701 20190304063818
+103.21.58.15 1 1 403 20190325103954
+54.162.48.173 1 1 1161 20190330062306
+168.0.134.40 2 2 3862 20190315154107
+35.227.65.2 2 2 5402 20190307184259
+34.215.209.44 1 1 2701 20190327092843
+178.175.148.34 1 1 2701 20190315055744
+66.198.240.42 1 1 403 20190323070110
+208.47.176.252 1 1 2701 20190317030446
+93.182.24.26 1 1 1159 20190301055429
+34.220.127.248 1 3 214519 20190313103829
+54.188.31.126 1 1 2701 20190320101435
+167.114.228.206 1 1 2701 20190325134642
+89.22.177.182 1 1 1159 20190301051449
+35.229.42.218 1 3 214519 20190312115206
+94.73.150.102 1 1 403 20190329155138
+54.213.79.145 1 1 2701 20190322100738
+193.107.170.172 1 1 1159 20190301010516
+35.243.221.23 1 3 214519 20190328215559
+153.92.9.1 1 1 403 20190319234111
+79.137.34.35 1 1 0 20190326053756
+81.171.2.229 1 1 2701 20190304104936
+195.176.3.20 2 2 5402 20190315095228
+34.210.229.242 1 1 2701 20190305081536
+176.59.206.126 1 1 3001 20190302011434
+82.80.249.143 0 1 168956 
+34.209.90.59 1 1 2701 20190311083527
+91.230.25.106 2 2 10805 20190328082217
+178.17.174.229 1 1 2701 20190303034728
+34.217.58.97 1 1 2701 20190303201257
+182.50.132.108 1 1 403 20190326225149
+35.243.148.34 2 4 217220 20190319074104
+91.232.217.48 1 1 1159 20190301090044
+103.42.161.118 1 1 2701 20190325101500
+213.251.182.102 1 1 403 20190327194508
+54.190.198.159 1 3 214519 20190312100155
+34.222.6.107 1 3 214519 20190329093036
+217.147.169.55 1 1 2701 20190304120327
+34.220.132.108 1 1 2701 20190311214605
+159.65.24.22 1 1 2701 20190324082232
+109.74.11.28 1 1 2701 20190306171642
+35.229.35.241 2 2 5402 20190324110346
+35.163.239.54 1 1 2701 20190315133735
+54.187.24.93 1 1 2701 20190317133711
+37.79.32.60 1 1 1159 20190301230112
+35.160.149.152 1 1 2701 20190330084801
+34.210.8.229 1 1 2701 20190330084759
+191.253.17.185 1 1 2701 20190316185217
+216.138.226.240 1 1 403 20190319105450
+35.229.74.122 2 2 5402 20190302203336
+128.177.10.252 2 2 16208 20190322150450
+34.223.214.157 1 3 214519 20190316094722
+89.252.187.71 1 1 403 20190323140803
+54.184.226.46 1 1 2701 20190311102758
+50.97.77.189 1 1 2701 20190302233111
+54.184.142.230 1 3 214519 20190318100452
+51.68.143.229 2 2 5402 20190315064341
+52.200.192.79 1 1 1161 20190329113154
+181.112.56.2 1 1 2701 20190317054510
+90.150.93.153 1 1 1159 20190301230807
+52.12.144.114 1 1 2701 20190302201440
+54.186.61.41 1 3 214519 20190311102800
+94.137.30.247 1 1 1159 20190302094151
+134.119.253.93 1 1 403 20190325225430
+46.182.106.190 1 1 2701 20190304082600
+34.211.163.18 1 1 2701 20190313103827
+18.237.143.226 1 1 2701 20190322142105
+206.180.165.147 1 1 2701 20190321062022
+34.217.207.44 1 1 2701 20190329093033
+54.202.142.110 1 3 214519 20190326085710
+91.197.11.221 1 1 1159 20190301110648
+35.196.103.132 1 3 214519 20190304195306
+97.74.237.196 1 1 2701 20190315094727
+112.78.2.105 1 1 403 20190331132613
+34.220.219.103 1 1 2701 20190313104915
+54.200.131.55 1 3 214519 20190301084835
+54.189.29.56 1 1 2701 20190317101005
+72.47.244.22 1 1 403 20190327225740
+54.188.164.96 1 3 214519 20190324092022
+54.203.155.79 1 3 214519 20190308103944
+209.51.207.2 1 1 403 20190327133605
+34.217.135.230 1 1 2701 20190318115249
+96.44.178.68 1 1 8104 20190324220847
+35.227.34.214 2 2 5402 20190311210717
+18.237.251.159 1 3 214519 20190310104246
+69.89.27.238 2 2 2322 20190316085009
+172.104.39.106 1 1 403 20190324074408
+35.229.38.213 1 3 214519 20190312115118
+35.231.188.6 1 3 214519 20190319143620
+67.23.253.155 1 1 403 20190321095039
+192.145.239.42 1 1 403 20190323220351
+18.236.212.46 1 1 2701 20190325141259
+54.38.159.90 1 1 2701 20190315141545
+35.231.243.239 2 4 217220 20190312004627
+34.221.253.28 1 1 2701 20190310104244
+34.220.38.54 1 1 2701 20190301200633
+52.32.21.250 1 3 214519 20190305081539
+52.88.135.220 1 1 2701 20190314100605
+34.219.110.181 1 1 2701 20190307084632
+46.147.35.74 1 1 1159 20190301022510
+31.168.11.97 1 1 403 20190320232547
+62.210.111.56 2 2 5402 20190330232533
+35.166.194.123 1 1 2701 20190301084820
+198.23.212.18 1 1 403 20190322095546
+34.211.228.116 1 1 2701 20190323091037
+125.253.117.36 1 1 403 20190319184713
+185.220.100.254 1 1 2701 20190315104646
+54.157.144.15 1 1 2701 20190302175734
+54.185.159.126 1 3 214519 20190331095750
+45.56.93.61 2 2 806 20190329034425
+18.236.119.155 1 1 2701 20190312212240
+54.184.216.28 1 1 2701 20190307201958
+35.229.19.46 2 4 217220 20190304152421
+35.163.148.110 1 1 1161 20190330143138
+41.208.71.18 1 1 403 20190321212758
+145.239.91.197 2 2 5402 20190315124703
+198.46.81.60 1 1 403 20190321155220
+34.220.6.55 1 1 2701 20190314132716
+95.216.42.40 1 1 403 20190331223948
+95.84.7.209 1 1 1159 20190302073121
+35.237.43.44 2 2 5402 20190315214555
+173.208.219.42 1 1 2701 20190316041339
+18.237.3.151 1 1 2701 20190306102623
+54.184.39.224 1 3 214519 20190330084802
+54.189.142.250 1 3 214519 20190302075011
+188.166.9.235 1 1 2701 20190303212803
+51.38.217.121 1 1 2701 20190321053051
+94.142.242.84 1 1 2701 20190304022656
+52.26.190.20 1 3 214519 20190320101438
+187.50.167.210 1 1 2701 20190319195458
+54.149.196.159 1 1 2701 20190316094720
+27.254.81.83 1 1 403 20190319144119
+107.180.117.248 1 1 403 20190330055027
+34.212.124.121 1 3 214519 20190319103351
+18.237.74.57 2 2 2849 20190323202725
+46.158.175.162 2 2 2318 20190302061016
+34.221.51.171 1 1 2701 20190320111555
+54.212.198.66 1 1 2701 20190324092018
+64.246.165.160 1 1 2701 20190301015738
+35.196.196.177 1 3 214519 20190304195357
+35.231.156.130 2 4 217220 20190312004614
+54.212.230.54 1 1 2701 20190309084905
+46.147.98.253 1 1 1159 20190302083214
+88.212.247.76 1 1 403 20190322234011
+35.165.77.141 1 1 2701 20190321144458
+54.218.109.253 1 1 2701 20190307071749
+93.179.209.210 1 1 2701 20190321053056
+173.252.95.9 1 3 214519 20190320091410
+54.200.251.194 1 3 214519 20190309084909
+197.216.2.126 2 2 5402 20190325173223
+34.213.160.15 1 3 214519 20190323091039
+158.69.247.25 1 1 403 20190320112613
+34.221.150.22 1 3 214519 20190327092846
+54.202.132.60 1 1 2701 20190302075008
+54.185.36.16 1 1 2701 20190331095747
+54.71.21.244 1 1 2701 20190305203532
+34.220.166.76 1 1 2701 20190305065853
+34.219.157.135 1 1 1161 20190325105117
+18.236.114.234 1 1 2701 20190326083022
+67.215.235.18 1 1 403 20190326184956
+54.213.17.251 1 1 2701 20190308103941
+52.40.172.27 1 1 2701 20190325095653
+18.208.176.4 1 1 1161 20190322033430
+18.237.44.130 1 1 2701 20190308104033
+36.67.29.209 1 1 2701 20190319185534
+182.50.132.1 1 1 403 20190328071824
+188.209.49.164 1 1 2701 20190316091130
+70.32.96.14 1 1 403 20190328030016
+34.211.140.252 1 3 214519 20190306102625
+35.243.165.147 2 2 5402 20190328112429
+54.191.163.132 1 1 2701 20190310211820
+213.191.10.182 1 1 1159 20190302101644
+83.102.203.27 1 1 1159 20190301121538
+91.244.119.92 1 1 1159 20190301024528
+82.80.249.192 1 1 2701 20190314133502
+198.71.228.31 1 1 403 20190328120807
+37.215.41.219 1 1 1159 20190301095150
+185.100.86.100 1 1 2701 20190303122813
+34.211.11.202 1 1 2701 20190306202404
+54.201.232.110 1 1 2701 20190316094827
+34.209.128.103 1 1 2701 20190323182351
+162.248.244.138 1 1 403 20190326150838
+34.221.246.111 1 1 2701 20190312100153
+3.18.221.94 1 1 1161 20190325151738
+34.211.187.195 1 1 2701 20190301084833
+35.164.217.122 1 1 2701 20190304083112
+178.175.148.227 1 1 2701 20190315071738
+52.32.201.179 2 2 2849 20190324201137
+192.145.239.39 2 2 806 20190322035225
+54.190.54.73 1 3 214519 20190325095656
+34.221.168.88 1 3 214519 20190315102945
+94.73.148.32 1 1 403 20190331191633
+54.190.220.10 1 3 214519 20190322100740
+185.20.185.141 1 1 2701 20190304045625
+54.186.90.13 1 1 2701 20190321090931
+195.208.172.70 1 1 2701 20190315010047
+54.82.247.248 1 1 1161 20190330182143
+52.27.71.247 1 1 2701 20190319103349
+34.211.180.78 1 1 2701 20190308203007
+54.254.187.51 1 1 2701 20190304225906
+178.169.87.3 1 1 1159 20190302052604
+45.76.118.124 1 1 403 20190321044438
+54.213.254.40 1 1 2701 20190318100450
+3.8.2.27 1 1 1161 20190331070628
+18.236.170.94 1 1 2701 20190315102943
+34.211.166.228 1 3 214519 20190314100608
+51.15.92.212 2 2 5402 20190315154600
+34.240.253.1 1 1 2701 20190318191214
+216.145.11.94 1 1 2701 20190322094406
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20190301 35 41 398057 29
+20190302 31 37 461844 23
+20190303 24 29 257209 14
+20190304 34 48 1322950 27
+20190305 14 21 421883 10
+20190306 23 29 426477 16
+20190307 23 29 432476 16
+20190308 15 22 427806 11
+20190309 16 22 386851 12
+20190310 11 17 372824 6
+20190311 24 31 443492 16
+20190312 28 45 1554096 17
+20190313 24 41 952223 16
+20190314 21 30 618966 16
+20190315 44 51 474610 31
+20190316 22 29 457674 16
+20190317 19 25 403006 14
+20190318 19 25 386360 13
+20190319 31 43 1049572 19
+20190320 28 36 617899 23
+20190321 32 39 436651 23
+20190322 25 31 453153 18
+20190323 48 54 526212 25
+20190324 55 61 488021 21
+20190325 34 42 628318 25
+20190326 39 47 627784 23
+20190327 23 29 402906 19
+20190328 25 32 452138 15
+20190329 25 31 360893 16
+20190330 27 34 434447 21
+20190331 25 32 454558 18
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 26
+15mn-30mn 10
+2mn-5mn 2
+0s-30s 517
+5mn-15mn 2
+1h+ 9
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/wp-cron.php 303 0 241 242
+/ 276 1115582 239 207
+/wp-login.php 152 369038 41 72
+/xmlrpc.php 43 17329 42 42
+/wp-admin/admin-post.php 32 0 2 2
+/2015/03/10/a-day-at-the-office/ 31 251224 0 0
+/author/williamabishop/ 3 13506 1 3
+/index.php 1 2701 1 1
+/wp-admin/upgrade.php 1 1 1 0
+/wp-json/wp/v2/posts/ 1 5602 0 0
+/wp-json/wp/v2/users 1 283 1 0
+END_SIDER

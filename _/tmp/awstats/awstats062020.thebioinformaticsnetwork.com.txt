@@ -1,0 +1,606 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202006 will be lost/reset.
+# Last config file used to build this data file was /home1/thebioin/tmp/awstats/awstats.thebioinformaticsnetwork.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2713                
+POS_VISITOR 15564               
+POS_DAY 17218               
+POS_DOMAIN 3480                
+POS_LOGIN 3816                
+POS_ROBOT 3971                
+POS_WORMS 4291                
+POS_EMAILSENDER 4422                
+POS_EMAILRECEIVER 4565                
+POS_SESSION 17840               
+POS_SIDER 18028               
+POS_FILETYPES 4700                
+POS_DOWNLOADS 4994                
+POS_OS 5042                
+POS_BROWSER 5173                
+POS_SCREENSIZE 5632                
+POS_UNKNOWNREFERER 5706                
+POS_UNKNOWNREFERERBROWSER 6070                
+POS_ORIGIN 6326                
+POS_SEREFERRALS 6468                
+POS_PAGEREFS 6634                
+POS_SEARCHWORDS 6810                
+POS_KEYWORDS 6962                
+POS_MISC 2376                
+POS_ERRORS 7021                
+POS_CLUSTER 3672                
+POS_SIDER_404 7215                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200623042020 1065 362629 21950566425138
+FirstTime 20200601000129
+LastTime 20200623042020
+LastUpdate 20200623060851 1065 0 1065 0 0
+TotalVisits 189                 
+TotalUnique 35                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 42                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 10 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 17 17 40483 52 55 254161
+1 10 10 806 51 61 79382
+2 2 2 0 16 20 49075
+3 11 11 2090 141 155 700337
+4 7 7 1673 23 27 128932
+5 8 8 0 78 148 999622
+6 8 8 2718 76 137 930671
+7 7 15 442979 25 33 94661
+8 5 5 0 40 41 137353
+9 11 45 1489498 62 70 281814
+10 4 4 0 40 42 197450
+11 2 6 354452 59 59 352118
+12 9 9 283 72 76 271859
+13 7 7 0 59 67 96642
+14 44 44 19656 34 36 92174
+15 149 179 2496194 59 61 339689
+16 8 14 357450 50 50 121899
+17 17 21 354452 70 72 247940
+18 32 263 7426713 29 45 42071
+19 153 694 13978780 100 106 130651
+20 15 15 24341 37 47 71075
+21 41 306 17453477 369 500 4679526
+22 8 26 1195079 66 78 282875
+23 8 42 1489498 24 28 85285
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 550 1715 46581614
+fr 13 13 24461
+gb 7 9 25557
+au 6 6 35675
+tr 2 2 806
+de 2 2 4896
+nl 2 2 14634
+ro 1 7 357447
+ru 0 2 85532
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+spider 226 3649408 20200622214740 0
+Googlebot/ 40 97980 20200619035527 40
+unknown 18 83196 20200620134134 18
+bingbot/ 8 19584 20200618123336 8
+bot[\s_+:,\.\;\/\\-] 2 4896 20200616090309 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+svg 17 438441 0 0
+gif 5 41444 0 0
+xml 15 15675 0 0
+php 261 2253052 0 0
+woff2 4 428984 0 0
+jpg 238 7259790 0 0
+woff 2 2112 0 0
+html 73 1368605 0 0
+js 581 27213968 0 0
+css 234 4490709 0 0
+png 100 3224472 0 0
+Unknown 228 393370 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+win10 1003 207
+linux 80 4
+winlong 2 2
+win7 323 20
+Unknown 350 350
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+chrome83.0.4103.116 936 166
+chrome60.0.3112.113 5 5
+firefox72.0 7 7
+chrome58.0.1145.75 2 2
+msie7.0 2 0
+chrome80.0.3987.149 11 11
+mozilla 128 128
+chrome76.0.3809.71 24 0
+chrome79.0 8 8
+chrome46.0.2490.86 2 0
+chrome50.0.2661.75 2 2
+chrome70.0.3538.77 8 8
+chrome68.0.3440.106 4 0
+firefox76.0 1 1
+chrome64.0.3282.119 72 4
+chrome71.0.3563.0 4 0
+chrome64.0.3282.167 2 2
+msie9.0 297 14
+Unknown 222 222
+firefox 21 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+WordPress/5.4.2;_http://thebioinformaticsnetwork.com 20200623042020
+WordPress/5.4.1;_http://thebioinformaticsnetwork.com 20200610194653
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20200620153046
+Cpanel-HTTP-Client/1.0 20200620142130
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WordPress/5.4.2;_http://thebioinformaticsnetwork.com 20200623042020
+WordPress/5.4.1;_http://thebioinformaticsnetwork.com 20200610194653
+Cpanel-HTTP-Client/1.0 20200620142130
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 217 233
+From1 4 4
+From2 14 297
+From3 7 7
+From4 341 1217
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 14 297
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.facebook.net 7 7
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+409 41 3403
+301 267 0
+403 96 12596
+406 256 56048
+404 478 3116522
+500 553 3603654
+400 13 13
+401 3 378
+302 1 0
+405 2 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 172
+/wp-content/plugins/pirate-forms/public/js/custom-spam.js 2 -
+/wp-content/plugins/brizy/admin/site-settings.php 4 -
+/wp-content/plugins/wp-live-chat-software-for-wordpress/plugin_files/css/livechat.css 2 -
+/wp-admin/network/wp-1ogin_bak.php 1 -
+/wp-content/plugins/wpematico/app/js/wpe_hooks.js 2 -
+/wp-content/uploads/2015/11/new_up.php 2 http://www.google.com/
+/2index.php 2 -
+/wp-content/themes/chihua/db.php 2 -
+/ajax-index.php 3 thebioinformaticsnetwork.com
+/wp-content/plugins/ithemes-sync/js/admin-notice.js 2 -
+/wp-content/themes/pridezz/db.php 2 -
+/wp-json/trx_addons/v2 1 -
+/admin/.env 4 -
+/wp-content/plugins/groupsassembly/js/js.php 2 http://www.facebook.net/
+/ads.txt 6 -
+/wp-content/plugins/easy2map/scripts/jquery.xml2json.js 2 -
+/wp-content/plugins/bbpress/templates/default/js/editor.min.js 2 thebioinformaticsnetwork.com
+/blogs/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/blog-designer/js/designer.js 4 -
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/klog/db.php 2 -
+/wp-content/plugins/simple-file-list/js/ee-head.js 2 -
+/siteindex.php 1 thebioinformaticsnetwork.com
+/wp-content/uploads/2015/10/new_up.php 2 http://www.google.com/
+/beta/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/wp-live-chat-support/css/wplcstyle.css 2 -
+/wp-content/2index.php 2 -
+/test/wp-content/plugins/plugins/GreenGo.php 4 -
+/wp-content/plugins/downloads-manager/img/unlock.gif 2 -
+/wp-content/themes/onetone/js/admin.js 2 -
+/wp-content/themes/pagse.php 2 -
+/en/wp-includes/wlwmanifest.xml 4 -
+/thebioinformaticsnetwork.com.zip 1 -
+/wp-content/plugins/simple-fields/js/chosen/chosen.css 2 -
+/wp2/wp-includes/wlwmanifest.xml 4 -
+/wp-content/plugins/wd-google-maps/css/owl.carousel.css 2 -
+/wp-content/themes/agncy/db.php 2 -
+/wp-content/plugins/indeed-membership-pro/assets/css/templates.css 2 -
+/wp-content/plugins/plugins/GreenGo.php 2 -
+/wp-content/themes/user-activity-tracking-and-log/db.php 2 -
+/wp-content/themes/webpoint/db.php 2 -
+/searchreplacedb2.php 4 -
+/wp-content/themes/azuma/db.php 2 -
+/th1s_1s_a_4o4.html 44 -
+/wp-content/plugins/wp-mobile-detector/cache/king.php 2 -
+/wp-admin/admin-ajax.php 2 http://thebioinformaticsnetwork.com/wp-admin/customize.php
+/newsite/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/wp-piwik/js/wp-piwik.js 2 -
+/store/wp-includes/wlwmanifest.xml 2 -
+/7index.php 4 -
+/wp-content/themes/AdvanceImage5/functions.php 1 http://www.facebook.net/
+/www/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/calliope/db.php 2 -
+/wordpress/wp-content/plugins/plugins/GreenGo.php 4 -
+/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/manifest.json.php 2 -
+/wp-includes/3index.php 2 -
+/mybackup/wp-admin/install.php 1 -
+/wp-content/themes/quna/db.php 2 -
+/wp-content/themes/justread/db.php 2 -
+/wp-content/themes/FifteenTen/403.php 1 http://www.facebook.net/
+/wp-content/plugins/smart-google-code-inserter/screenshot1.jpg 4 -
+/home/wp-includes/wlwmanifest.xml 2 -
+/wp-admin/1index.php 1 -
+/wp-content/themes/dinan/db.php 2 -
+/wp-content/plugins/wp-inventory-manager/themes/css/default-theme.css 2 -
+/wp-content/plugins/wp-advanced-search/js/ajaxTrigger.js 4 -
+/wp-content/plugins/visualizer/js/media.js 2 -
+/demo/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/easy-wp-smtp/js/script.js 2 -
+/blog/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/woocommerce-ajax-filters/js/brjsf.js 2 -
+/wp-content/plugins/fb-messenger/js/index.js 2 -
+/wp-content/themes/news-box-lite/db.php 2 -
+/blog/wp-content/plugins/plugins/GreenGo.php 4 -
+/wp-content/plugins/flexible-checkout-fields/assets/js/admin.js 2 -
+/wp-includes/ID3/wp-blog.php 2 -
+/web.zip 1 -
+/backup/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/199877.php 4 -
+/.well-known.zip 1 -
+/wp-content/plugins/insert-php/admin/assets/js/tag-it.js 2 -
+/portal/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/ithemes-sync/js/settings-page.js 2 -
+/apple-touch-icon.png 2 -
+/wp/wp-content/plugins/plugins/GreenGo.php 4 -
+/wp-content/plugins/popup-builder/public/js/Popup.js 4 -
+/wp-content/themes/hoki/db.php 2 -
+/wp-content/plugins/docs-assembly/js/js.php 2 http://www.facebook.net/
+/v1/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/ninkj/db.php 2 -
+/wp-content/themes/guava/dbfile.php 2 -
+/wp-content/plugins/apikey/apikey.php 4 -
+/wp-content/themes/porto/404.php 2 -
+/wp-admin/wp-1ogin_bak.php 1 -
+/wp-content/plugins/convertplug/modules/info_bar/assets/css/info_bar.min.css 2 -
+/news/wp-includes/wlwmanifest.xml 2 -
+//wp-content/plugins/plugins/GreenGo.php 2 -
+/wp-content/plugins/appointment-hour-booking/css/style.css 2 -
+/wp/wp-includes/wlwmanifest.xml 2 -
+/2019/wp-includes/wlwmanifest.xml 2 -
+/replace.php 4 -
+/oldsite/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/web-point/db.php 2 -
+/wp-content/plugins/fv-wordpress-flowplayer/css/flowplayer.css 4 -
+/wp-content/uploads/2015/09/new_up.php 2 http://www.google.com/
+/mybackup/wp-admin/setup-config.php 1 -
+/staging/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/tassembly/js/js.php 2 http://www.facebook.net/
+/humans.txt 6 -
+/wp-content/themes/dunag/db.php 2 -
+/wp-content/themes/prides/db.php 2 -
+/wp-content/plugins/pdf-assembly/js/js.php 2 http://www.facebook.net/
+/wp-content/themes/prid/db.php 2 -
+/wp-includes/images/css.php 2 -
+/wp-content/wp-1ogin_bak.php 2 -
+/website/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/rich-reviews/css/rich-reviews.css 2 -
+/apple-touch-icon-precomposed.png 2 -
+/new/wp-content/plugins/plugins/GreenGo.php 4 -
+/wp-content/plugins/delucks-seo/modules/professional/breadcrumbs/assets/css/frontend.css 2 -
+/wp-content/plugins/background-image-cropper/image/ico/search.php 2 -
+/public_html.zip 1 -
+/wp-content/plugins/wps-limit-login/assets/css/style.css 2 -
+/mybackup//wp-admin/setup-config.php 1 -
+/wp-admin/includes/theme-old.php 1 -
+/test/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/wp-1ogin_bak.php 2 -
+/wp-content/plugins/responsive-coming-soon/templates/template1/assets/css/style.css 4 -
+/wp-content/themes/wp-1ogin_bak.php 2 -
+/web/wp-includes/wlwmanifest.xml 4 -
+/dev/wp-includes/wlwmanifest.xml 4 -
+/wp-content/plugins/hybrid-composer/style.css 14 -
+/wp-content/plugins/fb-messenger-live-chat/assets/js/main.js 4 -
+/wp-content/plugins/assembly/js/js.php 2 http://www.facebook.net/
+/wp-content/plugins/pricing-table-by-supsystic/modules/tables/css/frontend.tables.css 2 -
+/wp-content/plugins/iwp-client/clipboard.min.js 4 thebioinformaticsnetwork.com
+/wp-content/uploads/2015/12/new_up.php 2 http://www.google.com/
+/wp-content/plugins/nd-shortcodes/css/style.css 4 -
+/wp-content/themes/bizohex/db.php 2 -
+/wp-content/plugins/wpshopify/dist/public.min.css 2 -
+/wp-content/x.php 2 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/wp-includes/fonts/css.php 2 -
+/shop/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/adams/404.php 2 -
+/wp-includes/css/css.php 2 -
+/cgi-bin.zip 1 -
+/2018/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/twentyfifteen/404.php 2 -
+/1/wp-includes/wlwmanifest.xml 2 -
+/xmlrpcs.php 1 thebioinformaticsnetwork.com
+/ 32 -
+/wp-content/themes/dukalo/db.php 2 -
+/old/wp-includes/wlwmanifest.xml 2 -
+/backup.zip 1 -
+/site/wp-content/plugins/plugins/GreenGo.php 4 -
+/v2/wp-includes/wlwmanifest.xml 2 -
+/wp-content/uploads/wp-dba.php 6 -
+/wp-admin.zip 1 -
+/wp-content/plugins/yuzo-related-post/assets/js/admin.js 2 -
+/wp-content/plugins/profile-builder-pro/assets/css/style-front-end.css 4 -
+/wp-content/plugins/yellow-pencil-visual-theme-customizer/js/yellow-pencil.js 2 -
+/wp-admin/user/wp-1ogin_bak.php 1 -
+/wp-content/plugins/profile-builder/assets/css/style-front-end.css 4 -
+/wp-content/plugins/simple-301-redirects-addon-bulk-uploader/assets/css/notices.css 4 -
+/wp-content/themes/chigue/db.php 2 -
+/wp-content/plugins/wp-live-chat-software-for-wordpress/plugin_files/js/livechat.js 2 -
+/wp.zip 1 -
+/cgi-bin/engl/pages.php 2 -
+/wp-content/plugins/themegrill-demo-importer/assets/js/admin/demo-importer.js 2 -
+/main/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/wp-private-content-plus/css/wppcp-front.css 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 42
+162.241.252.17 302 302 10161 20200623042020 20200623042020 /wp-cron.php
+73.82.204.152 166 936 21400752 20200622193021
+34.209.232.166 10 10 870 20200620153046
+52.28.236.88 8 8 696 20200620153046
+51.83.216.240 7 7 24341 20200621204032
+184.154.76.20 6 93 5709543 20200616214751
+52.15.254.228 6 6 522 20200620153045
+124.187.33.80 6 6 35675 20200609004146
+3.14.255.131 6 6 522 20200620153046
+66.133.109.36 6 6 522 20200620153045
+64.78.149.164 6 6 522 20200614150042
+62.210.177.42 5 5 4391 20200619041217
+184.154.139.50 5 109 6546110 20200620215640
+52.249.196.126 5 5 4808 20200619005151
+18.196.96.172 4 4 348 20200620153046
+52.188.60.249 3 3 2718 20200616141157
+62.210.178.229 3 3 2718 20200623002740
+62.210.141.218 3 3 2718 20200615061856
+184.154.139.49 3 47 2990150 20200621215638
+93.89.21.44 2 2 806 20200610011535
+37.187.132.5 2 2 14634 20200619145118
+185.89.36.2 2 2 4896 20200604224219
+64.13.232.16 2 2 806 20200619185541
+160.153.147.35 2 2 2090 20200602030833
+37.97.185.158 2 2 14634 20200615222136
+54.202.20.242 1 27 1415337 20200602092201
+65.154.226.109 0 20 1772260 
+184.154.139.51 0 48 3380505 
+54.201.234.92 1 9 74161 20200601234158
+65.155.30.101 0 4 354452 
+23.82.28.119 1 7 357450 20200620155817
+52.38.194.3 0 4 354452 
+107.189.10.254 0 4 354452 
+172.245.253.170 1 7 357450 20200612162231
+89.46.62.131 1 7 357447 20200607070446
+54.245.52.93 1 27 1415337 20200601234154
+104.238.126.225 1 1 0 20200619055527
+70.32.96.211 1 1 283 20200606124727
+176.113.115.222 0 2 85532 
+54.202.133.244 1 9 74161 20200602092204
+51.158.153.225 0 2 1216 
+34.222.229.130 2 2 174 20200614150042
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20200601 8 56 2188883 8
+20200602 18 70 2558910 15
+20200603 6 24 1144890 6
+20200604 10 28 1059839 8
+20200605 6 17 557512 6
+20200606 10 28 1080397 9
+20200607 6 29 1468652 5
+20200608 10 22 499712 7
+20200609 16 33 1096797 10
+20200610 14 33 1045487 9
+20200611 10 28 1175549 9
+20200612 12 21 807424 9
+20200613 5 11 894306 4
+20200614 78 96 1966148 12
+20200615 9 18 511790 5
+20200616 10 23 943795 7
+20200617 7 20 1189186 5
+20200618 11 25 1042723 9
+20200619 41 53 647197 15
+20200620 101 140 2503727 15
+20200621 13 28 935831 6
+20200622 176 949 21809149 6
+20200623 6 6 2718 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30mn-1h 16
+1h+ 1
+15mn-30mn 7
+0s-30s 157
+5mn-15mn 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 77
+/wp-cron.php 168 0 134 134
+/cornerstone-endpoint 42 377902 0 0
+/ 36 685577 3 3
+/wp-admin/admin-ajax.php 36 55793 0 2
+/wp-login.php 23 82436 21 20
+/wp-includes/wlwmanifest.xml 15 15675 8 2
+/about/ 9 244320 0 0
+/.well-known/acme-challenge/UHiKeEo3R-VAsGOCzDZitEReBGpmrd6e52ili1_3iJc 8 696 3 3
+/.well-known/acme-challenge/jpWS0ZravP6xTCzmo6Jm3rhYFktk2H-epxWBKeTiLTY 8 696 0 0
+/.well-known/acme-challenge/2492ck6DuMzSYCluIyVdrAXnaXj0fCxHBWckPjxHBHM 8 696 0 0
+/.well-known/acme-challenge/xAyiRBIOeUAKyDIBga8EFCXGdnu8ojGDRknUH-c91sY 8 696 0 0
+/.well-known/acme-challenge/6bnxV7UiAq6hmnlRG1R3e0i0hznCX9G6yZrisQpEKBg 8 696 0 0
+/.well-known/acme-challenge/Lo4iQ7EvXccXlb00JvrMUoUX4f14D4fHYw34en9-1rQ 8 696 0 1
+/.well-known/acme-challenge/J-sCJUMaI5gJnMrdDHsA606P9JQ2IM6McJsPBgdJsKc 8 696 2 0
+/.well-known/acme-challenge/qU7O_GIMTgn4zTDdQIVRX1PGI_JYi4WLC99yemwDfPA 8 696 0 0
+/wp-json/wp/v2/users/ 8 4334 1 7
+/.well-known/acme-challenge/gZPBHGaJFib7D1zPX3ICNQ2aWbmsFC6QeZcS5rflC1s 8 696 2 3
+/.well-known/acme-challenge/jM_JQHy6rg3pf2pRXVML-9D-mgLNvUm0h9BmF3Do210 8 696 1 4
+/.well-known/acme-challenge/GULZEpjlBudJ_0jURJE-jcXExd632BxSav5Jdgj5otU 8 696 0 0
+/.well-known/acme-challenge/l6OhVzFNQYBftNKJeC935Ch4qdbJ6wySGpdsQJszgXI 8 696 1 3
+/.well-known/acme-challenge/oqFSge4GI58jp_f33lfNvOYVCyAO03WFbmbi2XQqOrU 8 696 1 0
+/.well-known/acme-challenge/ddcOig4HoVy0BWFmYgPBBeMUNuNwoJai4Yr1xbCvOI8 8 696 0 0
+/.well-known/acme-challenge/WFO1wyuzzt2rJwugcOnzdRSSNai6ukRv7BgkJE3TNCY 8 696 0 0
+/.well-known/acme-challenge/OBVe-SRJDZuS8p0EeZ-WZFW3Qkkupo_MaQd9p-QjoJM 8 696 4 0
+/wp-admin/load-scripts.php 8 476248 0 0
+/.well-known/acme-challenge/XQMHQ1D5R11-0XLL57P7X2JPMQ7DP32F 2 128 0 0
+/.well-known/acme-challenge/BSQN0PC57L1_3AGPQ52YY7SAQX4-UU7B 2 128 0 0
+/.well-known/acme-challenge/GTVXY4SQOQO0Y730XWWD8FS583D7RCEE 2 128 0 0
+/.well-known/acme-challenge/HKHNTIHEBRMZMSE_K-MH6APMWE7X_Q3J 2 128 0 0
+/.well-known/acme-challenge/IV5QC4TEQ6PR4FFQAPZMCADR2BHDHKAT 2 128 0 0
+/xmlrpc.php 4 1612 2 2
+/wp-admin/ 3 160760 0 0
+/wp-content/plugins/cornerstone/assets/dist/fonts/fa-solid-900.woff2 2 275984 0 0
+/wp-admin/options-general.php 1 50881 0 0
+/.well-known/acme-challenge/XNWWAWMEK1JOP08RFAPUP87MGLOUHNFW 2 128 0 0
+/.well-known/acme-challenge/BLW45ND_-PM_2UBDI_H27HRQ6X898Y_0 2 128 0 0
+/.well-known/acme-challenge/2QFN68I-8UWUCLH9T7MK26EYLCU1203M 2 128 0 0
+/.well-known/acme-challenge/HS6J5C062IHO3XDFZN7FQKPY6-WT-5O7 2 128 0 0
+/wp-admin/admin-post.php 1 0 1 1
+/wp-content/uploads/ 2 2322 1 0
+/.well-known/acme-challenge/X-YGD3QM5RZJV4FZ3JUWYFPWFE0MG_WE 2 128 1 0
+/team/ 2 30100 0 0
+/.well-known/acme-challenge/-R42H1N-9BRWR_XJ9BPP3K12B7O75VJV 2 128 0 0
+/wp-admin/post.php 4 505615 0 0
+/wp-admin/css/colors/light/ 1 1567 0 1
+/wp-content/plugins/cornerstone/assets/dist/fonts/fa-brands-400.woff2 2 153000 0 0
+/wp-config-sample.php 2 2584 1 0
+/wp-includes/css/ 2 15918 0 0
+/.well-known/acme-challenge/_J22XY9CCSW3_N_9YTWT3CP9K11OA6PR 2 128 1 0
+/.well-known/acme-challenge/0NJTTVZ4KMMFIK48ITS4SGFMMA1Q3DRT 2 128 0 0
+/.well-known/acme-challenge/53L8J5HP0BSEVHHC_Z82OPJLYL7I7SZO 2 128 0 0
+/.well-known/acme-challenge/16S2IKVPMWNK28PQQA9VYYK1IXCADDLI 2 128 0 0
+/wp-load.php 2 0 0 0
+/wp-admin/upgrade.php 1 1 1 0
+/wp-admin/load-styles.php 5 674532 0 0
+/get-in-touch-2/ 2 29344 0 0
+/wp-includes/images/media/ 2 4534 0 0
+/.well-known/acme-challenge/F-5JEDDG6QYTLQ6KL6I29WNJYB42FM4P 2 128 0 0
+/wp-json/wp/v2/users/me 4 1124 0 0
+/.well-known/acme-challenge/2053WL1V2SHBBYHJLLXN4WJ-E2QR_5I3 2 128 0 1
+/.well-known/acme-challenge/6DBN_CQ8W94EX_XKR75VC2GE-OU674D7 2 128 0 0
+/wp-admin/images/ 1 12937 0 0
+/wp-content/plugins/jetpack/_inc/fonts/jetpack/jetpack.woff 2 2112 0 0
+/.well-known/acme-challenge/8K8CTJKC1EGGDB4VS-7WMY7J5I-9LAZV 2 128 0 0
+/wp-admin/css/ 1 20154 0 1
+/.well-known/acme-challenge/-4E9OT_IN_DKKJRCI63PBQ9TAYWY9_ZU 2 128 0 0
+/.well-known/acme-challenge/4N5R5_NO644HS6LR768PUQABOJ55RGF2 2 128 0 0
+/.well-known/acme-challenge/QIT9BAK40-JFRHS17P3F6C88W1GIEKP5 2 128 0 0
+/wp-json/jetpack/v4/jitm 4 8 0 0
+/.well-known/acme-challenge/TF-FY3Z3O_R0UY2JBJ5N528LMKQ7OSJ9 2 128 0 0
+/wp-admin/edit.php 1 50190 0 0
+/wp-admin/async-upload.php 1 632 0 0
+/wp-admin/customize.php 3 307551 0 0
+/wp-admin/about.php 1 44977 0 0
+/.well-known/acme-challenge/OKJ9UCU9AYUQIBED4RSVIU9LSRTH66_A 2 128 0 0
+/.well-known/acme-challenge/JLKNZ_F-8G7-DYSRWZQ_E3ZQ0CP615WT 2 128 0 0
+/x/ 4 156738 0 0
+END_SIDER

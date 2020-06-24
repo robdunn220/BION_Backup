@@ -1,0 +1,952 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201904 will be lost/reset.
+# Last config file used to build this data file was /home1/thebioin/tmp/awstats/awstats.thebioinformaticsnetwork.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2705                
+POS_VISITOR 19478               
+POS_DAY 29291               
+POS_DOMAIN 3549                
+POS_LOGIN 4197                
+POS_ROBOT 4352                
+POS_WORMS 4822                
+POS_EMAILSENDER 4953                
+POS_EMAILRECEIVER 5096                
+POS_SESSION 30098               
+POS_SIDER 30309               
+POS_FILETYPES 5231                
+POS_DOWNLOADS 5413                
+POS_OS 5461                
+POS_BROWSER 5802                
+POS_SCREENSIZE 7338                
+POS_UNKNOWNREFERER 7412                
+POS_UNKNOWNREFERERBROWSER 8054                
+POS_ORIGIN 8515                
+POS_SEREFERRALS 8659                
+POS_PAGEREFS 8848                
+POS_SEARCHWORDS 9200                
+POS_KEYWORDS 9352                
+POS_MISC 2369                
+POS_ERRORS 9411                
+POS_CLUSTER 4053                
+POS_SIDER_404 9598                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190501002604 91 21032 13898599608686
+FirstTime 20190401003922
+LastTime 20190430224823
+LastUpdate 20190501061633 91 0 90 0 0
+TotalVisits 609                 
+TotalUnique 253                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 253                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 16 16 9791 195 200 54129
+1 34 34 198024 178 188 99096
+2 39 43 674246 128 144 148099
+3 31 31 40584 183 196 184800
+4 29 29 30424 183 201 209304
+5 29 29 37627 169 177 68604
+6 35 35 53052 223 230 105011
+7 35 37 240638 208 211 141509
+8 62 84 2436672 160 174 92954
+9 43 59 1764665 174 179 38425
+10 33 41 897821 127 132 60346
+11 37 41 478614 159 164 44522
+12 29 31 240540 159 167 186821
+13 50 50 71014 189 199 106652
+14 46 46 52675 138 149 87598
+15 30 31 96802 156 159 243986
+16 39 40 286092 158 171 129349
+17 27 27 24202 170 182 93152
+18 19 19 22160 162 174 188542
+19 24 24 207891 150 159 113045
+20 22 24 238449 180 184 57660
+21 226 356 5715119 440 551 2455114
+22 35 40 258281 146 157 312955
+23 15 15 4816 121 135 152223
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 34
+us 781 976 12754831
+gb 25 26 98452
+hu 24 24 64824
+ca 22 22 73914
+vn 22 22 43025
+fr 18 19 90102
+ru 17 17 42183
+cl 14 14 710874
+cn 9 9 58292
+ua 8 8 10169
+au 6 6 48624
+de 4 4 11611
+nl 4 4 13127
+jp 4 4 4644
+kr 3 3 7326
+lv 2 2 5402
+es 2 2 8732
+in 2 2 7043
+pl 2 2 806
+tz 2 2 3862
+gr 1 1 1161
+eu 1 1 8104
+eg 1 1 1688
+zw 1 1 1161
+ar 1 1 1688
+sg 1 1 403
+cz 1 1 2701
+dk 1 1 1161
+ir 1 1 1161
+id 1 1 403
+bg 1 1 1161
+se 1 1 403
+tw 1 1 1161
+zz 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+spider 222 2229704 20190430215322 0
+Googlebot/ 201 942971 20190430013442 122
+unknown 20 156677 20190427020338 20
+bingbot/ 19 171802 20190426223925 13
+no_user_agent 5 2015 20190420132444 0
+Python\-urllib/ 3 10398 20190428081407 0
+DomainSONOCrawler/ 2 5402 20190419055610 0
+curl 1 8104 20190402080225 0
+Baiduspider/ 1 2701 20190420111211 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+js 62 4287074 0 0
+php 652 1157595 0 0
+Unknown 15 1340 0 0
+css 105 2104773 0 0
+jpg 30 5068680 0 0
+html 318 1460737 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 21
+winxp 19 19
+macosx10 2 2
+macosx6 4 4
+Unknown 441 441
+win2000 6 6
+win8.1 14 14
+winunknown 7 7
+macosx 13 12
+macosx8 1 1
+macosx11 6 6
+win2003 1 1
+win8 5 5
+win7 368 232
+ios_iphone 15 5
+win10 90 90
+winlong 8 8
+macosx4 3 3
+macosx9 6 6
+linux 157 107
+macosx12 15 15
+linuxandroid 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 75
+firefox66.0 2 2
+edge36 2 2
+chrome68.0.3440.106 75 25
+firefox52.57.04 1 1
+chrome53.5.0897.5525 1 1
+chrome57.5.0068.4796 1 1
+edge34 2 2
+firefox64.0 22 22
+chrome26.0.1410.65 1 1
+firefox50.0 12 12
+chrome70.0.3538.110 1 1
+firefox42.0 2 2
+opera42.9.4156.9884 1 1
+chrome35.0.1916.47 6 6
+firefox36.0 2 2
+msie8.0 1 1
+chrome63.0.3239.132 4 4
+safari5.4.8 1 1
+safari5.5.1 3 3
+safari4.6.1 1 1
+firefox59.0 3 3
+firefox29.0 6 6
+chrome72.0.3626.121 3 2
+chrome60.0.3112.101 2 2
+firefox34.0 1 1
+chrome53.6.1815.5643 1 1
+chrome61.0.3163.100 12 12
+chrome34.0.1847.131 1 1
+firefox52.59.12 1 1
+mozilla 33 33
+msie9.0 298 163
+safari8.0 15 5
+chrome45.0.2454.94 1 1
+chrome66.0.3359.181 27 27
+chrome44.0.2403.89 1 1
+chrome71.0.3578.80 1 1
+firefox45.65.18 2 2
+chrome65.0.3325.162 1 1
+firefox52.50.97 1 1
+chrome54.8.4232.9504 1 1
+Unknown 438 438
+chrome41.0.2272.89 1 1
+chrome12.0.742.112 4 4
+chrome50.0.2661.75 2 2
+chrome42.0.2311.90 6 6
+safari5.2.7 1 1
+chrome65.0.3325.181 11 11
+msie11.0 9 9
+opera41.9.4623.9451 1 1
+firefox45.64.01 1 1
+chrome36.0.1985.143 24 24
+firefox47.0 6 6
+firefox45.52.09 1 1
+firefox33.0 8 8
+safari4.7.2 1 1
+firefox61.0 24 24
+msie10.0 1 1
+safari11.0.3 1 1
+firefox65.0 1 1
+opera42.0.5114.0842 1 1
+chrome70.0.3538.102 1 1
+firefox58.0 1 1
+firefox31.0 7 7
+msie6.0 2 2
+chrome73.0.3683.103 3 3
+firefox28.0 2 2
+firefox45.61.08 1 1
+msie7.0 3 2
+chrome69.0.3497.100 1 1
+firefox62.0 59 59
+chrome57.4.9606.5978 1 1
+chrome64.0.3282.186 1 1
+firefox63.0 4 4
+opera44.6.1441.6714 1 1
+chrome53.6.0958.5686 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+python-requests/2.21.0 20190411171747
+python-requests/2.19.1 20190430204517
+Cpanel-HTTP-Client/1.0 20190413144318
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190413144320
+Poster 20190405054705
+Scrapy/1.5.1_(_https://scrapy.org) 20190426044540
+WordPress 20190406014838
+Go-http-client/1.1 20190430133350
+panscient.com 20190425032313
+Mozilla/5.0_(compatible;_ips-agent) 20190414045458
+WordPress/5.1.1;_http://thebioinformaticsnetwork.com 20190430224824
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190408020922
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+Poster 20190405054705
+Scrapy/1.5.1_(_https://scrapy.org) 20190426044540
+Cpanel-HTTP-Client/1.0 20190413144318
+python-requests/2.19.1 20190430204517
+python-requests/2.21.0 20190411171747
+WordPress/5.1.1;_http://thebioinformaticsnetwork.com 20190430224824
+panscient.com 20190425032313
+Go-http-client/1.1 20190430133350
+Windows_Live_Writter 20190404161817
+WordPress 20190406014838
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 334 335
+From1 3 3
+From2 188 323
+From3 30 30
+From4 430 491
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com_hk 6 6
+www_google_com 182 317
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+https://brandnewblogs.com 12 12
+https://brandnewblogs.com/site-browser/ 12 12
+http://tiny.cc/qiw84y 3 3
+http://burger-imperia.com 1 1
+http://activegift.me 1 1
+http://mail.thebioinformaticsnetwork.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+301 329 0
+409 2325 192975
+400 46 172
+404 327 1450543
+500 10 9998
+405 1 42
+302 1 0
+403 559 74906
+406 511 115486
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 231
+/sfn.php 1 -
+/admin.zip 1 -
+/wordpress/wp-admin/install.php 3 -
+/cache.php 1 -
+/wp-content/plugins/yellow-pencil-visual-theme-customizer/js/yellow-pencil.js 1 -
+/wp-content/plugins/social-warfare/assets/js/script.js 1 -
+/wp-includes/SimplePie/Content/Type/wp-console.php 1 thebioinformaticsnetwork.com
+/wp-content/themes/bloggingcream/404.php 1 -
+/news/wp-login.php 2 -
+/wp-content/themes/wp-conns.php 1 -
+/wp-includes/fonts/ffonts.php 1 -
+/wp-content/uploads/bb.php 1 -
+/wp-admin/maint/log.php 1 -
+/backup/ 2 -
+/wp-content/plugins/easyrotator-for-wordpress/prv8.php 1 -
+/downloader/ 1 -
+/web.zip 1 -
+/wp-content/common.php 1 -
+/code.zip 1 -
+/wp-content/plugins/akismet/akismet.php 1 -
+/wp-includes/Requests/wp-side.php 1 thebioinformaticsnetwork.com
+/wp-includes/js/tinymce/themes/modern/wp-side.php 1 thebioinformaticsnetwork.com
+/LICENSE.php 1 -
+/wp-admin/output.php 1 -
+/wp-content/plugins/easyrotator-for-wordpress/cache.php 1 -
+/backup.zip 2 http://thebioinformaticsnetwork.com/backup.zip
+/rss/catalog/notifystock/ 1 -
+/2016/wp-login.php 1 http://thebioinformaticsnetwork.com//2016/wp-login.php
+/wp-content/plugins/category-page-icons/css/menu.css 1 -
+/sqlibak.php 1 -
+/wp-content/themes/twentytwelve/404.php 1 -
+/wp7/wp-login.php 1 -
+/wp-content/themes/classic/404.php 1 -
+/wp-content/themes/web-point/baer.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/yellow-pencil-visual-theme-customizer/js/admin-page.js 3 thebioinformaticsnetwork.com
+/2017/wp-login.php 1 http://thebioinformaticsnetwork.com//2017/wp-login.php
+/templates/system/css/system.css 1 -
+/wp-content/plugins/wp-mobile-detector/resize.php 1 -
+/wp-content/iindex.php 1 -
+/wp-includes/js/tinymce/plugins/charmap/wp-side.php 1 thebioinformaticsnetwork.com
+/sql.zip 1 -
+/wp-content/plugins/wp-conns.php 1 -
+/wp/wp-login.php 1 -
+/wp-admin/css/colors/wp-console.php 1 thebioinformaticsnetwork.com
+/user.zip 1 -
+/wp-includes/class.wp-depen.php 1 -
+/ludk.php 1 -
+/xmlrpz.php 1 -
+/wordpress/wp-login.php 2 -
+/kup.php 1 -
+/htaccess.php 1 -
+/wp-includse.php 1 -
+/wp1/wp-login.php 2 -
+/wp-content/uploads/uuploads.php 1 -
+/admin/ 4 -
+/wp-includes/js/tinymce/skins/wp-console.php 1 thebioinformaticsnetwork.com
+/wp-includes/theme-compat/comay.php 1 -
+/wp-content/plugins/easyrotator-for-wordpress/up.php 1 -
+/wp-content/plugins/plugin/info.php 1 -
+/wp-admin/css/colors/blue/log.php 1 -
+/phpinfoer.php 1 -
+/wp-content/themes/kalki/baer.php 1 thebioinformaticsnetwork.com
+/wp-includes/js/tinymce/plugins/hr/wp-side.php 1 thebioinformaticsnetwork.com
+/test.php 1 -
+/wp-admin/css/ccss.php 1 -
+/b.php 1 -
+/wp-includes/js/tinymce/plugins/textcolor/wp-side.php 1 thebioinformaticsnetwork.com
+/wwwroot.zip 1 -
+/administrator/ 1 -
+/sitemap.xml 1 -
+/wp-includes/Text/Tiff.php 1 -
+/wp-content/themes/t98-sade/seo_script.php 1 -
+/wp5/wp-login.php 1 -
+/wordpress/ 3 -
+/wp-includes/images/smilies/wp-side.php 1 thebioinformaticsnetwork.com
+/wp-content/themes/advancesettings/404.php 1 -
+/old.zip 1 -
+/unz.php 1 -
+/wp-includes/modules.php 1 -
+/configurationbak.php 1 -
+/wp2/wp-login.php 1 -
+/2018/wp-login.php 1 http://thebioinformaticsnetwork.com//2018/wp-login.php
+/drupal-7.19/ 1 -
+/wp-content/themes/webpoint/db.php 1 -
+/cms/ 3 -
+/wp-content/plugins/myshe.php 1 -
+/wp-includes/zwi-cofg.php 1 thebioinformaticsnetwork.com
+/wp-content/themes/cache/404.php 1 -
+/sys.php.php 1 -
+/wp-admin/class-wp-main.php 1 http://thebioinformaticsnetwork.com/wp-admin/class-wp-main.php
+/license.php 1 -
+/webconfig.txt.php 1 -
+/oldsite/ 2 -
+/2015/wp-login.php 1 http://thebioinformaticsnetwork.com//2015/wp-login.php
+/th1s_1s_a_4o4.html 30 -
+/wp-admin/newsr.php 1 -
+/wp-includes/pomo/jss.php 1 thebioinformaticsnetwork.com
+/wp-content/themes/dunag/db.php 1 -
+/cms/wp-content/themes/AdvanceImage5/functions.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 2 -
+/old/ 4 -
+/wp-includes/customize/ccustomize.php 1 -
+/website/wp-login.php 1 http://thebioinformaticsnetwork.com//website/wp-login.php
+/wp-content/themes/BlackPower/404.php 1 -
+/show.php 1 -
+/test/ 3 -
+/wp-content/plugins/pplugins.php 1 -
+/wp-content/plugins/user-activity-tracking-and-log/baer.php 1 thebioinformaticsnetwork.com
+/xmlrpc-blog.php 1 -
+/wp-includes/SimplePie/XML/Declaration/wp-side.php 1 thebioinformaticsnetwork.com
+/wp-includes/js/tinymce/plugins/image/wp-side.php 1 thebioinformaticsnetwork.com
+/trackback.php 1 -
+/wp-content/plugins/yellow-pencil-visual-theme-customizer/css/frame.css 1 -
+/ghfhvvaw.php 1 -
+/smalls.php 1 -
+/customizer.php 1 -
+/wp-installation.php 1 -
+/reade.php 1 -
+/cod.php 1 -
+/admin/login.php 2 -
+/code.php.php 1 -
+/system/logs/seo_script.php 1 -
+/wp4/wp-login.php 1 -
+/wp-content/themes/dinan/db.php 1 -
+/libraries/cms.php 1 -
+/wp-checking.php 1 -
+/wp-includes/js/tinymce/plugins/wpautoresize/wp-side.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/hd-webplayer/playlist.php 1 -
+/wp-includes/class-comments.php 1 -
+/wp-admin/css/wp-side.php 1 thebioinformaticsnetwork.com
+/wp-admin/user/users-new.php 1 -
+/wp-includes/js/tinymce/skins/wordpress/images/wp-side.php 1 thebioinformaticsnetwork.com
+/blog/ 4 -
+/images/xxx.php 1 -
+/wp-content/themes/porto/footer.php 1 -
+/wp-includes/js/tinymce/skins/wordpress/wp-console.php 1 thebioinformaticsnetwork.com
+/backup/wp-login.php 1 http://thebioinformaticsnetwork.com//backup/wp-login.php
+/wp-content/themes/user-activity-tracking-and-log/db.php 1 -
+/wp-includes/ID3/IID3.php 1 -
+/cgi-bin/wp-side.php 1 thebioinformaticsnetwork.com
+/wp-blog-config.php 1 -
+/wp-content/uploads/2019/03/content-post.php 1 thebioinformaticsnetwork.com
+/phpmyadmin/ 1 http://thebioinformaticsnetwork.com//phpmyadmin//
+/wp-includes/Text/Diff/Engine/cache.php 2 -
+/html/wp-login.php 1 http://thebioinformaticsnetwork.com//html/wp-login.php
+/old/wp-login.php 1 http://thebioinformaticsnetwork.com//old/wp-login.php
+/wp-console.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/cherry-plugin/admin/import-export/settings_auto.php 1 -
+/wp-content/zwi-cofg.php 1 thebioinformaticsnetwork.com
+/wp-content/uploads/2019/04/baer.php 1 thebioinformaticsnetwork.com
+/blog/wp-login.php 2 -
+/wp-content/plugins/thumbnail.php 1 -
+/wp-caches.php 1 -
+/new/ 4 -
+/wp-admin/user/log.php 1 -
+/pma/ 1 http://thebioinformaticsnetwork.com//pma//
+/wp-content/plugins/wp-google-maps/upload.js 1 -
+/upgrade.php 1 -
+/wp-content/themes/sketch/404.php 1 -
+/wp-content/plugins/background-image-cropper/jss.php 2 thebioinformaticsnetwork.com
+/system/storage/logs/seo_script.php 1 -
+/wp-admin/images/iimages.php 1 -
+/wp-content/themes/default/404.php 1 -
+/wp-content/wp-side.php 1 thebioinformaticsnetwork.com
+/cache/seo_script.php 1 -
+/test.zip 1 -
+/wp-content/uploads/2019/04/settings_auto.php 1 -
+/wp-content/uploads/2019/04/zgepd_oddsd.php 1 thebioinformaticsnetwork.com
+/admin/images/cal_date_over.gif 1 -
+/wp-content/plugins/background-image-cropper/content-post.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/barclaycart/uploadify/settings_auto.php 1 -
+/writebab.php 1 -
+/backup.tar 1 http://thebioinformaticsnetwork.com/backup.tar
+/wp-content/plugins/supportcandy/asset/js/modal.js 1 thebioinformaticsnetwork.com
+/wp-admin/zwi-cofg.php 1 thebioinformaticsnetwork.com
+/wp-includes/css/hi.php 1 -
+/wp-content/themes/betheme/404.php 1 -
+/ 30 http://thebioinformaticsnetwork.com/
+/wp-includes/js/tinymce/plugins/paste/wp-side.php 1 thebioinformaticsnetwork.com
+/wp-main.php 1 -
+/wp-content/themes/agncy/baer.php 1 thebioinformaticsnetwork.com
+/drupal/ 1 -
+/wp-login.php 1 -
+/user/login 1 -
+/wp-includes/Text/TText.php 1 -
+/wp-admin/css/colors/midnight/wp-side.php 1 thebioinformaticsnetwork.com
+/backup.sql 2 http://thebioinformaticsnetwork.com/backup.sql
+/backup.tar.gz 1 http://thebioinformaticsnetwork.com/backup.tar.gz
+/wp-includes/SimplePie/Decode/wp-console.php 1 thebioinformaticsnetwork.com
+/wp-content/themes/web-point/db.php 1 -
+/shell.php 1 -
+/wp-content/themes/webpoint/baer.php 1 thebioinformaticsnetwork.com
+/ads.txt 1 -
+/site/wp-login.php 2 -
+/wp-content/themes/Aqua/404.php 1 -
+/info.php 1 -
+/sito/wp-login.php 1 http://thebioinformaticsnetwork.com//sito/wp-login.php
+/script.php 1 -
+/www.zip 1 -
+/web/wp-login.php 1 http://thebioinformaticsnetwork.com//web/wp-login.php
+/wp3/wp-login.php 1 -
+/wp.zip 1 -
+/wp-content/plugins/easy-wp-smtp/js/script.js 1 -
+/blog.zip 1 -
+/shop/wp-login.php 1 http://thebioinformaticsnetwork.com//shop/wp-login.php
+/,162.241.252.17 1 -
+/wp-content/themes/agregado/404.php 1 -
+/database.zip 1 -
+/wp-content/plugins/woocommerce-checkout-manager/includes/templates/js/script_wccs.js 1 -
+/1.php 1 -
+/error.php 1 -
+/wp-admin/iinstall-helper.php 1 -
+/wp-content/themes/CherryFramework/404.php 1 -
+/catalog/product_frontend_action/synchronize 1 thebioinformaticsnetwork.com
+/wp-content/plugins/downloads-manager/img/unlock.gif 1 -
+/wp-includes/Text/Diff/Renderer/wp-side.php 1 thebioinformaticsnetwork.com
+/wp/wp-admin/install.php 1 -
+/wp-content/plugins/yuzo-related-post/assets/js/admin.js 1 -
+/jm-ajax/upload_file/ 1 -
+/wp-includes/Text/index.php 1 -
+/wp-admin/includes/wp-side.php 1 thebioinformaticsnetwork.com
+/wp-includes/js/tinymce/skins/wordpress/wp-side.php 1 thebioinformaticsnetwork.com
+/wp-content/plugins/viral-optins/api/uploader/file-uploader.php 1 -
+/wp-logs.php 1 -
+/wp-content/themes/skt-cafe/baer.php 1 thebioinformaticsnetwork.com
+/wp-cson.php 1 -
+/wp-admin/css/colors/coffee/wp-side.php 1 thebioinformaticsnetwork.com
+/wp/ 4 thebioinformaticsnetwork.com
+/magento_version 1 thebioinformaticsnetwork.com
+/wp-content/plugins/wp-support-plus-responsive-ticket-system/includes/admin/downloadAttachment.php 1 -
+/wp-includes/output.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 253
+162.241.252.17 390 390 796 20190430224824
+184.154.139.50 65 117 2258617 20190422214526
+184.154.139.4 43 81 1553643 20190427214926
+184.154.139.51 39 70 1385570 20190430215321
+184.154.139.52 16 30 613787 20190424215444
+181.215.49.121 14 14 710874 20190430204517
+82.146.38.186 14 14 24312 20190427132815
+52.53.201.78 12 12 32412 20190427003852
+145.239.54.77 11 11 24312 20190416133529
+52.173.241.248 10 10 27010 20190423144452
+51.77.145.131 10 10 24312 20190411112235
+100.35.75.170 9 9 19485 20190425032313
+192.99.15.55 8 8 19107 20190420164121
+69.164.111.198 8 8 64832 20190416190038
+60.191.38.77 6 6 48624 20190430085540
+178.164.146.21 6 6 16206 20190425142403
+118.127.15.83 6 6 48624 20190417211237
+84.236.19.46 6 6 16206 20190415163736
+52.165.148.51 6 6 16206 20190428221858
+94.21.145.122 6 6 16206 20190405020545
+217.197.186.149 6 6 16206 20190410082807
+193.106.30.98 5 5 5402 20190428214220
+62.210.83.78 4 4 10804 20190430085958
+51.255.67.34 4 4 16208 20190424224031
+192.185.218.210 4 4 4644 20190413092530
+35.161.241.254 1 3 214519 20190409122356
+148.66.147.26 1 1 403 20190403044912
+52.37.248.224 1 3 214519 20190429111514
+69.12.72.164 1 1 1161 20190419093750
+88.99.110.156 1 1 403 20190401024059
+3.93.240.242 1 1 1161 20190403054647
+34.222.245.159 1 1 2701 20190408165406
+91.201.60.29 1 1 403 20190401124235
+54.186.134.21 1 1 1161 20190421045542
+54.189.24.104 1 1 2701 20190415082637
+195.3.144.185 1 1 2701 20190401070013
+171.224.10.75 1 1 1688 20190417233116
+14.186.35.183 1 1 1688 20190418000809
+148.66.146.30 1 1 403 20190401155746
+34.211.220.233 1 3 214519 20190424093939
+54.212.43.117 1 1 2701 20190405111806
+34.73.49.206 2 2 5402 20190405124602
+35.160.56.244 1 1 2701 20190404112213
+66.154.103.113 2 2 5402 20190411171747
+62.210.201.91 1 2 45563 20190426151640
+35.185.40.17 2 4 217220 20190423023855
+54.190.49.143 1 3 214519 20190416082945
+52.23.178.190 1 1 2701 20190417141854
+148.72.232.148 1 1 403 20190405054705
+52.25.83.100 2 2 2824 20190408170702
+34.220.211.235 1 3 214519 20190403095920
+104.198.133.154 1 1 1147 20190416101757
+54.198.253.213 1 1 1161 20190410100706
+52.34.140.6 1 3 214519 20190410075347
+54.161.229.120 2 2 2824 20190402071159
+41.59.225.156 2 2 3862 20190416021628
+34.215.116.117 1 1 2701 20190410212109
+51.68.11.199 1 1 1161 20190411051545
+104.196.165.80 2 2 5402 20190430004436
+211.169.180.254 2 2 7043 20190407061641
+54.185.9.127 1 1 2701 20190425213957
+35.156.16.217 1 1 1161 20190421132007
+34.222.146.40 1 1 2701 20190426084504
+122.1.199.168 2 2 2322 20190411174226
+178.33.192.157 2 2 3862 20190422125302
+35.231.33.24 2 2 5402 20190421214546
+54.148.182.73 1 1 2701 20190416082943
+52.38.99.151 1 1 2701 20190424152108
+192.254.214.217 1 1 1161 20190426073841
+195.3.144.210 1 1 2701 20190426044540
+104.211.91.227 1 1 1161 20190421014449
+52.42.71.88 1 1 2701 20190428081412
+54.202.243.202 1 3 214519 20190427081903
+52.40.223.150 1 1 2701 20190407104614
+88.198.39.184 1 1 2701 20190412103926
+169.239.182.76 1 1 1161 20190421133627
+46.235.158.196 1 1 8104 20190411024600
+13.234.183.174 1 1 1161 20190421161825
+114.245.39.169 1 1 8104 20190409063648
+163.44.198.43 1 1 1161 20190426084612
+170.80.156.41 1 1 1663 20190413153420
+149.202.62.54 1 1 539 20190423045718
+18.237.251.35 1 1 2701 20190429111511
+113.172.56.150 1 1 1688 20190417225151
+35.243.221.23 2 4 217220 20190417024501
+13.230.105.117 1 1 2701 20190419054237
+54.201.15.144 1 1 2701 20190402094327
+54.202.98.213 1 3 214519 20190406082209
+142.93.240.141 1 1 1161 20190421145326
+34.211.171.29 1 1 1161 20190401084811
+5.79.76.155 1 1 8104 20190426175543
+34.211.45.146 1 1 2701 20190422104138
+54.148.220.199 1 1 8104 20190411115217
+51.15.76.110 1 1 2701 20190408061511
+35.165.26.119 1 3 214519 20190426084506
+82.196.8.200 1 1 1161 20190424232039
+123.20.249.67 1 1 1688 20190418053605
+34.215.254.130 1 1 2701 20190425084312
+37.204.42.172 1 1 1663 20190411193716
+54.186.233.115 1 3 214519 20190402094329
+163.172.251.253 1 2 45563 20190403161848
+34.220.150.76 1 1 2701 20190430133350
+171.237.184.126 1 1 1688 20190417182802
+34.73.67.152 2 4 217220 20190409091205
+52.43.108.241 1 1 2701 20190424093936
+52.43.172.32 1 1 2701 20190418094514
+54.209.178.58 1 1 1161 20190402093238
+54.245.12.130 1 1 8104 20190408062258
+35.237.129.70 2 4 217220 20190403105611
+69.12.66.227 2 2 3862 20190418221225
+35.196.115.119 2 2 5402 20190417201424
+34.211.146.79 1 1 2701 20190426211319
+69.12.66.235 2 2 2322 20190425093353
+111.246.76.105 1 1 1161 20190415173019
+209.141.46.201 1 1 8104 20190430213402
+148.72.197.24 1 1 403 20190401084629
+148.66.145.25 1 1 403 20190401052143
+52.12.51.227 1 1 2701 20190409122354
+62.80.182.42 1 1 1663 20190415072025
+35.165.136.9 1 1 2701 20190406082205
+54.81.219.254 2 2 2849 20190413063731
+185.220.101.35 1 1 8104 20190427163313
+89.221.80.5 1 1 1161 20190421141516
+123.20.86.57 1 1 1688 20190417221405
+68.66.216.30 1 1 1161 20190421202112
+35.231.10.251 2 2 5402 20190401121443
+85.187.128.7 1 1 1161 20190421111912
+95.47.250.18 1 1 2701 20190413073538
+50.116.108.121 1 1 1161 20190425063242
+119.28.70.217 1 1 403 20190402233059
+3.8.124.216 2 2 2824 20190401194652
+34.221.211.250 1 1 1161 20190401130914
+125.212.216.150 1 1 1161 20190423182310
+54.212.228.185 1 3 214519 20190425084315
+18.236.114.138 1 1 2701 20190419212013
+35.196.216.150 2 4 217220 20190430203532
+54.190.169.171 1 1 2701 20190430094031
+34.213.89.48 1 3 214519 20190430094033
+14.177.181.138 1 1 8104 20190411024055
+153.92.8.106 1 1 403 20190404062739
+35.162.220.145 1 1 2701 20190410075344
+188.165.28.84 1 1 2701 20190422093609
+52.47.148.82 1 1 1161 20190421064354
+113.190.252.21 1 1 1688 20190417155658
+34.221.245.177 1 1 2701 20190408082141
+34.221.87.62 1 1 2701 20190429211944
+35.189.41.122 2 2 3862 20190424030909
+217.61.18.142 1 1 1161 20190421050540
+142.93.98.244 1 1 1161 20190421100313
+117.5.120.53 1 1 1688 20190417115538
+14.189.154.13 1 1 1688 20190418095916
+192.99.35.63 1 1 2701 20190422213823
+185.153.196.157 1 1 8104 20190404151325
+149.202.86.127 1 1 2701 20190429065617
+66.133.109.36 3 3 261 20190413144320
+118.24.58.170 1 1 1161 20190428061122
+34.217.48.63 1 1 2701 20190401103346
+174.138.62.92 1 1 1161 20190402233104
+54.89.212.34 2 2 2824 20190401220140
+34.220.22.177 1 1 2701 20190424212250
+69.12.66.234 1 1 1161 20190419123348
+34.220.45.120 1 1 2701 20190416083312
+192.99.153.167 2 2 16208 20190410104104
+34.217.130.8 1 1 2701 20190412091533
+14.186.49.132 1 1 1688 20190417144730
+62.151.180.112 2 2 8732 20190423053105
+212.103.50.69 3 3 6563 20190403222822
+35.243.236.162 2 2 5402 20190425224556
+159.203.42.143 1 1 2701 20190421071459
+14.177.166.192 1 1 1688 20190418045950
+54.149.252.191 1 1 2701 20190403095918
+69.12.66.245 1 1 1161 20190425051646
+116.107.251.127 1 1 1688 20190417213319
+35.243.198.90 2 2 5402 20190413184305
+116.96.160.37 1 1 1688 20190417172250
+64.246.165.190 1 1 2701 20190413043142
+52.12.42.102 1 3 214519 20190418094517
+54.218.63.197 1 1 2701 20190428152014
+34.212.137.149 1 1 2701 20190421211854
+18.236.187.220 1 3 214519 20190412091537
+162.241.131.144 1 1 1161 20190426053229
+54.37.78.0 3 3 6563 20190414075043
+54.188.2.148 1 3 214519 20190407104616
+3.8.122.248 1 1 1161 20190401020924
+67.225.140.8 1 1 403 20190401232302
+116.97.209.131 1 1 1688 20190417122400
+144.217.181.58 2 2 3862 20190402161621
+123.21.84.129 1 1 1688 20190418061224
+54.190.174.58 1 1 2701 20190420212117
+54.172.196.88 1 1 1161 20190407092138
+34.217.66.63 1 1 2701 20190412212405
+111.89.144.2 1 1 1161 20190421163122
+95.216.42.40 1 1 403 20190402150848
+35.243.193.198 2 2 5402 20190409144457
+113.173.18.38 1 1 1688 20190418065021
+3.90.249.50 1 1 8104 20190410185410
+31.220.40.54 1 1 8104 20190428191836
+153.92.6.105 1 1 403 20190402112821
+192.99.0.107 3 3 2701 20190423014539
+91.121.181.49 1 1 1161 20190426023820
+54.202.238.107 1 1 2701 20190421094019
+54.191.197.14 1 3 214519 20190408082144
+3.82.236.177 1 1 1161 20190421083705
+206.180.165.147 1 1 2701 20190421151050
+34.73.72.196 1 1 1161 20190421065959
+31.170.165.203 1 1 403 20190404161817
+182.50.151.9 1 1 403 20190402072652
+52.89.226.11 1 1 2701 20190427211930
+132.148.238.152 1 1 403 20190402185850
+192.145.239.44 1 1 1161 20190424103458
+54.187.180.78 1 1 2701 20190417081044
+200.5.226.118 1 1 1688 20190409050404
+34.220.8.66 1 3 214519 20190401103349
+35.166.130.131 1 1 2701 20190418211655
+95.179.164.187 1 1 1161 20190421093845
+171.242.147.176 1 1 1688 20190417163621
+3.84.9.248 1 1 1161 20190406020657
+182.74.165.174 2 2 7043 20190407033837
+54.149.81.193 1 3 214519 20190405111809
+158.69.54.207 3 3 24312 20190408020925
+54.201.224.48 1 3 214519 20190414082054
+35.161.1.167 1 1 2701 20190413081111
+18.237.144.49 1 3 214519 20190417081047
+35.163.156.235 1 1 2701 20190417211919
+45.114.118.228 1 1 403 20190402035002
+69.58.178.58 1 1 8104 20190414045458
+160.153.155.12 1 1 403 20190403223622
+52.70.146.155 4 4 10804 20190430224823
+18.237.43.156 1 3 214519 20190422104139
+35.236.121.246 4 4 15550 20190408095346
+54.245.155.150 1 3 214519 20190415082639
+112.164.33.237 1 1 283 20190420223735
+34.222.14.217 1 3 214519 20190428081414
+162.241.34.225 1 1 1161 20190430150142
+52.36.224.35 1 1 2701 20190427081901
+176.119.63.226 2 2 806 20190406014838
+52.42.1.27 1 1 2701 20190426142048
+14.231.100.32 1 1 1688 20190417141257
+54.187.173.196 1 3 214519 20190413081113
+41.65.168.55 1 1 1688 20190411011217
+54.202.54.240 1 1 2701 20190410085523
+46.160.110.146 1 1 2701 20190420170814
+35.178.111.100 1 1 1161 20190401042130
+54.212.232.178 1 3 214519 20190421094020
+14.234.84.136 1 1 1688 20190418080541
+159.89.189.192 1 1 1161 20190411010814
+14.231.198.238 1 1 1688 20190418034830
+18.222.208.118 2 2 2322 20190421210015
+23.129.64.168 1 1 0 20190430072111
+46.101.210.147 2 2 3862 20190415060839
+104.244.78.233 1 1 8104 20190421084721
+54.189.187.111 1 1 2701 20190414082052
+134.209.15.143 1 1 1688 20190407191327
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20190401 42 48 384994 32
+20190402 31 38 431799 24
+20190403 33 43 721080 18
+20190404 18 23 238874 12
+20190405 24 30 386696 15
+20190406 18 24 423201 13
+20190407 23 30 458403 13
+20190408 29 35 469270 17
+20190409 28 36 656297 19
+20190410 42 48 784572 25
+20190411 39 43 263802 22
+20190412 16 23 406362 11
+20190413 55 61 458877 28
+20190414 18 24 444457 10
+20190415 31 38 464218 19
+20190416 40 46 471610 20
+20190417 52 61 696703 34
+20190418 33 40 439214 23
+20190419 20 25 190303 12
+20190420 32 36 254023 19
+20190421 49 56 459018 38
+20190422 29 36 409063 20
+20190423 36 43 473822 22
+20190424 39 46 449641 22
+20190425 49 55 447440 23
+20190426 40 48 468914 28
+20190427 48 54 809555 19
+20190428 26 32 444457 21
+20190429 16 22 384179 11
+20190430 29 38 689355 19
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 30
+30s-2mn 5
+0s-30s 523
+15mn-30mn 19
+1h+ 18
+5mn-15mn 11
+2mn-5mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 30
+/wp-cron.php 379 0 277 278
+/ 275 1180419 212 177
+/wp-login.php 208 457140 90 115
+/2015/03/10/a-day-at-the-office/ 30 243120 0 0
+/wp-admin/admin-post.php 30 0 0 1
+/xmlrpc.php 28 696068 21 22
+/author/williamabishop/ 8 27011 1 7
+/wp-json/wp/v2/users/ 3 1884 0 1
+//wp-admin/admin-post.php 2 0 0 1
+/wp-admin/install.php 2 1686 2 2
+/wp-json/wp/v2/posts/ 1 5602 0 0
+/wp-includes/Requests/Hooker.php 1 0 1 1
+/.well-known/acme-challenge/1T8HI9CDY8G4RRCJL75KCWNBURBF9GPF 1 64 0 0
+/.well-known/acme-challenge/j6dvEuEV33ljpYRVtDHFxfG0cK6RGqAlLFzl4EBjmOY 1 87 0 0
+/.well-known/acme-challenge/DCV0L1WW4E3BLV084WOHZG9EV10TTGKB 1 64 0 0
+/.well-known/acme-challenge/2CJRZ90A-GJ8656VOVZ7IS91S0E109T4 1 64 0 0
+/.well-known/acme-challenge/LA-Qa1T1-fHcEBpuRmHt_01ChBWYSSHXbF4WwElK7R8 1 87 0 1
+/.well-known/acme-challenge/NGMCIDNYKWRGRHSAZQNOSPD9P2E6ITN6 1 64 0 0
+/.well-known/acme-challenge/p8OOAVbVuCd5C9yZM7B6S_dl90Wqc4OIFhCBY-iRZQE 1 87 0 0
+/.well-known/acme-challenge/OWYNTXR30U_N5CYMY2B4AWEPW-EC98KV 1 64 1 0
+/.well-known/acme-challenge/uES0vBdWm9BlbqcRRM2cCTg-hve7eYXmkZB5LhRJkIU 1 87 0 0
+/.well-known/acme-challenge/abnYQJxt_d7u8lZQ6bvdjlMAVPwPhYSN5Xdwg7031bw 1 87 0 0
+/wp-content/index.php 1 0 0 1
+/wp-json/wp/v2/users 1 283 1 1
+/.well-known/acme-challenge/kMxse09Y1FhfHyorlGBL0K5OC5Dmn-2NG64vo-2dMQk 1 87 0 0
+/index.php 1 2701 1 0
+/feed/rdf/ 1 2701 1 1
+/.well-known/acme-challenge/PGUIYs95nfFctvRKBSPj8T2N3k8myOLDGKdeC86GssM 1 87 1 0
+/.well-known/acme-challenge/N534O6TR--FAYVYP17G0VQ8RJ-99R0UU 1 64 0 0
+/.well-known/acme-challenge/KUC2C12RWRLVIHEEUAMDEPTUJ73OBNWU 1 64 0 0
+END_SIDER

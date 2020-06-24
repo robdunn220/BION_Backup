@@ -1,0 +1,870 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202002 will be lost/reset.
+# Last config file used to build this data file was /home1/thebioin/tmp/awstats/awstats.thebioinformaticsnetwork.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2706                
+POS_VISITOR 18395               
+POS_DAY 24339               
+POS_DOMAIN 3501                
+POS_LOGIN 3946                
+POS_ROBOT 4101                
+POS_WORMS 4591                
+POS_EMAILSENDER 4722                
+POS_EMAILRECEIVER 4865                
+POS_SESSION 25120               
+POS_SIDER 25315               
+POS_FILETYPES 5000                
+POS_DOWNLOADS 5230                
+POS_OS 5301                
+POS_BROWSER 5558                
+POS_SCREENSIZE 6458                
+POS_UNKNOWNREFERER 6532                
+POS_UNKNOWNREFERERBROWSER 7008                
+POS_ORIGIN 7230                
+POS_SEREFERRALS 7372                
+POS_PAGEREFS 7539                
+POS_SEARCHWORDS 7715                
+POS_KEYWORDS 7867                
+POS_MISC 2369                
+POS_ERRORS 7926                
+POS_CLUSTER 3802                
+POS_SIDER_404 8095                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200301004942 54 13258 12894900304556
+FirstTime 20200201012513
+LastTime 20200229215726
+LastUpdate 20200301053923 54 0 53 0 0
+TotalVisits 353                 
+TotalUnique 149                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 151                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+AddToFavourites 0 16 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 0 31 40 118803
+1 13 13 43340 18 26 146063
+2 16 21 290059 32 50 25166
+3 58 61 613615 643 651 1648299
+4 21 26 410446 39 39 169243
+5 23 23 57533 17 17 7894
+6 22 27 315316 29 39 170103
+7 23 26 319492 42 54 272601
+8 14 14 37918 19 23 34945
+9 59 89 2806476 31 44 36822
+10 67 97 2691118 51 56 212004
+11 20 26 584818 13 21 92946
+12 12 15 387920 47 49 17220
+13 5 5 0 134 137 84935
+14 12 12 37924 49 55 383768
+15 29 32 362838 38 60 193513
+16 75 78 318284 37 54 72660
+17 17 20 303244 23 34 131377
+18 16 21 299086 22 28 50439
+19 48 66 1362192 50 68 345059
+20 21 21 38306 91 112 378592
+21 199 524 11371351 393 593 5704609
+22 24 35 371999 56 65 345385
+23 7 7 21670 11 11 7082
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 16
+us 639 1089 21485809
+cn 35 35 187565
+nz 26 26 216173
+ua 23 23 130026
+ca 22 22 124604
+fr 16 16 83354
+de 12 12 54172
+ru 7 7 27086
+gb 4 7 377088
+nl 4 4 21670
+in 4 9 261550
+pl 4 4 21670
+ma 2 2 16254
+eu 2 2 5416
+au 2 2 16254
+np 2 2 16254
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+spider 329 5450542 20200229215727 0
+Googlebot/ 100 591264 20200229103607 52
+bot[\s_+:,\.\;\/\\-] 26 102922 20200225101143 0
+bingbot/ 24 64992 20200227064147 14
+msnbot/ 8 21664 20200227064352 8
+bingpreview 6 473024 20200227064344 0
+unknown 6 48762 20200226185722 6
+(firefox/)([0-9]\.|[0-1][0]\.) 2 16254 20200207190330 0
+no_user_agent 2 5416 20200225180057 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+txt 2 17500 0 0
+css 116 2773925 0 0
+js 294 10738282 0 0
+php 269 310304 0 0
+html 477 2688470 0 0
+Unknown 56 89014 0 0
+svg 8 5032 0 0
+xml 2 2090 0 0
+jpg 38 6420328 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/license.txt 2 0 17500
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+win7 591 234
+winxp 14 14
+macosx8 2 2
+ios_iphone 25 10
+win8.1 12 12
+macosx 2 2
+win10 105 105
+linuxandroid 2 2
+Unknown 300 297
+macosx9 6 6
+macosx11 10 10
+macosx10 2 2
+linux 187 104
+winlong 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 43
+chrome26.0.1410.65 2 2
+safari8.0 25 10
+chrome56.0.2896.3 2 2
+firefox47.0 10 10
+firefox62.0 2 0
+opera11.61 1 1
+chrome34.0.1847.116 2 2
+chrome79.0.3945.59 14 14
+chrome74.0.3729.169 2 2
+msie7.0 2 2
+mozilla 87 84
+firefox58.0 2 2
+chrome72.0.3626.121 2 2
+msie6.0 8 8
+chrome46.0.2490.80 2 2
+chrome31.0.1650.57 2 2
+chrome71.0.3578.98 2 2
+firefox72.0 4 4
+firefox64.0 26 26
+chrome78.0.3904.97 6 6
+edge13 2 2
+firefox68.0 2 2
+chrome74.0.3729.157 2 2
+firefox 28 9
+chrome63.0.3239.132 11 11
+msie9.0 505 169
+Unknown 251 251
+chrome35.0.1916.47 6 6
+chrome40.0.2214.85 6 6
+chrome76.0.3809.100 4 4
+msie11.0 13 13
+chrome58.0.1145.75 2 2
+chrome48.0.2564.109 6 6
+firefox60.0 10 10
+msie8.0 4 4
+chrome78.0.3904.108 2 2
+chrome51.0.2704.103 4 4
+chrome68.0.3440.106 137 56
+chrome45.0.2454.94 2 2
+chrome41.0.2228.0 4 2
+firefox53.0 2 2
+firefox59.0 2 2
+chrome66.0.3359.181 54 54
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Go-http-client/1.1 20200229075754
+WordPress/5.3.2;_http://thebioinformaticsnetwork.com 20200229215707
+Cpanel-HTTP-Client/1.0 20200212163418
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200204032819
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20200212163420
+Mozilla/5.0_(compatible;_AffiliateLabz/1.0;__https://affiliatelabz.com/) 20200209211057
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Go-http-client/1.1 20200229075754
+WordPress/5.3.2;_http://thebioinformaticsnetwork.com 20200229215707
+Cpanel-HTTP-Client/1.0 20200212163418
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 410 414
+From1 2 2
+From2 171 507
+From3 2 2
+From4 219 337
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 171 507
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.facebook.net 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+302 3 0
+409 100 8300
+408 1 0
+406 138 30962
+404 901 3786766
+301 282 0
+400 18 18
+403 364 48642
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 327
+/adminer-3.3.2-mysql-en.php 2 -
+/adminer-4.3.0-mysql-cs.php 2 -
+/adminer-3.5.1.php 2 -
+/adminer-4.2.2-en.php 2 -
+/adminer-4.2.3-mysql.php 2 -
+/adminer-4.0.1-mysql.php 2 -
+/adminer-3.3.2.php 2 -
+/adminer-4.2.4.php 2 -
+/adminer-3.6.1-cs.php 2 -
+/foo/wp-login.php 2 -
+/adminer-4.6.2-mysql-cs.php 2 -
+/adminer-3.6.4-mysql-en.php 2 -
+/adminer-4.7.1-mysql-cs.php 2 -
+/wp-content/plugins/themegrill-demo-importer/assets/css/_animation.scss 2 thebioinformaticsnetwork.com
+/adminer-3.3.0.php 2 -
+/adminer-4.0.3-mysql-cs.php 2 -
+/wp-content/plugins/wp-time-capsule/css/opentip.css 2 -
+/adminer-3.6.2.php 2 -
+/wp-json/siteground-optimizer/v1/enable-option 1 -
+/adminer-3.3.1-mysql-en.php 2 -
+/adminer-4.1.0.php 2 -
+/adminer-4.2.4-mysql-cs.php 2 -
+/adminer-4.0.2.php 2 -
+/adminer-4.0.3.php 2 -
+/adminer-3.0.1-en.php 2 -
+/adminer-3.7.1-en.php 2 -
+/adminer-4.6.2-mysql-en.php 4 -
+/wp-content/themes/wp-update.php 2 thebioinformaticsnetwork.com
+/wp-content/plugins/easyrotator-for-wordpress/prv8.php 2 -
+/blog/wp-json/ 1 -
+/adminer-4.0.2-mysql.php 2 -
+/adminer-4.7.0-en.php 2 -
+/adminer-4.3.1-mysql.php 2 -
+/adminer-4.7.3-mysql-en.php 2 -
+/adminer-4.0.3-mysql-en.php 2 -
+/author-sitemap.xml 2 -
+/adminer-4.6.3-cs.php 2 -
+/adminer-4.2.5-cs.php 2 -
+/adminer-3.6.4-en.php 2 -
+/adminer-4.2.0-mysql.php 2 -
+/adminer-4.7.1.php 2 -
+/adminer-3.6.4-mysql.php 4 -
+/adminer-3.3.1-cs.php 2 -
+/adminer-4.2.3.php 2 -
+/adminer-3.3.0-en.php 2 -
+/adminer-3.6.4-mysql-cs.php 2 -
+/a.php 2 -
+/adminer-3.6.2-mysql-en.php 2 -
+/www.zip 1 -
+/adminer-3.3.4-mysql.php 2 -
+/adminer-4.6.3-mysql.php 2 -
+/adminer-4.2.0-cs.php 2 -
+/adminer-3.1.0.php 4 -
+/info/license.txt 2 -
+/adminer-3.6.0.php 2 -
+/adminer-4.7.0-cs.php 2 -
+/adminer-3.7.0-cs.php 2 -
+/adminer-4.3.0-mysql.php 2 -
+/adminer-4.0.2-en.php 2 -
+/wp-content/plugins/CCSlider/includes/upload.php 2 http://www.google.com/
+/adminer-4.3.1-mysql-cs.php 4 -
+/adminer-3.6.0-mysql-en.php 4 -
+/adminer-4.1.0-mysql-en.php 2 -
+/wp-admin/admin-ajax.php 3 -
+/adm.php 2 -
+/adminer-4.6.0.php 2 -
+/adminer-4.6.2-en.php 2 -
+/adminer-3.5.1-en.php 2 -
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 2 http://www.google.com/
+/adminer-3.7.0.php 2 -
+/adminer-3.3.1-en.php 2 -
+/adminer-3.3.2-en.php 2 -
+/adminer-4.7.3-mysql-cs.php 2 -
+/adminer-3.6.3-cs.php 2 -
+/adminer-4.0.0-cs.php 2 -
+/wp-info.php/wp-info.php 2 thebioinformaticsnetwork.com
+/thebioinformaticsnetwork.zip 1 -
+/searchreplacedb2.php 12 -
+/adminer-3.5.0-en.php 2 -
+/adminer-3.5.0-mysql.php 2 -
+/adminer-3.0.0-mysql-en.php 2 -
+/adminer-4.6.1-en.php 2 -
+/mysql.php 2 -
+/adminer-3.3.0-mysql.php 2 -
+/adminer-4.7.2-cs.php 2 -
+/admin/ckfinder/ckfinder.html 2 -
+/adminer-3.6.2-en.php 2 -
+/adminer-4.6.2-cs.php 2 -
+/adminer-3.5.0.php 2 -
+/adminer-4.4.0.php 2 -
+/adminer-3.7.1-mysql-en.php 4 -
+/adminer-4.0.3-mysql.php 2 -
+/adminer-3.3.4.php 2 -
+/adminer-4.4.0-cs.php 2 -
+/th1s_1s_a_4o4.html 58 -
+/wp-content/plugins/indeed-membership-pro/assets/css/templates.css 12 -
+/admin/ 2 -
+/adminer-4.2.5-mysql-cs.php 2 -
+/adminer-3.6.3-mysql-cs.php 2 -
+/adminer-3.6.1-mysql.php 2 -
+/adminer-3.5.0-cs.php 4 -
+/adminer-3.0.0-en.php 4 -
+/adminer-3.4.0-mysql.php 2 -
+/wp-content/plugins/profile-builder-pro/assets/css/style-front-end.css 12 -
+/adminer-4.2.5-en.php 2 -
+/adminer-4.7.2.php 2 -
+/pma.php 2 -
+/adminer-4.0.1-mysql-cs.php 2 -
+/adminer-4.0.0-mysql-en.php 2 -
+/adminer-4.7.2-mysql.php 2 -
+/adminer-4.2.1-mysql.php 4 -
+/adminer-3.6.3-mysql-en.php 2 -
+/blog/license.txt 2 -
+/adminer-4.6.0-mysql.php 2 -
+/wp-content/plugins/brizy/public/static/css/style.css 2 thebioinformaticsnetwork.com
+/adminer-3.2.1-mysql-cs.php 2 -
+/adminer-4.4.0-en.php 2 -
+/adminer-3.3.3-en.php 4 -
+/adminer-3.7.1-cs.php 2 -
+/adminer-4.7.3-en.php 2 -
+/adminer-4.0.1-mysql-en.php 4 -
+/adminer-4.3.0-mysql-en.php 2 -
+/adminer-4.2.3-mysql-en.php 2 -
+/wp-content/plugins/themegrill-demo-importer/assets/js/admin/demo-importer.js 2 -
+/adminer-3.6.1.php 2 -
+/adminer-3.0.1-cs.php 4 -
+/adminer-4.2.1-en.php 2 -
+/adminer-4.1.0-cs.php 2 -
+/adminer-4.7.3.php 2 -
+/adminer-3.0.1-mysql.php 2 -
+/adminer-3.6.2-mysql-cs.php 2 -
+/adminer-4.2.1-mysql-en.php 2 -
+/adminer-3.2.2-en.php 2 -
+/adminer-4.2.1-cs.php 2 -
+/adminer-3.1.0-mysql-en.php 4 -
+/adminer-3.7.1.php 2 -
+/adminer-4.6.1-cs.php 2 -
+/adminer-4.5.0.php 2 -
+/adminer-4.4.0-mysql-en.php 2 -
+/adminer-4.7.0.php 2 -
+/adminer-3.0.0-mysql.php 2 -
+/adminer-4.2.0-mysql-en.php 2 -
+/adminer-3.4.0-cs.php 2 -
+/adminer-3.0.1-mysql-en.php 2 -
+/adminer 2 -
+/adminer-4.1.0-mysql.php 2 -
+/_adminer.php 2 -
+/adminer-4.4.0-mysql.php 4 -
+/adminer-3.7.0-mysql-en.php 2 -
+/adminer-4.1.0-en.php 2 -
+/adminer-4.0.1-en.php 4 -
+/adminer-4.2.2-mysql-en.php 2 -
+/adminer-4.2.2-mysql.php 4 -
+/adminer-3.2.0.php 2 -
+/wp-content/plugins/adminer/inc/editor/ 4 http://thebioinformaticsnetwork.com/wp-content/plugins/adminer/inc/editor/index.php
+/adminer-3.7.0-en.php 2 -
+/adminer/ 2 thebioinformaticsnetwork.com
+/adminer-4.2.5.php 2 -
+/adminer-4.6.1-mysql-cs.php 2 -
+/adminer-4.5.0-mysql.php 2 -
+/wp.php 2 -
+/adminer-4.3.1.php 2 -
+/adminer-4.0.1.php 2 -
+/adminer-3.3.4-mysql-cs.php 2 -
+/adminer-3.2.0-mysql.php 2 -
+/adminer-4.2.1.php 2 -
+/adminer-4.6.0-mysql-en.php 2 -
+/adminer-4.2.4-mysql.php 2 -
+/bitrix/admin/search.php 1 -
+/adminer-3.3.3.php 4 -
+/adminer-4.6.2.php 2 -
+/adminer-4.2.4-en.php 2 -
+/adminer-3.5.1-cs.php 4 -
+/adminer-3.6.1-mysql-en.php 2 -
+/adminer-4.3.0-en.php 2 -
+/adminer-4.5.0-mysql-en.php 2 -
+/adminer-3.3.3-cs.php 2 -
+/adminer-4.6.0-cs.php 2 -
+/adminer-3.7.1-mysql.php 2 -
+/adminer-4.0.0-mysql-cs.php 2 -
+/wp-content/uploads/adminer.php 2 -
+/adminer-3.7.0-mysql.php 2 -
+/adminer-3.1.0-mysql-cs.php 2 -
+/adminer-4.3.1-cs.php 2 -
+/_adminer 2 -
+/adminer-4.6.1-mysql.php 2 -
+/adminer-4.5.0-mysql-cs.php 4 -
+/adminer-3.3.0-mysql-cs.php 2 -
+/adminer-3.0.0-cs.php 2 -
+/adminer-4.7.0-mysql-en.php 2 -
+/adminer-3.0.1.php 2 -
+/avtogear_ru_cron_k.php 1 -
+/adminer-4.0.2-mysql-en.php 4 -
+/db.php 2 -
+/wp-content/plugins/linklove/linklove.php 2 thebioinformaticsnetwork.com
+/ 80 -
+/adminer-3.3.1.php 2 -
+/adminer-4.6.3-mysql-cs.php 2 -
+/adminer-4.0.0-en.php 2 -
+/adminer-4.7.2-mysql-en.php 2 -
+/login/ 8 thebioinformaticsnetwork.com
+/adminer-3.0.0-mysql-cs.php 2 -
+/adminer-3.0.0.php 2 -
+/adminer-4.6.0-mysql-cs.php 2 -
+/adminer-3.3.4-en.php 2 -
+/adminer-3.5.1-mysql-en.php 2 -
+/adminer-4.1.0-mysql-cs.php 2 -
+/adminer-4.6.2-mysql.php 2 -
+/adminer-4.2.2-cs.php 2 -
+/adminer-3.3.1-mysql-cs.php 2 -
+/adminer-3.3.4-mysql-en.php 2 -
+/adminer-4.2.1-mysql-cs.php 2 -
+/adminer-3.6.1-mysql-cs.php 2 -
+/adminer-3.1.0-mysql.php 2 -
+/adminer-4.3.0-cs.php 2 -
+/adminer-4.2.3-cs.php 2 -
+/adminer-4.7.3-cs.php 2 -
+/adminer-4.5.0-en.php 2 -
+/ads.txt 2 -
+/adminer-4.7.1-cs.php 2 -
+/adminer-4.7.2-mysql-cs.php 2 -
+/adminer-3.2.2-cs.php 4 -
+/adminer-4.0.2-mysql-cs.php 2 -
+/adminer-4.7.0-mysql.php 2 -
+/adminer-3.3.2-cs.php 2 -
+/adminer-4.3.1-mysql-en.php 2 -
+/adminer-4.4.0-mysql-cs.php 2 -
+/wp/license.txt 2 -
+/connect.php 2 -
+/wp-content/plugins/profile-builder/assets/css/serial-notice.css 2 thebioinformaticsnetwork.com
+/adminer-3.5.1-mysql.php 4 -
+/adminer-3.3.2-mysql.php 2 -
+/adminer-3.2.1-en.php 2 -
+/ckfinder/ckfinder.html 4 -
+/adminer-4.0.1-cs.php 2 -
+/adminer-3.5.1-mysql-cs.php 2 -
+/adminer-3.6.3-mysql.php 2 -
+/adminer-4.3.1-en.php 2 -
+/adminer-4.2.2-mysql-cs.php 2 -
+/adminer-4.7.3-mysql.php 2 -
+/adminer-3.2.2-mysql-en.php 2 -
+/adminer-4.6.3.php 2 -
+/adminer-3.5.0-mysql-cs.php 2 -
+/adminer-4.6.3-en.php 2 -
+/wp-content/themes/mantra/uploads/upload.php 2 thebioinformaticsnetwork.com
+/adminer-3.4.0-mysql-en.php 4 -
+/adminer-3.3.3-mysql-cs.php 2 -
+/wp-content/plugins/mm-forms/includes/doajaxfileupload.php 2 http://www.google.com/
+/adminer-4.2.4-mysql-en.php 2 -
+/adminer-3.4.0-mysql-cs.php 2 -
+/.aws/credentials 6 -
+/wp-admin/output.php 1 -
+/adminer-3.6.3-en.php 2 -
+/adminer-3.7.0-mysql-cs.php 2 -
+/adminer-3.2.0-en.php 2 -
+/adminer-3.7.1-mysql-cs.php 2 -
+/wp.zip 1 -
+/adminer-3.2.0-cs.php 2 -
+/replace.php 12 -
+/adminer-4.0.0.php 2 -
+/adminer-4.0.3-cs.php 2 -
+/adminer-3.6.0-en.php 2 -
+/adminer-3.3.0-mysql-en.php 2 -
+/adminer-4.2.2.php 2 -
+/adminer-3.6.4.php 2 -
+/adminer-3.2.1-mysql-en.php 2 -
+/adminer-3.2.0-mysql-en.php 2 -
+/adminer-3.6.0-mysql-cs.php 2 -
+/adminer-4.7.0-mysql-cs.php 2 -
+/adminer-3.3.4-cs.php 2 -
+/adminer-3.6.2-mysql.php 2 -
+/adminer-3.3.0-cs.php 4 -
+/adminer-4.2.5-mysql.php 2 -
+/adminer-4.2.5-mysql-en.php 2 -
+/adminer-4.2.4-cs.php 2 -
+/adminer-4.2.0-mysql-cs.php 2 -
+/adminer-3.2.2.php 2 -
+/wp-includes/css/hi.php 1 -
+/adminer-3.2.0-mysql-cs.php 2 -
+/adminer-3.1.0-en.php 2 -
+/adminer-3.2.1.php 2 -
+/ad.php 2 -
+/adminer-4.2.3-mysql-cs.php 2 -
+/adminer-3.6.2-cs.php 2 -
+/adminer-4.7.2-en.php 2 -
+/adminer-3.4.0.php 2 -
+/wp-content/plugins/profile-builder/assets/css/style-front-end.css 12 -
+/adminer-3.2.1-mysql.php 2 -
+/assets/images/wp-console.php 2 -
+/adminer-3.6.0-cs.php 2 -
+/adminer-4.6.3-mysql-en.php 2 -
+/adminer.php 2 -
+/adminer-3.6.1-en.php 2 -
+/adminer-3.5.0-mysql-en.php 4 -
+/adminer-3.3.2-mysql-cs.php 2 -
+/adminer-4.3.0.php 2 -
+/adminer-3.6.0-mysql.php 2 -
+/sitemap.xml 4 -
+/adminer-4.7.1-en.php 2 -
+/adminer-3.2.2-mysql-cs.php 2 -
+/adminer-4.7.1-mysql.php 2 -
+/adminer-3.2.1-cs.php 2 -
+/adminer-4.6.1-mysql-en.php 2 -
+/adminer-3.6.4-cs.php 2 -
+/wp-content/adminer.php 2 -
+/adminer-3.3.3-mysql-en.php 2 -
+/wp-content/plugins/gallery-plugin/upload/php.php 2 http://www.google.com/
+/adminer-3.3.1-mysql.php 2 -
+/adminer-3.0.1-mysql-cs.php 2 -
+/adminer-3.2.2-mysql.php 2 -
+/wp-content/plugins/flexible-checkout-fields/assets/css/admin.min.css 2 thebioinformaticsnetwork.com
+/adminer-4.0.0-mysql.php 2 -
+/adminer-4.0.2-cs.php 2 -
+/adminer-4.5.0-cs.php 2 -
+/adminer-4.7.1-mysql-en.php 4 -
+/adminer-4.2.3-en.php 4 -
+/adminer-3.1.0-cs.php 2 -
+/adminer-4.6.1.php 2 -
+/adminer-4.2.0.php 2 -
+/wp-content/plugins/convertplug/modules/info_bar/assets/css/info_bar.min.css 2 -
+/adminer-3.6.3.php 2 -
+/adminer-4.6.0-en.php 4 -
+/wp-json/trx_addons/v2/get/sc_layout 1 thebioinformaticsnetwork.com
+/adminer-4.2.0-en.php 2 -
+/adminer-4.0.3-en.php 2 -
+/adminer-3.4.0-en.php 2 -
+/adminer-3.3.3-mysql.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 151
+162.241.252.17 235 235 2984 20200229215707
+184.154.139.52 60 177 3955001 20200224215708
+184.154.139.49 37 111 2374919 20200229215726
+45.67.57.39 26 26 216173 20200201030305
+184.154.139.51 25 73 1675479 20200222220236
+184.154.139.4 24 72 1616007 20200228215155
+184.154.139.50 23 72 1903252 20200225214935
+69.164.111.198 12 12 97524 20200215151339
+123.148.219.58 11 11 35869 20200213055840
+60.191.38.77 10 10 81270 20200226171249
+158.69.116.60 6 6 48762 20200204032701
+5.255.174.141 6 6 48762 20200225142412
+14.17.70.173 6 6 16248 20200201220722
+62.138.137.114 6 6 27086 20200213114228
+66.133.109.36 6 6 522 20200212163419
+62.210.140.4 6 6 34598 20200219031517
+104.196.12.125 4 4 10832 20200224080201
+35.196.69.187 4 4 10832 20200228082937
+34.73.128.10 4 7 265320 20200207195156
+158.69.241.223 4 4 10832 20200209103551
+35.231.101.59 4 7 265320 20200215105935
+93.186.202.223 4 4 21670 20200213201954
+199.244.88.131 4 4 10832 20200229020750
+35.227.28.109 4 4 10832 20200208055851
+95.217.15.80 4 4 21670 20200213072736
+34.213.222.232 2 5 259904 20200207091718
+118.127.15.84 2 2 16254 20200213043310
+54.202.76.63 2 2 5416 20200201110929
+173.254.223.210 1 1 31082 20200212210057
+46.162.1.42 2 2 16254 20200211021713
+34.212.22.194 2 5 259904 20200203090306
+3.233.212.58 2 2 5416 20200203063718
+52.89.116.44 2 5 259904 20200206100238
+54.244.204.0 2 2 5416 20200213165732
+100.20.101.172 2 2 5416 20200214193154
+159.203.93.122 2 2 16254 20200218225831
+34.215.195.204 2 5 259904 20200208095250
+61.53.66.4 2 2 16254 20200201214152
+54.68.54.103 2 2 5416 20200202113629
+159.89.207.86 2 2 16254 20200207190258
+35.160.154.109 2 5 259904 20200228104056
+45.224.105.128 2 2 16254 20200201070933
+54.213.197.204 2 2 5416 20200224041410
+34.219.103.72 2 2 5416 20200218104211
+87.251.76.139 2 2 5416 20200228183413
+54.202.57.193 2 5 259904 20200214155408
+35.162.130.165 2 2 5416 20200211103347
+54.186.172.131 0 2 85532 
+34.219.191.39 2 2 5416 20200226192154
+54.212.107.99 2 2 5416 20200206100233
+52.89.83.190 2 5 259904 20200211103351
+194.61.24.29 2 2 16254 20200209035819
+165.227.189.234 2 2 16254 20200212085742
+34.222.78.87 2 5 259904 20200204102347
+34.221.196.217 2 2 5416 20200212092342
+78.47.49.93 2 2 5416 20200208224211
+18.233.55.0 0 2 17500 
+178.136.123.116 2 2 16254 20200202220350
+54.147.248.244 2 2 5416 20200229075754
+193.106.30.99 3 3 0 20200217165558
+34.222.191.241 2 4 217138 20200219095929
+100.20.65.8 2 5 259904 20200222092753
+34.213.190.240 2 2 5416 20200204102342
+34.210.228.77 2 2 5416 20200212204206
+82.202.204.118 2 2 16254 20200219035234
+91.90.195.82 2 2 5416 20200221063446
+52.28.236.88 2 2 174 20200212163419
+54.212.197.228 2 4 217138 20200227091014
+124.41.248.30 2 2 16254 20200201140830
+34.208.31.57 2 2 5416 20200225170359
+111.26.198.30 2 2 16254 20200202043043
+34.222.215.89 2 2 5416 20200211142121
+34.220.194.8 2 2 5416 20200204192638
+18.237.238.198 2 2 5416 20200205104914
+54.212.147.222 2 5 259904 20200224041414
+185.195.24.62 1 1 0 20200213100503
+54.245.177.23 2 2 5416 20200217193025
+62.210.47.193 4 4 21670 20200213155855
+35.162.169.32 2 2 5416 20200221104330
+52.88.176.97 2 2 5416 20200228104051
+51.77.246.68 2 5 259904 20200204032814
+54.149.246.4 2 4 217138 20200224094240
+18.237.185.184 2 2 5416 20200207091710
+167.99.54.140 2 2 16254 20200225032114
+35.243.140.252 4 7 265320 20200222174706
+142.44.151.107 4 4 21670 20200216191206
+107.172.155.176 2 7 261162 20200218020726
+54.188.38.157 2 5 259904 20200225073528
+162.251.61.154 2 2 5416 20200228105017
+34.222.180.174 2 2 5416 20200219192539
+35.243.231.165 4 4 10832 20200216065713
+62.210.83.78 4 4 10832 20200223042330
+3.14.255.131 2 2 174 20200212163419
+35.164.69.42 2 2 5416 20200222092745
+100.20.101.68 2 2 5416 20200206034945
+34.223.108.10 2 5 259904 20200201110934
+64.246.165.180 2 2 5416 20200218011008
+35.161.145.104 2 2 5416 20200219044602
+35.231.5.175 4 4 10832 20200212062805
+34.219.120.243 2 2 5416 20200227091011
+54.202.80.82 2 2 5416 20200225073518
+192.227.240.116 2 7 261162 20200206195204
+52.26.55.204 2 2 5416 20200220093312
+34.219.168.47 2 2 5416 20200203090258
+52.12.58.127 2 2 5416 20200210092017
+34.222.252.229 2 5 259904 20200221104334
+103.82.235.2 2 2 388 20200229203616
+34.218.242.97 2 5 259904 20200205104917
+192.210.177.242 1 1 1811 20200218020739
+34.213.188.13 2 5 259904 20200220093316
+138.68.60.27 2 2 16254 20200202171319
+44.228.131.16 2 5 259904 20200209103722
+52.24.231.69 2 5 259904 20200218104217
+34.222.191.75 2 5 259904 20200215064040
+35.231.76.237 4 7 265320 20200207195326
+178.62.74.6 2 2 5416 20200224120214
+173.249.1.160 1 1 117184 20200203122525
+34.215.222.152 2 2 5416 20200217092842
+45.152.35.21 2 7 261162 20200225185145
+128.199.131.129 1 1 0 20200224165638
+18.237.246.32 2 5 259904 20200216125518
+34.210.255.173 2 5 259904 20200202113633
+52.89.51.102 2 2 5416 20200207192649
+54.191.224.88 2 2 5416 20200215064038
+34.222.94.10 2 5 259904 20200212092347
+213.242.20.29 2 2 5416 20200205202540
+195.154.62.232 2 2 16254 20200216012410
+192.99.15.15 2 2 16254 20200226185749
+54.213.230.76 2 5 259904 20200210092023
+34.217.48.7 2 2 5416 20200208095245
+46.101.38.12 4 4 21670 20200212153236
+52.15.254.228 4 4 348 20200212163420
+35.161.197.91 2 5 259904 20200226192157
+18.236.150.63 2 2 5416 20200217092740
+27.211.168.245 2 2 16254 20200202105032
+104.254.92.54 2 2 5416 20200203010005
+35.237.0.4 4 4 10832 20200204053032
+34.223.57.198 2 5 259904 20200213165736
+173.245.202.193 2 2 16254 20200217184727
+188.163.104.143 2 2 5416 20200227021453
+35.229.48.152 4 4 10832 20200220073230
+54.202.214.30 2 2 5416 20200209103719
+62.171.135.115 1 1 117184 20200209211057
+192.3.215.213 2 6 218396 20200226194920
+104.196.198.200 4 7 265320 20200215105236
+106.83.241.120 2 2 5416 20200209103542
+52.10.85.26 2 2 5416 20200219095921
+91.234.146.137 4 4 21670 20200212195026
+54.186.97.196 2 2 5416 20200214155402
+34.220.1.124 2 2 5416 20200216125511
+18.236.81.179 2 5 259904 20200217092846
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20200201 64 81 928262 18
+20200202 26 40 723501 12
+20200203 24 40 805471 15
+20200204 28 43 982637 11
+20200205 17 32 665933 9
+20200206 22 40 836616 10
+20200207 32 54 1190932 15
+20200208 20 37 855213 9
+20200209 30 42 893930 16
+20200210 17 32 647799 9
+20200211 18 25 597289 12
+20200212 97 109 814655 21
+20200213 49 61 755357 19
+20200214 17 32 638494 9
+20200215 27 50 1204753 9
+20200216 23 33 662165 12
+20200217 28 44 705887 14
+20200218 23 45 1146692 12
+20200219 30 48 762805 13
+20200220 19 34 629658 8
+20200221 20 39 721052 11
+20200222 20 37 848467 10
+20200223 11 25 549869 6
+20200224 31 49 1003357 15
+20200225 27 47 882119 15
+20200226 23 43 1074286 11
+20200227 19 32 597685 11
+20200228 24 38 601912 11
+20200229 18 30 318149 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30mn-1h 9
+1h+ 4
+2mn-5mn 1
+5mn-15mn 5
+30s-2mn 1
+0s-30s 333
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/ 413 1950228 173 142
+/wp-cron.php 197 0 169 169
+/wp-login.php 59 274047 1 28
+/about/ 54 438858 0 3
+/xmlrpc.php 11 35869 1 1
+/.well-known/acme-challenge/iSoHUKPk5Fg4domuXq4AOO_tij_UtCztut6bjE-RMhg 6 522 2 2
+/.well-known/acme-challenge/meJhRnCemwukH1daU6gHkqqkvFS7InoqfuCWN2aaKgU 6 522 0 0
+/.well-known/acme-challenge/yelOt6R89pLgodH8IosQZrqaiqVY76bKlXYMwvu4198 6 522 0 0
+/.well-known/acme-challenge/SrFQBYPxty93QtLiKQpz2d4pWu_1HF4JmZGa86CE63U 6 522 0 0
+/.well-known/acme-challenge/4yuplQ0S0zphqb9vzzzuzswQjshE5BDLdcPEIEwvY9M 6 522 0 1
+/.well-known/acme-challenge/g5BMD6W2pQyl6Ik9oxLjtkCeDL8HbdEn0PL4awQqTAU 4 348 2 0
+/.well-known/acme-challenge/oOHlS_3caclNQYM_snWbKrKj5c1lkhpQmXlHSWnJxBM 4 348 0 2
+/feed/ 2 16254 0 0
+/.well-known/acme-challenge/OER0E_WRSTUD7REHR-L6W0FP5H_1FAGH 2 128 0 0
+/wp-json/wp/v2/posts 2 53102 0 0
+/.well-known/acme-challenge/-CBC4XRA-9WLKPSZ2APJIV4TELSPD1VD 2 128 1 0
+/.well-known/acme-challenge/545VSEHSKPU3QJWL_7D1T761LZQXM9RE 2 128 0 0
+/wp-includes/wlwmanifest.xml 2 2090 0 1
+/.well-known/acme-challenge/ZDU7FX-RLDO3QWMZMTVP7DNUE0R8L8RF 2 128 0 0
+/.well-known/acme-challenge/X8CT35HWAF6GS9LURQ75UNSPKBL0_2YJ 2 128 0 0
+/.well-known/acme-challenge/H_YHNLCKNR4JJ2SGR__5EUPHAHLV46C_ 2 128 0 0
+/wp-json/ 2 234368 2 2
+/2019/06/16/demo-5-reasons-you-need-the-x-theme/ 2 16254 0 0
+/wp-links-opml.php 2 388 1 1
+/2019/06/12/hello-world/ 2 16254 0 0
+/wp-json/wp/v2/users 1 628 0 0
+/wp-json/wp/v2/pages 1 31082 1 1
+/author/williamabishop/ 2 16254 0 0
+/.well-known/acme-challenge/S9I-JL-4KNYUTAS40R5YBGLHFCAF4MSP 2 128 0 0
+END_SIDER

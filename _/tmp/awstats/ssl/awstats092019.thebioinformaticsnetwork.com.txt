@@ -1,0 +1,428 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home1/thebioin/tmp/awstats/ssl/awstats.thebioinformaticsnetwork.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2030                
+POS_TIME 2706                
+POS_VISITOR 9304                
+POS_DAY 11193               
+POS_DOMAIN 3410                
+POS_LOGIN 3748                
+POS_ROBOT 3903                
+POS_WORMS 4158                
+POS_EMAILSENDER 4289                
+POS_EMAILRECEIVER 4432                
+POS_SESSION 11850               
+POS_SIDER 12031               
+POS_FILETYPES 4567                
+POS_DOWNLOADS 4683                
+POS_OS 4731                
+POS_BROWSER 4845                
+POS_SCREENSIZE 5084                
+POS_UNKNOWNREFERER 5158                
+POS_UNKNOWNREFERERBROWSER 5599                
+POS_ORIGIN 5921                
+POS_SEREFERRALS 6057                
+POS_PAGEREFS 6201                
+POS_SEARCHWORDS 6380                
+POS_KEYWORDS 6532                
+POS_MISC 2369                
+POS_ERRORS 6591                
+POS_CLUSTER 3604                
+POS_SIDER_404 6765                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001001046 8 1569 21230173544982
+FirstTime 20190901071512
+LastTime 20190930221100
+LastUpdate 20191001061731 8 0 7 0 0
+TotalVisits 119                 
+TotalUnique 47                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 47                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 17 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 0 5 7 16282
+1 5 7 90942 11 17 8764
+2 6 6 5410 11 11 330
+3 8 8 16230 3 6 21676
+4 2 2 0 14 16 11686
+5 3 3 5410 8 12 19304
+6 6 6 5410 47 51 38686
+7 6 6 5410 14 22 39670
+8 9 9 16230 11 19 27050
+9 9 9 10820 8 15 43316
+10 5 5 5410 9 17 114120
+11 8 10 101762 4 4 0
+12 6 6 24789 62 74 273854
+13 23 23 81258 22 24 34605
+14 10 12 112618 12 12 762
+15 5 7 90942 41 50 42106
+16 14 14 27086 24 35 166792
+17 22 22 151804 149 158 760639
+18 6 6 21676 435 439 147856
+19 12 12 32496 36 38 14951
+20 13 13 37906 12 16 128886
+21 7 7 21676 18 20 60176
+22 4 4 5410 7 7 18482
+23 2 2 0 7 13 27276
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 136 136 211098
+ru 20 20 151804
+de 19 27 385408
+ca 6 6 48798
+jp 3 3 19379
+br 2 2 16266
+ua 2 2 16266
+cn 2 2 16266
+fr 2 2 5410
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+Googlebot/ 96 500046 20190926065911 48
+bingbot/ 44 119020 20190929082839 28
+bot[\s_+:,\.\;\/\\-] 12 97596 20190926225241 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 121 525454 0 0
+php 71 3113 0 0
+js 8 342128 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+win10 40 40
+win7 27 27
+linux 36 28
+Unknown 97 97
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+mozilla 8 8
+firefox50.0 16 8
+Unknown 89 89
+firefox64.0 18 18
+msie9.0 2 2
+chrome76.0.3809.100 2 2
+chrome74.0.3729.169 2 2
+firefox62.0 18 18
+chrome40.0.2214.85 3 3
+chrome66.0.3359.181 42 42
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+WordPress/5.2.2;_https://thebioinformaticsnetwork.com 20190904040454
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20190926081133
+Go-http-client/2.0 20190930034746
+WordPress/5.2.3;_http://thebioinformaticsnetwork.com 20190927193603
+WordPress/5.2.3;_https://thebioinformaticsnetwork.com 20190929082833
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WordPress/5.2.3;_http://thebioinformaticsnetwork.com 20190927193603
+Go-http-client/2.0 20190930034746
+WordPress/5.2.3;_https://thebioinformaticsnetwork.com 20190929082833
+WordPress/5.2.2;_https://thebioinformaticsnetwork.com 20190904040454
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 108 116
+From1 0 0
+From2 0 0
+From3 8 8
+From4 76 76
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://162.241.252.17:443 8 8
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+406 55 12430
+301 118 0
+403 62 8308
+400 52 1419
+302 1 0
+404 177 1225476
+409 416 34528
+500 33 18446
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 78
+/magento/errors/503.php 2 -
+/dev/rss/catalog/review 2 -
+/magento/admin/ 2 -
+/shop/admin/ 2 -
+/wp-content/cache/log/000000/minify.log 1 -
+/3 6 -
+/store/admin/ 2 -
+/.env 2 -
+/wp-content/plugins/sam-pro-free/sam-pro-ajax-admin.php 2 -
+/old/rss/catalog/review 2 -
+/test/errors/503.php 2 -
+/forums/ 1 -
+/demo/downloader/ 2 -
+/store/downloader/ 2 -
+/demo/rss/catalog/review 2 -
+/store/rss/catalog/review 2 -
+/test/downloader/ 2 -
+/demo/admin/ 2 -
+/wp-content/themes/epic/includes/download.php 2 -
+/wp-admin/admin-ajax.php 6 -
+/staging/rss/catalog/notifystock 2 -
+/wp-config.txt 2 -
+/vb5/ 1 -
+/forum/ 1 -
+/staging/errors/503.php 2 -
+/magento/rss/catalog/review 2 -
+/test/rss/catalog/notifystock 2 -
+/_wpeprivate/config.json 2 -
+/wp-content/cache/log/000000/pagecache.log 1 -
+/wp-content/plugins/wp-hide-security-enhancer/router/file-process.php 2 -
+/2019/01/02/hello-world/ 2 -
+/store/errors/503.php 2 -
+/rss/catalog/review 2 -
+/test/rss/catalog/review 2 -
+/vbulletin5/ 1 -
+/dev/rss/catalog/notifystock 2 -
+/vb/ 1 -
+/dev/admin/ 2 -
+/vbulletin/ 1 -
+/2 6 -
+/shop/downloader/ 2 -
+/shop/rss/catalog/review 2 -
+/old/errors/503.php 2 -
+/errors/503.php 2 -
+/old/rss/catalog/notifystock 2 -
+/wp-config.inc 2 -
+/store/rss/catalog/notifystock 2 -
+/wp-config-backup.txt 2 -
+/demo/rss/catalog/notifystock 2 -
+/downloader/ 2 -
+/wp-json/siteground-optimizer/v1/enable-option 1 -
+/join 2 -
+/magento/downloader/ 2 -
+/wp-content/cache/log/000000/varnish.log 1 -
+/ 18 https://thebioinformaticsnetwork.com/
+/wp-config.xml 2 -
+/shop/rss/catalog/notifystock 2 -
+/dev/errors/503.php 2 -
+/old/admin/ 2 -
+/staging/admin/ 2 -
+/admin/ 2 -
+/wp-content/themes/cafesalivation/download.php 2 -
+/magento/rss/catalog/notifystock 2 -
+/demo/errors/503.php 2 -
+/wp-content/cache/log/000000/dbcache.log 1 -
+/wp-admin/admin-post.php 6 -
+/wp-content/themes/urbancity/lib/scripts/download.php 2 -
+/shop/errors/503.php 2 -
+/rss/catalog/notifystock 2 -
+/staging/downloader/ 2 -
+/test/admin/ 2 -
+/old/downloader/ 2 -
+/wp-content/uploads/file-manager/log.txt 2 -
+/wp-content/plugins/bold-page-builder/css/front_end/content_elements.crush.css 2 -
+/wp-content/force-download.php 2 -
+/dev/downloader/ 2 -
+/staging/rss/catalog/review 2 -
+/wp-content/uploads/wp-config-backup.txt 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 47
+162.241.252.17 69 69 0 20190929082833
+185.128.26.23 18 18 146394 20190909174443
+192.99.38.186 6 6 48798 20190901135225
+137.226.113.26 6 6 16230 20190926081133
+137.226.113.34 6 12 272826 20190928155603
+192.169.159.241 3 3 16266 20190927193655
+138.246.253.5 3 3 0 20190930221100
+163.44.207.54 3 3 19379 20190920124937
+34.220.22.138 2 2 5410 20190921212910
+35.160.212.159 2 2 5410 20190914093155
+186.202.161.18 2 2 16266 20190910165636
+54.212.151.14 2 2 5410 20190910131228
+188.165.192.220 2 2 5410 20190903172226
+34.219.204.246 2 2 5410 20190911070838
+137.226.113.21 2 4 90942 20190908140035
+18.236.102.202 2 2 5410 20190921204546
+183.150.164.245 2 2 16266 20190903180838
+34.221.71.210 2 2 5410 20190924181659
+54.218.105.90 2 2 5410 20190930085154
+176.36.21.189 2 2 16266 20190905144706
+54.188.63.25 2 2 5410 20190926021359
+34.214.136.70 2 2 5410 20190927050206
+35.162.135.93 2 2 5410 20190919202401
+18.237.211.157 2 2 5410 20190918190558
+34.219.191.151 2 2 5410 20190908132344
+18.236.92.34 2 2 5410 20190917203552
+34.215.35.173 2 2 5410 20190912094606
+34.212.233.107 2 2 5410 20190919032007
+54.188.78.23 2 2 5410 20190906115420
+165.227.48.147 2 2 16266 20190911214345
+52.12.177.184 2 2 5410 20190915111800
+137.226.113.28 2 2 5410 20190920141035
+54.202.84.164 2 2 5410 20190911131410
+54.244.192.96 2 2 5410 20190930034746
+34.220.218.92 2 2 5410 20190901130540
+54.149.216.234 2 2 5410 20190907133138
+18.237.212.2 2 2 5410 20190913120506
+132.148.19.69 2 2 16266 20190910202248
+52.88.141.101 2 2 5410 20190916101258
+82.202.161.133 2 2 5410 20190920164124
+54.189.56.191 2 2 5410 20190919193522
+34.221.96.120 2 2 5410 20190926224956
+54.203.32.169 2 2 5410 20190909132331
+34.221.7.107 2 2 5410 20190920063319
+34.222.170.75 2 2 5410 20190920193207
+54.191.175.156 2 2 5410 20190925202457
+34.220.26.254 2 2 5410 20190924034925
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20190901 9 9 54208 3
+20190902 4 4 0 4
+20190903 7 7 21676 5
+20190904 2 2 0 2
+20190905 7 7 21676 5
+20190906 4 4 5410 3
+20190907 4 4 5410 3
+20190908 7 9 96352 5
+20190909 20 20 151804 2
+20190910 11 11 37942 7
+20190911 8 8 27086 5
+20190912 7 7 5410 5
+20190913 3 3 5410 2
+20190914 4 4 5410 3
+20190915 4 4 5410 3
+20190916 3 3 5410 2
+20190917 11 13 101762 8
+20190918 4 4 5410 3
+20190919 9 9 16230 6
+20190920 16 16 41019 10
+20190921 4 4 10820 2
+20190922 1 1 0 1
+20190924 12 14 101762 9
+20190925 3 3 5410 2
+20190926 11 11 16230 8
+20190927 7 7 21676 4
+20190928 4 6 90942 3
+20190929 1 1 0 1
+20190930 5 5 10820 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30s-2mn 2
+0s-30s 114
+5mn-15mn 2
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 101 362794 49 49
+/wp-cron.php 69 0 67 67
+/2015/07/20/new-copywriting-positions-available/ 18 146394 1 1
+/feed/ 2 16266 1 1
+/wp-admin/admin-post.php 1 0 1 0
+/wp-login.php 1 3113 0 1
+END_SIDER
