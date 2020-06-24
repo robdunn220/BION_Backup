@@ -1,0 +1,189 @@
+Return-Path: <dwilde@uga.edu>
+Received: from box5676.bluehost.com
+	by box5676.bluehost.com with LMTP id 8HdxCCHJZl2XlAcA4lzIow
+	; Wed, 28 Aug 2019 12:34:09 -0600
+Return-path: <dwilde@uga.edu>
+Envelope-to: Madison@TheBioinformaticsNetwork.com,
+ William@TheBioinformaticsNetwork.com
+Delivery-date: Wed, 28 Aug 2019 12:34:09 -0600
+Received: from mail-eopbgr710108.outbound.protection.outlook.com ([40.107.71.108]:59968 helo=NAM05-BY2-obe.outbound.protection.outlook.com)
+	by box5676.bluehost.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <dwilde@uga.edu>)
+	id 1i32lk-002RaT-LZ; Wed, 28 Aug 2019 12:34:09 -0600
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=J7iWopcZPuaeV+ICJys0Ag3bjPzGpJ2BPWmv7tHutRZg3PDbd1fUOni7pVQxk599hpQlofh/b0GW0G8XI8K4Zw6HKJx4JPKS8spgW5FrHtnTTXlaHRJSaBbYYpLZGh+rcMRzXKuWgGdMio1Coo6vZzyi3g/sdNFMD0DyEoZCW9sgbX5/ia0ukQaPLVwkOeHrk+3ySG0yBB2dpE0L6TLTywF9sFrQUonZ+LcsQjccSLXedYm71SNWbKlG47Q6g1OE1XXFpvRHUhDh/nvmhBkLfS/HozpqSq5PJWyBdlm3auMQv7yfMPeUN4k133YDSQwCA2O8X0gcDns2gMDLHP6Eww==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=1bKGVs0FcrZ9CqG0OmbMqffKS3sNamOzoC3e5/QIiqc=;
+ b=nJTgyEa1v0FNiNK12kaLuLfGebOqrYWw0IcgfMwqQc4xic03zLKAiRrV3ivRZCjBH5/81cGH3Mvh0W5GZzjFkMPbGs9+uSNd52U+hVNhw+Qro5cNBHWhcA1BF1L8xXA3Yb//jTXTtAx21td+eW2/Hr+6Ng7CAV4y+ue8w+fNnuHeoRhDtkPT9Bj+Exj3xj8jSdz9VzFPoC4bp8+jj9tc6D4nblsnjOrXUuMToqHvlTIlpxF4D0Ps3oJVzAaGks21HkUB5QrDjGi7j5x9OZGPav1zGEBc37CO6Wdy3abm+KCnBDMriyhG9aSBcRde4/t6YLETVNXoUx/oEtWvgpJ5LA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=uga.edu; dmarc=pass action=none header.from=uga.edu; dkim=pass
+ header.d=uga.edu; arc=none
+Received: from CH2PR02MB6262.namprd02.prod.outlook.com (52.132.229.12) by
+ CH2PR02MB6104.namprd02.prod.outlook.com (52.132.230.94) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2199.21; Wed, 28 Aug 2019 18:33:50 +0000
+Received: from CH2PR02MB6262.namprd02.prod.outlook.com
+ ([fe80::dcd8:5ca8:b563:a2f7]) by CH2PR02MB6262.namprd02.prod.outlook.com
+ ([fe80::dcd8:5ca8:b563:a2f7%7]) with mapi id 15.20.2199.021; Wed, 28 Aug 2019
+ 18:33:50 +0000
+From: Dayton Wilde <dwilde@uga.edu>
+To: "Madison@TheBioinformaticsNetwork.com"
+	<Madison@TheBioinformaticsNetwork.com>,
+	"William@TheBioinformaticsNetwork.com" <William@TheBioinformaticsNetwork.com>
+Subject: Cyanobacterium genome assembly
+Thread-Topic: Cyanobacterium genome assembly
+Thread-Index: AQHVXcS/EG/ejvyUxEGl4luf5+oLOQ==
+Date: Wed, 28 Aug 2019 18:33:50 +0000
+Message-ID:
+ <CH2PR02MB6262CD7F6409C7BE2FD2354EC4A30@CH2PR02MB6262.namprd02.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=dwilde@uga.edu; 
+x-originating-ip: [198.137.18.51]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 101fc30d-52ad-4788-3c47-08d72be64559
+x-microsoft-antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(8989299)(4534185)(4627221)(201703031133081)(201702281549075)(8990200)(5600166)(711020)(4605104)(1401327)(2017052603328)(7193020);SRVR:CH2PR02MB6104;
+x-ms-traffictypediagnostic: CH2PR02MB6104:
+x-microsoft-antispam-prvs:
+ <CH2PR02MB6104F2B578FE2302A6329F78C4A30@CH2PR02MB6104.namprd02.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:8882;
+x-forefront-prvs: 014304E855
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10019020)(376002)(136003)(396003)(39860400002)(346002)(366004)(189003)(199004)(102836004)(2501003)(7116003)(6116002)(3846002)(66556008)(186003)(64756008)(3480700005)(8676002)(81156014)(110136005)(2906002)(7696005)(8936002)(33656002)(14454004)(74316002)(66066001)(7736002)(478600001)(53936002)(25786009)(99286004)(26005)(71190400001)(71200400001)(316002)(81166006)(52536014)(9686003)(450100002)(86362001)(6606003)(6506007)(256004)(88552002)(76116006)(66946007)(19627405001)(54896002)(75432002)(66446008)(5660300002)(476003)(66476007)(486006)(786003)(55016002)(6436002);DIR:OUT;SFP:1102;SCL:1;SRVR:CH2PR02MB6104;H:CH2PR02MB6262.namprd02.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+received-spf: None (protection.outlook.com: uga.edu does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info:
+ LY0a21vDQUA5kM3lA24bLALgD0nFaGjO6V2aXvUBVUHGnnw7HAMEnBE3FmZOK08h0C7LkadPNO0nLDEymQUpwz5kmYIJCHKSWZWqVZJjuwc/zQdJIGV9FaNTNDAEmsfreZs4BmWTwn3/BjwhMe+MEMsoBb3CexXmLdsV20iisRF+CRFWMDIU7ZnLFdCA/w4zQIHTj05a00YpL5nhnDnhMYXXl1dQrMVG1JCPKgQaFz+x5VzQxm7mbQi1gMvDv03JJs5jLdP3u+Nhhxosn6OYL7maNRPN4+RcebaNCgxCQSMs6kfTm19BpMSbppXGf7GedsEGV9OLCTnF2xukwayH9fYn0VG+Yd5rPYBUdShsjE+YgQpEOYkRrGxSWp8LIKcYK7BHoeVs7Bs9KG+Y/l9tFo7Ng5H0FXroWi6o0x9wZiA=
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/alternative;
+	boundary="_000_CH2PR02MB6262CD7F6409C7BE2FD2354EC4A30CH2PR02MB6262namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: uga.edu
+X-MS-Exchange-CrossTenant-Network-Message-Id: 101fc30d-52ad-4788-3c47-08d72be64559
+X-MS-Exchange-CrossTenant-originalarrivaltime: 28 Aug 2019 18:33:50.1043
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: a8216c1e-4d63-4352-8c3b-50fa1f1475b1
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: +tliJ9DAHFFU6JL7091VAM5Kh/DP4cvMgeiHn+IEFf0aEezD+hbrmKuSa85YgaPz
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CH2PR02MB6104
+X-Spam-Status: No, score=-0.5
+X-Spam-Score: -4
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--_000_CH2PR02MB6262CD7F6409C7BE2FD2354EC4A30CH2PR02MB6262namp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Bioinformatics Network team,
+
+
+I=92m working with my wife, an aquatic ecologist, to sequence the genome of=
+ a disease-causing cyanobacterium that she discovered. What makes this an i=
+nteresting challenge for sequencing is that Aetokthonos hydrillacola is a f=
+ilamentous cyanobacterium that has heterotrophic bacteria associated with a=
+ mucilaginous sheath that surrounds the filaments.
+
+
+We can wash away most of the associated bacteria before DNA isolation, but =
+the resulting DNA is still a mixture of genomes from Aetokthonos and other =
+bacteria. In other labs working with similar cyanobacterium issues, PacBio =
+sequencing was used to generate long reads that could be assembled into a c=
+omplete genome.
+
+
+We have now PacBio sequencing data and need bioinformatics to be done to as=
+semble the Aetokthonos genome. Is this something that you guys could do?
+
+
+Best regards,
+
+Dayton
+
+
+
+Dayton Wilde
+Professor, Horticulture Department and
+Institute of Plant Breeding, Genetics, and Genomics
+University of Georgia
+Athens, GA, USA 30602
+706-542-5816
+
+--_000_CH2PR02MB6262CD7F6409C7BE2FD2354EC4A30CH2PR02MB6262namp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size: 12pt; colo=
+r: rgb(0, 0, 0); font-family: Calibri, Helvetica, sans-serif, Helvetica, Em=
+ojiFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, NotoCol=
+orEmoji, &quot;Segoe UI Symbol&quot;, &quot;Android Emoji&quot;, EmojiSymbo=
+ls;">
+<p style=3D"margin-top:0; margin-bottom:0">Dear Bioinformatics Network team=
+,</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">I=92m working with my wife, an a=
+quatic ecologist, to sequence the genome of a disease-causing cyanobacteriu=
+m that she discovered. What makes this an interesting challenge for sequenc=
+ing&nbsp;is that
+<i>Aetokthonos hydrillacola</i> is a filamentous cyanobacterium that has he=
+terotrophic bacteria associated with a mucilaginous&nbsp;sheath that surrou=
+nds the&nbsp;filaments.&nbsp;</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">We can wash away most of the ass=
+ociated bacteria before DNA isolation, but the resulting DNA is still&nbsp;=
+a mixture of genomes from
+<i>Aetokthonos</i> and other bacteria. In other labs working with similar c=
+yanobacterium issues, PacBio sequencing was used&nbsp;to generate long read=
+s that could be assembled into a complete genome.&nbsp;</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">We have now PacBio sequencing da=
+ta and need bioinformatics to be done to assemble the
+<i>Aetokthonos</i> genome. Is this something that you guys could do?</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">Best regards,</p>
+<p style=3D"margin-top:0; margin-bottom:0">Dayton</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<div id=3D"Signature">
+<div style=3D"font-family:Tahoma; font-size:13px">
+<div style=3D"font-family:Tahoma; font-size:13px">
+<div style=3D"font-family:Tahoma; font-size:13px">Dayton Wilde </div>
+<div style=3D"font-family:Tahoma; font-size:13px">Professor, Horticulture D=
+epartment and</div>
+<div style=3D"font-family:Tahoma; font-size:13px">Institute of Plant Breedi=
+ng, Genetics, and Genomics</div>
+<div style=3D"font-family:Tahoma; font-size:13px">University of Georgia</di=
+v>
+<div style=3D"font-family:Tahoma; font-size:13px">Athens, GA, USA 30602</di=
+v>
+<div style=3D"font-family:Tahoma; font-size:13px">706-542-5816</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_CH2PR02MB6262CD7F6409C7BE2FD2354EC4A30CH2PR02MB6262namp_--

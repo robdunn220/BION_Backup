@@ -1,0 +1,29 @@
+Return-Path: <madison@thebioinformaticsnetwork.com>
+Delivered-To: william@thebioinformaticsnetwork.com
+Received: from box5676.bluehost.com
+	by box5676.bluehost.com with LMTP id KHsVAcOcPlxYEggA4lzIow
+	for <william@thebioinformaticsnetwork.com>; Tue, 15 Jan 2019 19:53:55 -0700
+Return-path: <madison@thebioinformaticsnetwork.com>
+Envelope-to: william@thebioinformaticsnetwork.com
+Delivery-date: Tue, 15 Jan 2019 19:53:55 -0700
+Received: from box5676.bluehost.com ([162.241.252.17]:49038)
+	by box5676.bluehost.com with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <madison@thebioinformaticsnetwork.com>)
+	id 1gjbL0-002Dhj-Ux
+	for william@thebioinformaticsnetwork.com; Tue, 15 Jan 2019 19:53:54 -0700
+Received: from 24.42.226.137 ([24.42.226.137]) by box5676.bluehost.com
+ (Horde Framework) with HTTPS; Tue, 15 Jan 2019 19:53:54 -0700
+Date: Tue, 15 Jan 2019 19:53:54 -0700
+Message-ID: <20190115195354.Horde.Swvo19GhXLwsanW6zv5Ky-9@box5676.bluehost.com>
+From: madison@thebioinformaticsnetwork.com
+To: william <william@thebioinformaticsnetwork.com>
+Subject: Test
+User-Agent: Horde Application Framework 5
+Content-Type: text/plain; charset=utf-8; format=flowed; DelSp=Yes
+MIME-Version: 1.0
+Content-Disposition: inline
+
+
+
+

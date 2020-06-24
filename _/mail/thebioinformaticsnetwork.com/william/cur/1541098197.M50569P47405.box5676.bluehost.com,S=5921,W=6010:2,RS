@@ -1,0 +1,89 @@
+Return-Path: <williamabishop@live.com>
+Delivered-To: william@thebioinformaticsnetwork.com
+Received: from box5676.bluehost.com
+	by box5676.bluehost.com with LMTP id kFPxAtVK21stuQAA4lzIow
+	for <william@thebioinformaticsnetwork.com>; Thu, 01 Nov 2018 12:49:57 -0600
+Return-path: <williamabishop@live.com>
+Envelope-to: william@thebioinformaticsnetwork.com
+Delivery-date: Thu, 01 Nov 2018 12:49:57 -0600
+Received: from mail-oln040092012043.outbound.protection.outlook.com ([40.92.12.43]:20912 helo=NAM05-BY2-obe.outbound.protection.outlook.com)
+	by box5676.bluehost.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <williamabishop@live.com>)
+	id 1gII2W-000CmR-O6
+	for william@thebioinformaticsnetwork.com; Thu, 01 Nov 2018 12:49:57 -0600
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=live.com; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=PRcGQGYpNAGNaFzP3kLfxjB8QPEsMd1lhoyhXQYN+b8=;
+ b=IZgKdp+zxsPnCT0Z/r3Je0SMtm5dS7CnPN9bOPIzM8bddZQcOmUxAMTlnnKA7EIq5MRnwtOMWloMMLZ9NT1Or8xwl+z83JKOXjpQkV6h9WoPRhHcOQ2kLZ6T78aGW8bWSGAGWKUuWOLdBUDXUDTREeqFWN9p3Tf64qb6op1SnUOi4ZoMj+RvBQZ3TQllwaU76WgI2fU4Kdm34sk1kDZCMlFrFcNJzsKQgBBvaGB/YwOgAlo0pgHwHiAYnlFguQXV4FcepPgzJlrUH/aM7abHT9TiPTwQwAyq6DfkA6i7iEO8IWzjfHczy2JErMLlRBOE6E7SfeFlYBqWull2wwY/bQ==
+Received: from DM3NAM05FT036.eop-nam05.prod.protection.outlook.com
+ (10.152.98.52) by DM3NAM05HT109.eop-nam05.prod.protection.outlook.com
+ (10.152.99.42) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1318.5; Thu, 1 Nov
+ 2018 18:49:45 +0000
+Received: from BN6PR11MB1795.namprd11.prod.outlook.com (10.152.98.54) by
+ DM3NAM05FT036.mail.protection.outlook.com (10.152.98.149) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.1318.5 via Frontend Transport; Thu, 1 Nov 2018 18:49:45 +0000
+Received: from BN6PR11MB1795.namprd11.prod.outlook.com
+ ([fe80::a06c:266e:f004:1fba]) by BN6PR11MB1795.namprd11.prod.outlook.com
+ ([fe80::a06c:266e:f004:1fba%9]) with mapi id 15.20.1273.027; Thu, 1 Nov 2018
+ 18:49:45 +0000
+From: William Bishop <williamabishop@live.com>
+To: "william@thebioinformaticsnetwork.com"
+	<william@thebioinformaticsnetwork.com>
+Subject: Test
+Thread-Topic: Test
+Thread-Index: AQHUchOoZtAuctlFCEWXjSh8RjQwGQ==
+Date: Thu, 1 Nov 2018 18:49:45 +0000
+Message-ID: <BN6PR11MB1795134D153C4A7192A6C163B6CE0@BN6PR11MB1795.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker: OriginalChecksum:DDDC51CE070BCD260F841BD529B7EA46A7E2DE4414C9124F953500785DFC62FB;UpperCasedChecksum:3B646473F12D230875103824647D6E163E96B21A3E30BE589A8046E43C52E365;SizeAsReceived:6969;Count:44
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [n1NO5W11lWQy69yT5JFc9zjp5OcRYOdCxE8r6agiZoSZCqrootCtfzX2sJLGbUxj]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;DM3NAM05HT109;6:vOrGKUa1rZ6cklUK1J6ci+3OxPHnrmGCXb1zKs+/GzZVaGuBtrP5x4d9Z2vhzQDs+EYq92dKccHs/UNqg9FHO64r3rwcgJ0L/bFQUTQkGkNogo+RUwPI3DqH1snYZLYjo/Bts1UDgpoIxXh8BWTCt3bovzK6njqEQQ/pbbCZ1CE6XhkIrsylgUZzTQIhnAtEoya4IS3QfXu5z+q4tOADPLAj6fNJHDSvUTaXRK0FRQEPPZADsrrqj6SKduIbqXG6Hz4hKNMvhQa/epO1KhV6VfO9UZt/sTK/siCzvycxjkgqsuJs86KLmoo+Diw0i0nj7u4kSQaRKEisfwmT6U6gZU44nqW+sbDf3+k12mizrvTqh1FOc5YUEg3qKUyji3FIOCknuU4Rp0hCvb5jdNI9xuwU0bCDrJLRYkcTumrjdVbyieE3BJgq9520PURoJ60HdNS2wDUub7r+w2ZzLRHVFA==;5:0EjE6ngFoht0rRFnYu8dUIAI3UZhZGXtrMdJtEyJ9jPZr7PbocPVp2lkOMejD2GMutZ4fTn7+ikKR72x/SNmWqlvvEycDFzJNPmcWeH2txPeW+MMcf/PadcBQGpYTJjrFg2MoCsYkj6kcgtosqTYffzeu1pHVjGwswkfFVK2eSA=;7:Opo5AuUarPJJyKMlmFVCTrN/WAWNJPqiKlhvEU6nZImGl5mEyYbGWvZl12Pnae1feYQU5VJ3gWesCCeg3e8VOUyM+89dxrxVnv3xbBhhjjIMzYOKAE/QsI9RVeR0d5uRhmDE8BL2Ls5zZnr4V29Mhw==
+x-incomingheadercount: 44
+x-eopattributedmessage: 0
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(7020095)(201702061078)(5061506573)(5061507331)(1603103135)(2017031320274)(2017031324274)(2017031323274)(2017031322404)(1603101475)(1601125500)(1701031045);SRVR:DM3NAM05HT109;
+x-ms-traffictypediagnostic: DM3NAM05HT109:
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(4566010)(82015058);SRVR:DM3NAM05HT109;BCL:0;PCL:0;RULEID:;SRVR:DM3NAM05HT109;
+x-microsoft-antispam-message-info: vFR1Ja36gSB2etX3S42EDq+krZt1BRYEVlpxt9Zz98vLkT8hXSmHb/1DTF4LcaDR
+Content-Type: multipart/alternative;
+	boundary="_000_BN6PR11MB1795134D153C4A7192A6C163B6CE0BN6PR11MB1795namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: live.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 24fd1209-d934-423e-a578-ee886993c07f
+X-MS-Exchange-CrossTenant-Network-Message-Id: eb9a2841-4d2a-4564-c7d2-08d6402acab8
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 24fd1209-d934-423e-a578-ee886993c07f
+X-MS-Exchange-CrossTenant-originalarrivaltime: 01 Nov 2018 18:49:45.2790
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3NAM05HT109
+X-Spam-Status: No, score=0.4
+X-Spam-Score: 4
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--_000_BN6PR11MB1795134D153C4A7192A6C163B6CE0BN6PR11MB1795namp_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+DQoNCg0KDQpXaWxsaWFtIEJpc2hvcA0K
+
+--_000_BN6PR11MB1795134D153C4A7192A6C163B6CE0BN6PR11MB1795namp_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <29FD1DC184DAED43835B695A6F2D1193@sct-15-20-755-16-msonline-outlook-1ab08.templateTenant>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5Pg0KPGRpdj48YnI+DQo8
+L2Rpdj4NCjxkaXY+PGJyPg0KPC9kaXY+DQo8ZGl2Pjxicj4NCjwvZGl2Pg0KPGRpdj48YnI+DQo8
+L2Rpdj4NCjxkaXYgaWQ9ImNvbXBvc2VyX3NpZ25hdHVyZSI+V2lsbGlhbSBCaXNob3A8L2Rpdj4N
+CjwvYm9keT4NCjwvaHRtbD4NCg==
+
+--_000_BN6PR11MB1795134D153C4A7192A6C163B6CE0BN6PR11MB1795namp_--

@@ -1,0 +1,72 @@
+Return-Path: <>
+Delivered-To: thebioin@box5676.bluehost.com
+Received: from box5676.bluehost.com
+	by box5676.bluehost.com with LMTP id KIKeJUsfG1xg4Q8A4lzIow
+	for <thebioin@box5676.bluehost.com>; Wed, 19 Dec 2018 21:49:15 -0700
+Return-path: <>
+Envelope-to: thebioin@box5676.bluehost.com
+Delivery-date: Wed, 19 Dec 2018 21:49:15 -0700
+Received: from mailnull by box5676.bluehost.com with local (Exim 4.91)
+	id 1gZqGp-004Nee-Ia
+	for thebioin@box5676.bluehost.com; Wed, 19 Dec 2018 21:49:15 -0700
+X-Failed-Recipients: you@example.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@box5676.bluehost.com>
+To: thebioin@box5676.bluehost.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1545281355-eximdsn-75858001
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1gZqGp-004Nee-Ia@box5676.bluehost.com>
+Date: Wed, 19 Dec 2018 21:49:15 -0700
+
+--1545281355-eximdsn-75858001
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  you@example.com
+    "Sorry, you are sending to/from an address that has been blacklisted"
+
+--1545281355-eximdsn-75858001
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; box5676.bluehost.com
+
+Action: failed
+Final-Recipient: rfc822;you@example.com
+Status: 5.0.0
+
+--1545281355-eximdsn-75858001
+Content-type: message/rfc822
+
+Return-path: <thebioin@box5676.bluehost.com>
+Received: from thebioin by box5676.bluehost.com with local (Exim 4.91)
+	(envelope-from <thebioin@box5676.bluehost.com>)
+	id 1gZqGp-004NeT-Es
+	for you@example.com; Wed, 19 Dec 2018 21:49:15 -0700
+To: you@example.com
+Subject: [X] Your site has updated to WordPress 5.0.2
+X-PHP-Script: thebioinformaticsnetwork.com/wp-cron.php for 162.241.252.17, 162.241.252.17
+X-PHP-Originating-Script: 1061:class-phpmailer.php
+Date: Thu, 20 Dec 2018 04:49:15 +0000
+From: WordPress <wordpress@thebioinformaticsnetwork.com>
+Message-ID: <8198c97bb9e27d64b1f7d2c35d442d9e@thebioinformaticsnetwork.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Howdy! Your site at https://thebioinformaticsnetwork.com has been updated automatically to WordPress 5.0.2.
+
+No further action is needed on your part. For more on version 5.0.2, see the About WordPress screen:
+https://thebioinformaticsnetwork.com/wp-admin/about.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+The WordPress Team
+
+
+--1545281355-eximdsn-75858001--

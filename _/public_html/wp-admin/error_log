@@ -1,0 +1,68 @@
+[18-Jun-2019 01:12:28 UTC] PHP Warning:  Error while sending QUERY packet. PID=949084 in /home1/thebioin/public_html/wp-includes/wp-db.php on line 2007
+[18-Jun-2019 01:21:42 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[18-Jun-2019 01:21:42 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[18-Jun-2019 01:21:42 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[18-Jun-2019 01:21:42 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[18-Jun-2019 01:21:42 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[18-Jun-2019 01:21:42 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[18-Jun-2019 01:21:42 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[18-Jun-2019 01:21:42 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[18-Jun-2019 01:21:42 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[18-Jun-2019 01:21:42 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[18-Jun-2019 01:23:25 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:23:28 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:23:31 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:23:35 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:23:37 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:23:42 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:23:47 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:23:51 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:23:57 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:04 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:08 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:12 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:16 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:19 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:22 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:25 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:28 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:30 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:32 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:38 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:24:44 UTC] PHP Warning:  unlink() expects parameter 1 to be a valid path, object given in /home1/thebioin/public_html/wp-content/themes/x/framework/functions/x/demo/legacy/helper.php on line 224
+[18-Jun-2019 01:36:52 UTC] PHP Warning:  getimagesize(/home1/thebioin/public_html/wp-content/uploads/revslider/objects/object_dvd_1.png): failed to open stream: No such file or directory in /home1/thebioin/public_html/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[18-Jun-2019 01:36:52 UTC] PHP Warning:  getimagesize(/home1/thebioin/public_html/wp-content/uploads/revslider/objects/beach_houses.jpg): failed to open stream: No such file or directory in /home1/thebioin/public_html/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[18-Jun-2019 01:36:52 UTC] PHP Warning:  getimagesize(/home1/thebioin/public_html/wp-content/uploads/revslider/objects/object_pen_1.png): failed to open stream: No such file or directory in /home1/thebioin/public_html/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[18-Jun-2019 01:36:52 UTC] PHP Warning:  getimagesize(/home1/thebioin/public_html/wp-content/uploads/revslider/objects/relax_hammock.jpg): failed to open stream: No such file or directory in /home1/thebioin/public_html/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[18-Jun-2019 01:36:52 UTC] PHP Warning:  getimagesize(/home1/thebioin/public_html/wp-content/uploads/revslider/objects/forest_road_2.jpg): failed to open stream: No such file or directory in /home1/thebioin/public_html/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[18-Jun-2019 01:36:52 UTC] PHP Warning:  getimagesize(/home1/thebioin/public_html/wp-content/uploads/revslider/objects/object_plant_1.png): failed to open stream: No such file or directory in /home1/thebioin/public_html/wp-content/plugins/revslider/includes/object-library.class.php on line 964
+[20-Jun-2019 02:39:13 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:39:13 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:39:13 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:39:13 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:39:13 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:39:13 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:39:13 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:39:13 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:39:13 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:39:13 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:41:22 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:41:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:41:22 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:41:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:41:22 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:41:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:41:22 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:41:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:41:22 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[20-Jun-2019 02:41:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[21-Jun-2019 00:15:48 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[21-Jun-2019 00:15:48 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[21-Jun-2019 00:15:48 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[21-Jun-2019 00:15:48 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[21-Jun-2019 00:15:48 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[21-Jun-2019 00:15:48 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[21-Jun-2019 00:15:48 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[21-Jun-2019 00:15:48 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[21-Jun-2019 00:15:48 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548
+[21-Jun-2019 00:15:48 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/thebioin/public_html/wp-includes/nav-menu.php on line 548

@@ -1,0 +1,158 @@
+Return-Path: <WilliamABishop@live.com>
+Delivered-To: william@thebioinformaticsnetwork.com
+Received: from box5676.bluehost.com
+	by box5676.bluehost.com with LMTP id oGxjIfGcoF1XoQ4A4lzIow
+	for <william@thebioinformaticsnetwork.com>; Fri, 11 Oct 2019 09:17:05 -0600
+Return-path: <WilliamABishop@live.com>
+Envelope-to: william@thebioinformaticsnetwork.com
+Delivery-date: Fri, 11 Oct 2019 09:17:05 -0600
+Received: from mail-oln040092010061.outbound.protection.outlook.com ([40.92.10.61]:8839 helo=NAM04-CO1-obe.outbound.protection.outlook.com)
+	by box5676.bluehost.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <WilliamABishop@live.com>)
+	id 1iIwfA-0045au-Q6
+	for william@thebioinformaticsnetwork.com; Fri, 11 Oct 2019 09:17:05 -0600
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=BMVx+b7JrmHt7M3rIPLwSqlK7XERXDLMckfLShN24W9WthpRvrnVgmYbJqPnBfHGG8T+oiDKt6twhtthxlW3WK5zYlYaAG0136GvtLdZqe9iWYmyjpEEHxCMhRQgExsKuETjT+SRKZqlMAlnDs+q3I5c54AmiErnU6LF7gP7e1YknGPIVMF6RcDYQCG4PuRYThUF9HLwHTaYHK1Sf5qNlAINWNJiwow4u+Tu/FwiSGmTEnprvdDHQBUGB2JCsiQBZjM7Miblvk7E9+irenjftfrh6hRQNpAadH+7h3pgSjkGVOTFQJgW35Ccp0JsPzLWVFzVP7URSGKOGWISR6Sv0w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=lZTeig+XBh2GM9O8Kmiz2qJfiWS1YVJpxiJze08YRRQ=;
+ b=LxZzbXk6M4BdqjOkRbMgQ9LqmQrKTPLgjrqMxWXTII1x7oHEnQCjsbakxzULPVe/AYsCPdlxDGUjVOY8IV7JDrQnjOdi4dApdOR1e7DvCaeN+Iu3edrHSfpfG1I1QhH5401veLQpObwmC7ValaTNYuNz/u1opOTAbB+IpNCNEaKZzUHjgnTd8QUxXg06T+qD5oQ83ialUL65xRSxjae2X4wXfaghFayXntWpfD+1LI1sAxxvVaUoE3BHuxBSPKZ21ZSKgHBmI2NZtoWaqR38sPkIPxC6j7HSS8PDnCB5lWg+vQPgbNDvgl7Jd116G2loLS0xGTwN4lKMKuSO3E3PGQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=live.com; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=lZTeig+XBh2GM9O8Kmiz2qJfiWS1YVJpxiJze08YRRQ=;
+ b=YISpSSN8Po3TfMat2AL4FZ242bhFCTkP6I6CS9YA5hnwi5EdteQvNCT53cTZ2qsMIEmWARe2u1BR59eEVWCiRHIL721ZAz6/jBbAgXT7ZsWVVVbHIbH3/A1rrJnIhGkTtMCKPpwRBNjJGAOjs3RZHKAmoBqivAGfg7YzMgNaxv3XH95UVNfIuQr8fHIS4JlUU4vl5U679mEB55fw1HwELsH8LRAWbQ8Vlvjy0lV1VFyD38DJPjJgvK7vZ+M4TGfSH19xRaqO2hk5mBsOg7srvNvdFIU+kqQRzqynPVNtGlJEuZg5fR+9+E/UPp6OW/O+Y5qEHIfel2LuVNQbKPnLag==
+Received: from SN1NAM04FT027.eop-NAM04.prod.protection.outlook.com
+ (10.152.88.52) by SN1NAM04HT094.eop-NAM04.prod.protection.outlook.com
+ (10.152.89.110) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2347.16; Fri, 11 Oct
+ 2019 15:16:53 +0000
+Received: from BN6PR11MB1348.namprd11.prod.outlook.com (10.152.88.53) by
+ SN1NAM04FT027.mail.protection.outlook.com (10.152.88.165) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2347.16 via Frontend Transport; Fri, 11 Oct 2019 15:16:53 +0000
+Received: from BN6PR11MB1348.namprd11.prod.outlook.com
+ ([fe80::7470:f20:2935:3c69]) by BN6PR11MB1348.namprd11.prod.outlook.com
+ ([fe80::7470:f20:2935:3c69%9]) with mapi id 15.20.2347.016; Fri, 11 Oct 2019
+ 15:16:53 +0000
+From: William Bishop <WilliamABishop@live.com>
+To: "william@thebioinformaticsnetwork.com"
+	<william@thebioinformaticsnetwork.com>
+Subject: Test
+Thread-Topic: Test
+Thread-Index: AQHVgEbfGgZP26B4sEaawUJ6pKAawg==
+Date: Fri, 11 Oct 2019 15:16:52 +0000
+Message-ID:
+ <BN6PR11MB1348D2F66DB40870C0BC9E5CB6970@BN6PR11MB1348.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker:
+ OriginalChecksum:80CE261D5C49C3DDF414A43299A53D1586D01D47C121F6A79067483F00689BA2;UpperCasedChecksum:DE62AE03245A59EC510978B31B66B58CAC53869EA5C73A8A345521A817AB1E95;SizeAsReceived:6721;Count:41
+x-tmn: [HvlmFYUGCnmP66At8jW10TTz4CU69Yf/mptxTiGVR2MuvljsGbQbogNsTsMCHWwL]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 41
+x-eopattributedmessage: 0
+x-ms-traffictypediagnostic: SN1NAM04HT094:
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ v+EV1rwca5HxtVxoyDVjlW8ETEItJDsMXU2GcwG4BRGciThQQf7fOi69yv95rUOUpKLBGE2UlXCBNGMcp/6VNxQVtrWIqAcKB7O3gZF99mZlsck3JSA/vKffSqvszTAqGInbNlWIKmgZ9alI/fYWoQ/pxyHMPWCfSzEvU/m9BegxAqZ8q9dn/FpcdNCwyB6e
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/alternative;
+	boundary="_000_BN6PR11MB1348D2F66DB40870C0BC9E5CB6970BN6PR11MB1348namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: live.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: a825570c-5c9b-4d1a-0d82-08d74e5e0bf7
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-originalarrivaltime: 11 Oct 2019 15:16:52.9857
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM04HT094
+X-Spam-Status: No, score=2.4
+X-Spam-Score: 24
+X-Spam-Bar: ++
+X-Spam-Flag: NO
+
+--_000_BN6PR11MB1348D2F66DB40870C0BC9E5CB6970BN6PR11MB1348namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+William Bishop
+m (404) 357-7987
+WilliamABishop@live.com<mailto:William.Bishop@live.com>
+
+
+--_000_BN6PR11MB1348D2F66DB40870C0BC9E5CB6970BN6PR11MB1348namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+span.DefaultFontHxMailStyle
+	{mso-style-name:"Default Font HxMail Style";
+	font-family:"Arial",sans-serif;
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span class=3D"DefaultFontHxMailStyle"><o:p>&nbsp;</=
+o:p></span></p>
+<p class=3D"MsoNormal"><span class=3D"DefaultFontHxMailStyle"><o:p>&nbsp;</=
+o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif;color:black">William Bishop</span><span style=3D"font-family:&quot;Aria=
+l&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-f=
+amily:&quot;Arial&quot;,sans-serif;color:#333333">m (404) 357-7987<br>
+</span><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:blue">=
+<a href=3D"mailto:William.Bishop@live.com">WilliamABishop@live.com</a><o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal"><span class=3D"DefaultFontHxMailStyle"><o:p>&nbsp;</=
+o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_BN6PR11MB1348D2F66DB40870C0BC9E5CB6970BN6PR11MB1348namp_--

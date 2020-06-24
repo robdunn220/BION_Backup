@@ -1,0 +1,10 @@
+---
+/home1/thebioin/public_html:
+  db: thebioin_WP6TD
+  domain: thebioinformaticsnetwork.com
+  hostname: box5676.bluehost.com
+  path: /home1/thebioin/public_html
+  table: _6TD_options
+  type: wordpress
+  user: thebioin
+  version: 5.4.2

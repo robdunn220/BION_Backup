@@ -1,0 +1,84 @@
+Date: Mon, 30 Sep 2019 19:37:53 -0600
+Message-ID: <20190930193753.Horde.hjvnyNxeWSLuqN-SuDDOEl_@box5676.bluehost.com>
+From: William Bishop <william@thebioinformaticsnetwork.com>
+To: thebioinformaticsnetwork@gmail.com
+Subject: Fwd: Cyanobacterium genome assembly
+Received: from 73.82.204.152 ([73.82.204.152]) by box5676.bluehost.com
+ (Horde Framework) with HTTPS; Mon, 30 Sep 2019 19:37:53 -0600
+User-Agent: Horde Application Framework 5
+Content-Type: multipart/mixed; boundary="=_g9ANfouBYsu06XP1yrO2UZH"
+MIME-Version: 1.0
+
+This message is in MIME format.
+
+--=_g9ANfouBYsu06XP1yrO2UZH
+Content-Type: text/plain; charset=utf-8; format=flowed; DelSp=Yes
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+
+
+----- Forwarded message from Dayton Wilde <dwilde@uga.edu> -----
+    Date: Wed, 28 Aug 2019 18:33:50 +0000
+    From: Dayton Wilde <dwilde@uga.edu>
+Subject: Cyanobacterium genome assembly
+      To: Madison@thebioinformaticsnetwork.com,=20=20
+William@thebioinformaticsnetwork.com
+
+Dear=20Bioinformatics Network team,
+
+
+I=E2=80=99m working with my wife, an aquatic ecologist, to sequence the gen=
+ome=20=20
+of=20a disease-causing cyanobacterium that she discovered. What makes=20=20
+this=20an interesting challenge for sequencing is that Aetokthonos=20=20
+hydrillacola=20is a filamentous cyanobacterium that has heterotrophic=20=20
+bacteria=20associated with a mucilaginous sheath that surrounds the=20=20
+filaments.
+
+
+We=20can wash away most of the associated bacteria before DNA isolation,=20=
+=20
+but=20the resulting DNA is still a mixture of genomes from Aetokthonos=20=
+=20
+and=20other bacteria. In other labs working with similar cyanobacterium=20=
+=20
+issues,=20PacBio sequencing was used to generate long reads that could=20=
+=20
+be=20assembled into a complete genome.
+
+
+We have now PacBio sequencing data and need bioinformatics to be done=20=20
+to=20assemble the Aetokthonos genome. Is this something that you guys=20=20
+could=20do?
+
+
+Best regards,
+
+Dayton
+
+
+
+Dayton Wilde
+Professor, Horticulture Department and
+Institute of Plant Breeding, Genetics, and Genomics
+University of Georgia
+Athens, GA, USA 30602
+706-542-5816
+
+----- End forwarded message -----
+
+--=20
+Best=20Regards,
+
+William Bishop
+Owner
+404-357-7987
+William@thebioinformaticsnetwork.com
+
+--=_g9ANfouBYsu06XP1yrO2UZH
+Content-Type: text/plain; charset=utf-8
+Content-Language: en_us
+
+[Attachment stripped: Original attachment type: "message/rfc822", name: "Forwarded Message"]
+--=_g9ANfouBYsu06XP1yrO2UZH--
